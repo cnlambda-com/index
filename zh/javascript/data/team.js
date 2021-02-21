@@ -8,7 +8,7 @@ var teamData = {
                     alt: "aaaaa",
                     src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
                     name: "李汝佳",
-                    desc:  " entrepreneurship on Earth"
+                    desc:  "entrepreneurship on Earth"
                },
                  {
                     alt: "aaaaa",
@@ -36,7 +36,8 @@ var teamData = {
                }
                
         ]
-    },
+    }
+	/*
     sections: [
         {
             name: "王菲菲",
@@ -153,5 +154,5 @@ var teamData = {
                 ]
             }
         }
-    ]
+    ]*/
 };

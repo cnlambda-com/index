@@ -1,7 +1,7 @@
 var researchData = {
     sections:[
         {
-            title: "At MIT, pushing the boundaries of knowledge and possibility is our joyful obsession, and we celebrate fundamental discoveries and practical applications alike. As educators, we also value research as a potent form of learning by doing. Through MIT’s Undergraduate Research Opportunities Program (UROP), more than 85% of undergraduates enrich their education through engaging in frontline, faculty-led research.",
+            title: "At MIT, pushing the boundaries of knowledge and possibility is our joyful obsession",
             contents: [
                 "Research flourishes in our 30 departments across <a\n" +
                 "                                href=\"../education/index.html#schools-and-departments\">five schools</a> and <a\n" +
@@ -35,7 +35,7 @@ var researchData = {
             mediaFile: {
             type: "image",
                 linkUrl: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                desc: "MIT researchers have devised a miniaturized system&nbsp;that can deliver tiny quantities of medicine to brain regions as small as 1 cubic millimeter."
+                desc: "MIT researchers xxx "
             }
         }
     ]
