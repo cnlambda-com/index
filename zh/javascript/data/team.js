@@ -1,7 +1,7 @@
 var teamData = {
     mainContent: {
         items: [
-            "Our partner to the world"
+            "执行委员会"
         ],
         itemContents: [
                {
@@ -9,12 +9,6 @@ var teamData = {
                     src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
                     name: "",
                     desc:  "entrepreneurship on Earth"
-               },
-                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
                },
                  {
                     alt: "aaaaa",
