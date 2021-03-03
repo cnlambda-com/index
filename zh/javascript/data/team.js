@@ -67,6 +67,42 @@ var teamData = {
                     }
                 ]
             }
+        },
+		
+		{
+            name: "人工智能研究团队",
+            descs: [
+                "MIT is at the&nbsp;center of one of the most vibrant hubs of innovation and\n"
+            ],
+            resource: {
+                type: "text",
+                details: [
+                    {
+                        title: "热点排行榜1",
+                        linkUrl: "https://innovation.mit.edu/resources/"
+                    },
+                    {
+                        title: "热点排行榜2",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "热点排行榜",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "热点排行榜",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "热点排行榜",
+                        linkUrl: "http://entrepreneurship.mit.edu/"
+                    },
+                    {
+                        title: "热点排行榜",
+                        linkUrl: "https://alum.mit.edu/"
+                    }
+                ]
+            }
         }
 		
 		/*,
