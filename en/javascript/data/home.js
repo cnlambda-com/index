@@ -4,28 +4,28 @@ var homeData = {
             title: " <a href=\"https://cnlambda.com\" target=\"_blank\">CNlambda (CN<sup>&reg;</sup>&lambda;)</a> is a nonprofit enterprise-focused cryptography research group. <a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> aims to solve the practical security and privacy problems for the enterprise, from threat detection, security modeling, protocol design, to implementations of real applications. <a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> brings together researchers, business leaders, entrepreneurs in a catalytic environment to produce visionary results that will have an impact on people's real life.",
             hotContents: [
                 {
-                    title: "Emergency Surveillance During COVID-19 Crisis",
-                    linkUrl: "https://alum.mit.edu/"
+                    title: "XXXXXXXXXXXXX",
+                    linkUrl: ""
                 },
                 {
-                    title: "Security and Privacy Implications of Zoom",
-                    linkUrl: "https://alum.mit.edu/"
+                    title: "XXXXXXXXXXXXX",
+                    linkUrl: ""
                 },
                 {
-                    title: "Alumni Career Resources",
-                    linkUrl: "https://alum.mit.edu/"
+                    title: "XXXXXXXXXXXXX",
+                    linkUrl: ""
                 },
                 {
-                    title: "Microsoft Buys Corp.com",
-                    linkUrl: "https://alum.mit.edu/"
+                    title: "XXXXXXXXXXXXX",
+                    linkUrl: ""
                 },
                 {
-                    title: "Upcoming Speaking Engagements",
-                    linkUrl: "https://alum.mit.edu/"
+                    title: "XXXXXXXXXXXXX",
+                    linkUrl: ""
                 },
                 {
-                    title: "Work-from-Home Security Advice",
-                    linkUrl: "https://alum.mit.edu/"
+                    title: "XXXXXXXXXXXXX",
+                    linkUrl: ""
                 }
             ],
             resource: {
@@ -41,11 +41,11 @@ var homeData = {
         //    hotContents: [
         //        {
         //            title: "MIT Alumni Association",
-        //            linkUrl: "https://alum.mit.edu/"
+        //            linkUrl: ""
         //        },
         //        {
         //            title: "Alumni Directory",
-        //            linkUrl: "https://alum.mit.edu/"
+        //            linkUrl: ""
         //        },
         //        {
         //            title: "Alumni Career Resources",
