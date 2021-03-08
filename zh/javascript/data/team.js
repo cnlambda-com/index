@@ -42,7 +42,7 @@ var teamData = {
                 type: "text",
                 details: [
                     {
-                        title: "热点排行榜1",
+                        title: "张三",
                         linkUrl: "https://innovation.mit.edu/resources/"
                     },
                     {

@@ -31,7 +31,7 @@ var homeData = {
             resource: {
                 mediaFile: {
                     linkUrl: "../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    desc: "在历史上，密码学在社会的发展中发挥了巨大作用。"
+                    desc: "在历史上，密码学和人工智能在社会的发展中发挥了巨大作用。"
                 }
             }
         }
