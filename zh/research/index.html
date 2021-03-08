@@ -211,11 +211,9 @@
             </div>
        </section>
        {{for sections}}
-       {{if #index == 0}}
-        <section class="tle-gutter-container">
-        {{else}}
+       
         <section class="tle-section">
-        {{/if}}
+        
             <div class="tle-container">
                 <header class="tle-header tle-padding">
                     <div class="tle-header__intro">
@@ -223,21 +221,26 @@
                            {{:title}}
                         </h2>
                     </div>
-                    {{if #index == 0}}
-                    <div class="tle-header__intro-continued">
-                    {{else}}
+                    
                     <div class="tle-section__content">
                         <div class="tle-section__description">
-                    {{/if}}
                         {{for contents}}
                         <p>{{: #data}}</p>
                         {{/for}}
                        </div>
 					   
-
-                    {{if #index != 0}}
-                    </div>
-                    {{/if}}
+					   <div class="tle-section__resources"> 
+						   <h5>项目</h5> 
+						   <ul class="numbered-link-list"> 
+							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 1<span class="visually-hidden"> </span></a> </li> 
+							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 2<span class="visually-hidden"> </span></a> </li> 
+							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 3<span class="visually-hidden"> </span></a> </li> 
+							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 4<span class="visually-hidden"> </span></a> </li> 
+							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 5 <span class="visually-hidden"></span></a> </li> 
+						   </ul> 
+						</div>
+                    </div>                
+					
                     {{if mediaFile.type == 'vedio'}}
                     <figure class="tle-header__video">
                         <div class="tle-header__video-wrapper">
@@ -255,6 +258,7 @@
                         <figcaption class="tle-header__video-caption">
                         </figcaption>
                     </figure>
+					
                     {{else mediaFile.type == 'image'}}
                     <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
                         <div class="image-grid__inner">
