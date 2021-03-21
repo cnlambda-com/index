@@ -19,6 +19,13 @@ var aboutData = {
                 "</figure>"+
             "</div>"
             ]
+        },
+        {
+            contents2:[
+                "About us" 
+				,
+                "Contents..."
+            ]
         }
 
     ]
