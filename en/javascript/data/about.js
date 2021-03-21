@@ -21,9 +21,8 @@ var aboutData = {
             ]
         },
         {
-            contents2:[
-                "About us" 
-				,
+            contents:[
+                "About us" ,
                 "Contents..."
             ]
         }
