@@ -2,7 +2,7 @@ var aboutData = {
     sections:[
         {
             contents:[
-                "Research flourishes" ,     				
+                "About us" ,     				
                 "Founded to accelerate.\n" +
                 "mission of <a href=\"#mission\">service</a>."
             ],
