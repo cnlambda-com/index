@@ -36,7 +36,9 @@ var researchData = {
         {
             title: "人工智能 + 区块链",
             contents:[
-            "xxxxx"
+            "xxxxx",
+            "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
+            "                                &amp; xxx</a>"
             
             ],
             items:[
@@ -68,9 +70,11 @@ var researchData = {
             }
         },
 		{
-            title: "xxxx",
+            title: "可信执行环境",
             contents: [
-                "Research flourishes in our 30 departments across"
+                "Research flourishes in our 30 departments across",
+                "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
+            "                                &amp; xxx</a>"
             ],
             items:[
                 {
