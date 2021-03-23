@@ -1,24 +1,230 @@
 var teamData = {
-    mainContent: {
-        items: [
-            "Researchers"
-        ],
+    sections: [
+        {
+            name: "Blockchain Research Team",
+            descs: [
+                "xxxxxx\n"
+            ],
+            resource: {
+                type: "text",
+                details: [
+                    {
+                        title: "Apple",
+                        linkUrl: "https://innovation.mit.edu/resources/"
+                    },
+                    {
+                        title: "Top2",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "http://entrepreneurship.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "https://alum.mit.edu/"
+                    }
+                ]
+            }
+        },
+		
+		{
+            name: "Artificial Intelligence Research Team",
+            descs: [
+                "xxxxxx\n"
+            ],
+            resource: {
+                type: "text",
+                details: [
+                    {
+                        title: "Apple",
+                        linkUrl: "https://innovation.mit.edu/resources/"
+                    },
+                    {
+                        title: "Top2",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "https://alum.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "http://entrepreneurship.mit.edu/"
+                    },
+                    {
+                        title: "Top",
+                        linkUrl: "https://alum.mit.edu/"
+                    }
+                ]
+            }
+        }
+    ],
+    section1:[
+        {
+            items: 
+            "Project Executive Committee",
         itemContents: [
-            "<div class='gallery-images js-gallery-images'>" +
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                      "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                        "<p style='text-align: center;cursor:pointer;'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                     "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>" +
-            "</div>"
-        ]
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            }    
+         ]
+        },
+        {
+            items: 
+            "Fund Management Committee",
+        itemContents: [
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            }    
+            ]
+        },
+        {
+            items: "Administrative Team",
+            itemContents: [
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            }    
+         ]
+        }
+
+    ],
+
+    mainContent: {
+        items: 
+            "Project Executive Committee",
+        itemContents: [
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            }    
+         ]
     },
 	    mainContent1: {
-        items: [
-            "Engineers"
-        ],
+        items: 
+            "Fund Management Committee",
+        itemContents: [
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            }    
+            ]
+        /*
         itemContents: [
             "<div class='gallery-images js-gallery-images'>" +
                 "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
@@ -72,6 +278,7 @@ var teamData = {
                 "</figure>"+
             "</div>"
         ]
+        */
     }
 	/*,
     sections: [

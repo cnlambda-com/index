@@ -14,17 +14,17 @@ var researchData = {
         {
             title: "人工智能 + 区块链",
             contents:[
-            "MIT continually develops organizations and partnerships that foster interdisciplinary"
+            "xxxxx"
             
             ],
             mediaFile: {
             type: "image",
                 linkUrl: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                desc: "MIT researchers xxx "
+                desc: "xxxxx "
             }
         },
 		{
-            title: "At MIT",
+            title: "xxxx",
             contents: [
                 "Research flourishes in our 30 departments across"
             ],

@@ -218,7 +218,8 @@
                            {{:title}}
                         </h2>
                     </div>
-                    {{if #index == 0}}
+
+                <!--    {{if #index == 0}}
                     <div class="tle-header__intro-continued">
                     {{else}}
                     <div class="tle-section__content">
@@ -228,9 +229,32 @@
                         <p>{{: #data}}</p>
                         {{/for}}
                     </div>
+
                     {{if #index != 0}}
                     </div>
-                    {{/if}}
+                    {{/if}}     -->
+
+                    <div class="tle-section__content">
+                        <div class="tle-section__description">
+                        {{for contents}}
+                        <p>{{: #data}}</p>
+                        {{/for}}
+                       </div>
+                       
+                       <div class="tle-section__resources"> 
+                           <h5>Item</h5> 
+                           <ul class="numbered-link-list"> 
+                            <li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">Item 1<span class="visually-hidden"> </span></a> </li> 
+                            <li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">Item 2<span class="visually-hidden"> </span></a> </li> 
+                            <li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">Item 3<span class="visually-hidden"> </span></a> </li> 
+                            <li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">Item 4<span class="visually-hidden"> </span></a> </li> 
+                            <li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">Item 5 <span class="visually-hidden"></span></a> </li> 
+                           </ul> 
+                        </div>
+                    </div>
+
+
+
                     {{if mediaFile.type == 'vedio'}}
                     <figure class="tle-header__video">
                         <div class="tle-header__video-wrapper">

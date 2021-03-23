@@ -211,7 +211,34 @@
                 </header>
             </div>
        </section>
-	   
+
+       {{for section1}}
+       {{if #index<2}}
+       <section class="tle-section"> 
+           <div class="tle-container"> 
+            <div class="tle-section__inner tle-padding">
+             <header id="prospective-graduate-students" class="tle-section__header">
+              <h2 class="tle-section__title">{{:items}}</h2>
+             </header>
+             <div class="js-view-dom-id"> 
+              <div class="tle-section__index"> 
+               <div class="index"> 
+                <ul class="index__list"> 
+                {{for itemContents}}
+                    <li class="index__item"> <a href='{{:src}}' target="_blank" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
+                {{/for}}
+                </ul> 
+               </div> 
+              </div>      
+             </div> 
+            </div> 
+           </div> 
+          </section>
+        {{/if}}
+       {{/for}}
+
+
+	   <!--
 		<section class="tle-section"> 
 		   <div class="tle-container"> 
 			<div class="tle-section__inner tle-padding">
@@ -259,6 +286,7 @@
 			</div> 
 		   </div> 
 		  </section>
+        -->
   
         <!--
         <section class="tle-gutter-container">
@@ -338,9 +366,35 @@
             </div>
         </section>
         {{/for}}	
+
+
+        {{for section1}}
+       {{if #index>1}}
+       <section class="tle-section"> 
+           <div class="tle-container"> 
+            <div class="tle-section__inner tle-padding">
+             <header id="prospective-graduate-students" class="tle-section__header">
+              <h2 class="tle-section__title">{{:items}}</h2>
+             </header>
+             <div class="js-view-dom-id"> 
+              <div class="tle-section__index"> 
+               <div class="index"> 
+                <ul class="index__list"> 
+                {{for itemContents}}
+                    <li class="index__item"> <a href='{{:src}}' target="_blank" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
+                {{/for}}
+                </ul> 
+               </div> 
+              </div>      
+             </div> 
+            </div> 
+           </div> 
+          </section>
+        {{/if}}
+       {{/for}}
 		
 		
-		
+		<!--
 		<section class="tle-section"> 
 		   <div class="tle-container"> 
 			<div class="tle-section__inner tle-padding">
@@ -361,7 +415,8 @@
 			 </div> 
 			</div> 
 		   </div> 
-	</section>
+	   </section>
+       -->
 		
     </div>
 	

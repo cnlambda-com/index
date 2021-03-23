@@ -1,8 +1,7 @@
 var teamData = {
     mainContent: {
-        items: [
-            "执行委员会"
-        ],
+        items: 
+            "执行委员会",
         itemContents: [
                {
                     alt: "aaaaa",
@@ -36,7 +35,7 @@ var teamData = {
         {
             name: "区块链研究团队",
             descs: [
-                "MIT is at the&nbsp;center of one of the most vibrant hubs of innovation and\n"
+                "xxxxxx\n"
             ],
             resource: {
                 type: "text",
@@ -72,7 +71,7 @@ var teamData = {
 		{
             name: "人工智能研究团队",
             descs: [
-                "MIT is at the&nbsp;center of one of the most vibrant hubs of innovation and\n"
+                "xxxxxx\n"
             ],
             resource: {
                 type: "text",
@@ -131,5 +130,120 @@ var teamData = {
                 ]
             }
         }*/
-    ]
+    ],
+
+    section1:[
+        {
+            items: 
+            "项目执行委员会",
+        itemContents: [
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            }    
+         ]
+        },
+        {
+        items: "资金管理委员会",
+        itemContents: [
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+            {
+                alt: "aaaaa",
+                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                name: "",
+                desc:  "entrepreneurship on Earth"
+            },
+            {
+                alt: "aaaaa",
+                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                name: "",
+                desc:  " entrepreneurship on Earth"
+            },
+            {
+                alt: "aaaaa",
+                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                name: "",
+                desc:  " entrepreneurship on Earth"
+            },
+            {
+                alt: "aaaaa",
+                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                name: "",
+                desc:  " entrepreneurship on Earth"
+            }    
+            ]
+        },
+        {
+            items: "行政管理团队",
+            itemContents: [
+            {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  "entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            },
+                {
+                    alt: "aaaaa",
+                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    name: "",
+                    desc:  " entrepreneurship on Earth"
+            }    
+         ]
+        }
+    ],
 };

@@ -1,7 +1,7 @@
 var researchData = {
     sections:[
         {
-            title: "XXXX.",
+            title: "Trusted execution environment + Blockchain",
             contents: [
                 "XXXX"
             ],
@@ -12,7 +12,7 @@ var researchData = {
             }
         },
 		{
-            title: "Random Number Generator",
+            title: "Artificial Intelligence + Blockchain",
             contents:[
             "Random numbers are an essential building block for a variety of applications " + 
 			"such as key generation and sample selection. Our project aims to utilize a  " + 
@@ -27,15 +27,15 @@ var researchData = {
             mediaFile: {
             type: "image",
                 linkUrl: "../files/images/202003/random.png",
-                desc: "MIT researchers hntities of medicine to brain regions as small as 1 cubic millimeter."
+                desc: "xxxxx"
             }
         },
         {
             title: "Trusted Execution Environment",
             contents:[
-            "MIT continuallyy\n" +
-            "ms where\n" +
-            "day.",
+            "xxxxx\n" +
+            "xxx\n" +
+            "xx",
             "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">View Centers, Labs\n" +
             "                                &amp; Programs</a>"
             ],
