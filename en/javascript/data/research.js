@@ -5,6 +5,28 @@ var researchData = {
             contents: [
                 "XXXX"
             ],
+            items:[
+                {
+                    itemName:"Item 1",
+                    url:""
+                },
+                {
+                    itemName:"Item 2",
+                    url:""
+                },
+                {
+                    itemName:"Item 3",
+                    url:""
+                },
+                {
+                    itemName:"Item 4",
+                    url:""
+                },
+                {
+                    itemName:"Item 5",
+                    url:""
+                },
+            ],
             mediaFile: {
                 type: "vedio",
                 linkUrl: "../../zh/files/images/hpb.mp4",
@@ -24,6 +46,28 @@ var researchData = {
             "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">View Centers, Labs\n" +
             "                                &amp; Programs</a>"
             ],
+            items:[
+                {
+                    itemName:"Item 1",
+                    url:""
+                },
+                {
+                    itemName:"Item 2",
+                    url:""
+                },
+                {
+                    itemName:"Item 3",
+                    url:""
+                },
+                {
+                    itemName:"Item 4",
+                    url:""
+                },
+                {
+                    itemName:"Item 5",
+                    url:""
+                },
+            ],
             mediaFile: {
             type: "image",
                 linkUrl: "../files/images/202003/random.png",
@@ -38,6 +82,28 @@ var researchData = {
             "xx",
             "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">View Centers, Labs\n" +
             "                                &amp; Programs</a>"
+            ],
+            items:[
+                {
+                    itemName:"Item 1",
+                    url:""
+                },
+                {
+                    itemName:"Item 2",
+                    url:""
+                },
+                {
+                    itemName:"Item 3",
+                    url:""
+                },
+                {
+                    itemName:"Item 4",
+                    url:""
+                },
+                {
+                    itemName:"Item 5",
+                    url:""
+                },
             ],
             mediaFile: {
             type: "image",

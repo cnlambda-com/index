@@ -3,7 +3,29 @@ var researchData = {
         {
             title: "可信执行环境 + 区块链",
             contents:[
-            "MIT continually develops organizations and partnerships that foster interdisciplinary"
+            "xxxxx"
+            ],
+            items:[
+                {
+                    itemName:"项目 1",
+                    url:""
+                },
+                {
+                    itemName:"项目 2",
+                    url:""
+                },
+                {
+                    itemName:"项目 3",
+                    url:""
+                },
+                {
+                    itemName:"项目 4",
+                    url:""
+                },
+                {
+                    itemName:"项目 5",
+                    url:""
+                }
             ],
             mediaFile: {
                 type: "vedio",
@@ -17,6 +39,28 @@ var researchData = {
             "xxxxx"
             
             ],
+            items:[
+                {
+                    itemName:"项目 1",
+                    url:""
+                },
+                {
+                    itemName:"项目 2",
+                    url:""
+                },
+                {
+                    itemName:"项目 3",
+                    url:""
+                },
+                {
+                    itemName:"项目 4",
+                    url:""
+                },
+                {
+                    itemName:"项目 5",
+                    url:""
+                }
+            ],
             mediaFile: {
             type: "image",
                 linkUrl: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
@@ -27,6 +71,28 @@ var researchData = {
             title: "xxxx",
             contents: [
                 "Research flourishes in our 30 departments across"
+            ],
+            items:[
+                {
+                    itemName:"项目 1",
+                    url:""
+                },
+                {
+                    itemName:"项目 2",
+                    url:""
+                },
+                {
+                    itemName:"项目 3",
+                    url:""
+                },
+                {
+                    itemName:"项目 4",
+                    url:""
+                },
+                {
+                    itemName:"项目 5",
+                    url:""
+                },
             ],
             mediaFile: {
                 type: "vedio",

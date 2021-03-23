@@ -232,12 +232,10 @@
 					   <div class="tle-section__resources"> 
 						   <h5>项目</h5> 
 						   <ul class="numbered-link-list"> 
-							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 1<span class="visually-hidden"> </span></a> </li> 
-							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 2<span class="visually-hidden"> </span></a> </li> 
-							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 3<span class="visually-hidden"> </span></a> </li> 
-							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 4<span class="visually-hidden"> </span></a> </li> 
-							<li class="numbered-link-list__item"> <a href="" target="_blank" rel="noopener">项目 5 <span class="visually-hidden"></span></a> </li> 
-						   </ul> 
+							{{for items}}
+                            <li class="numbered-link-list__item"> <a href='{{:url}}' target="_blank" rel="noopener">{{:itemName}}<span class="visually-hidden"> </span></a> </li> 
+                           {{/for}}
+                            </ul> 
 						</div>
                     </div>                
 					
