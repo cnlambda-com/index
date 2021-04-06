@@ -100,8 +100,8 @@ var researchData = {
                 },
             ],
             mediaFile: {
-            type: "image",
-                linkUrl: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                type: "image",
+                linkUrl: "../files/images/202003/logo8.png",
                 desc: "XXXX"
             }
         }

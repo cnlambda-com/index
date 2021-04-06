@@ -64,18 +64,20 @@ var researchData = {
                 }
             ],
             mediaFile: {
-            type: "image",
-                linkUrl: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                desc: "xxxxx "
+                type: "image",
+                linkUrl: "../files/images/202003/random.png",
+                desc: "xxxxx"
             }
         },
 		{
             title: "可信执行环境",
-            contents: [
-                "Research flourishes in our 30 departments across",
+            contents:[
+                "xxxxx\n" +
+                "xxx\n" +
+                "xx",
                 "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
-            "                                &amp; xxx</a>"
-            ],
+                "                                &amp; xx</a>"
+                ],
             items:[
                 {
                     itemName:"项目 1",
@@ -99,9 +101,9 @@ var researchData = {
                 },
             ],
             mediaFile: {
-                type: "vedio",
-                linkUrl: "../files/images/hpb.mp4",
-                desc: "Your browser does not support the video tag."
+                type: "image",
+                linkUrl: "../files/images/202003/logo8.png",
+                desc: "XXXX"
             }
         }
     ]
