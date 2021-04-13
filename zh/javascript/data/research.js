@@ -43,20 +43,20 @@ var researchData = {
             ],
             items:[
                 {
-                    itemName:"项目 1",
-                    url:""
+                    itemName:"基于指纹特征的随机验证码增强技术",
+                    url:"../news/chenwei.html"
                 },
                 {
-                    itemName:"项目 2",
-                    url:""
+                    itemName:"区块链系统的自动的异常检测",
+                    url:"../news/talooria.html"
                 },
                 {
-                    itemName:"项目 3",
-                    url:""
+                    itemName:"区块链 Layer 2 扩展方案",
+                    url:"../news/shuangw.html"
                 },
                 {
-                    itemName:"项目 4",
-                    url:""
+                    itemName:"基于人工智能(深度学习)的区块链交易数据分析",
+                    url:"../news/shanzhu.html"
                 },
                 {
                     itemName:"项目 5",

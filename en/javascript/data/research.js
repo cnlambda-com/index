@@ -42,20 +42,20 @@ var researchData = {
             ],
             items:[
                 {
-                    itemName:"Item 1",
-                    url:""
+                    itemName:"Finger Feature-based Random Verification Code Enhancement Technology",
+                    url:"../news/chenwei.html"
                 },
                 {
-                    itemName:"Item 2",
-                    url:""
+                    itemName:"Automatical Anomaly Detection in Blockchain Systems",
+                    url:"../news/talooria.html"
                 },
                 {
-                    itemName:"Item 3",
-                    url:""
+                    itemName:"Blockchain Layer 2 Scaling Solutions",
+                    url:"../news/shuangw.html"
                 },
                 {
-                    itemName:"Item 4",
-                    url:""
+                    itemName:"Artificial Intelligence(Deep Learning) Based Transaction Data Analysis of the Blockchain",
+                    url:"../news/shanzhu.html"
                 },
                 {
                     itemName:"Item 5",
