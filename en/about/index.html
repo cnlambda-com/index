@@ -145,7 +145,7 @@
     </ul>
 
     <div class="site-footer__cta-mod">
-        <a class="site-footer__join-us-link" href="#">
+        <a class="site-footer__join-us-link" href="?#contact">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 16 16"
                  class="arrow-northeast site-footer__join-us-icon">
@@ -191,6 +191,19 @@
     $(function () {
         renderTemplate("aboutTmpl", aboutData, "about-container");
     });
+	
+    var $root = $('html, body');
+	function toWhere(id){
+		if (!id || id === 0) {
+		  $root.animate({ scrollTop: 0 }, 200)
+		}
+		const scrollHeight = $('#' + id).offset().top
+		$root.animate({ scrollTop: scrollHeight - 60 }, 200)
+	}
+
+	$(function () {
+	    toWhere(window.location.hash.slice(1))
+	})
 </script>
 </body>
 </html>
@@ -382,7 +395,7 @@
              </header> 
              <div class="tle-section__content"> 
               <div class="tle-section__description"> 
-               <h4>Contact</h4> 
+               <h4 id="contact">Contact</h4> 
                <p>Please email us through: xxxx </p> 
               </div> 
              </div> 
