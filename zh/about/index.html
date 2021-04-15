@@ -180,6 +180,19 @@
     $(function () {
         renderTemplate("aboutTmpl", aboutData, "about-container");
     });
+	
+	var $root = $('html, body');
+	function toWhere(id){
+		if (!id || id === 0) {
+		  $root.animate({ scrollTop: 0 }, 200)
+		}
+		const scrollHeight = $('#' + id).offset().top
+		$root.animate({ scrollTop: scrollHeight - 60 }, 200)
+	}
+
+	$(function () {
+	    toWhere(window.location.hash.slice(1))
+	})
 </script>
 
 </body>
@@ -279,7 +292,7 @@
              {{for contact}}
 			 <div class="tle-section__content"> 
 			  <div class="tle-section__description"> 
-			   <h4>{{:part}}</h4> 
+			   <h4 id="contact">{{:part}}</h4> 
 			   <p>{{:con}} </p> 
 			  </div> 
 			 </div> 
