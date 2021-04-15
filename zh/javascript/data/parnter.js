@@ -21,40 +21,45 @@ var parnterData = {
             ],
             colleges:[
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "南方科技大学(中国)",
+                    link: "https://www.sustech.edu.cn/"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "挪威科技大学(挪威)",
+                    link: "https://www.ntnu.edu/"
+                },
+
+                {
+                    college: "伦敦大学玛丽女王学院(英国)",
+                    link: "https://www.qmul.ac.uk/"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "伯明翰大学(英国)",
+                    link: "https://www.birmingham.ac.uk/index.aspx"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "南开大学(中国)",
+                    link: "https://www.nankai.edu.cn/"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "中国人民大学(中国)",
+                    link: "https://www.ruc.edu.cn/"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "帝国理工学院(英国)",
+                    link: "https://www.imperial.ac.uk/"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "牛津大学(英国)",
+                    link: "https://www.ox.ac.uk/cn"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "纽卡斯尔大学(英国)",
+                    link: "https://www.ncl.ac.uk/"
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
+                    college: "国防科技大学(中国)",
+                    link: "https://www.nudt.edu.cn/"
                 }
             ],
             resource: {
