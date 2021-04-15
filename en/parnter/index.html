@@ -211,54 +211,56 @@
                 </header>
             </div>
     </section>
+    
     {{for sections}}
-    <section class="tle-gutter-container">
-        <div class="tle-container">
-            <header class="tle-header tle-padding">
-                <div class="tle-header__intro">
-                    <div class="tle-header__intro-text">
-                        <p>{{:title}}</p>
-
-                    </div>
-                </div>
-                <div class="tle-header__intro-continued">
-                    {{for details}}
-                    <p>{{:#data}}</p>
+   <section class="tle-section "> 
+   <div class="tle-container"> 
+    <div class="tle-section__inner tle-padding"> 
+     <header id="mitalumninews" class="tle-section__header"> 
+      <h2 class="tle-section__title">{{:title}}</h2> 
+     </header> 
+	 
+	 <div class="tle-section__content"> 
+      <div class="tle-section__description"> 
+       <p>{{:details}} </p> 
+      </div> 
+	  <br> 
+	  <div class="js-view-dom-id"> 
+			  <div class="tle-section__index"> 
+			   <div class="index"> 
+				<ul class="index__list"> 
+                    {{for colleges}}			
+					<li class="index__item"> <a href="{{:link}}" target="_blank" rel="noopener">{{:college}}<span class="visually-hidden"> (opens in new window)</span><span class="tool-tip" style="left: 334px; top: 373px;">{{:college}}</span></a></li> 
                     {{/for}}
-                </div>
-                {{if resource.type == "vedio"}}
-                <figure class="tle-header__video">
-                    <div class="tle-header__video-wrapper">
-                        <video class="pause-video js-pause-video" autoplay loop muted tabindex="0">
-                            <source src="{{:resource.linkUrl}}"/>
-                            {{:resource.desc}}
-                        </video>
-                        <div class="tle-header__video-controls">
-                            <button class="tle-header__video-button js-video-button" type="button"
-                                    aria-label="Pause"></button>
-                        </div>
-                    </div>
-                    <figcaption class="tle-header__video-caption">
-                    </figcaption>
-                </figure>
-                {{else resource.type == "image"}}
-                <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
-                    <div class="image-grid__inner">
-                        <div class="image-grid__grid-item">
-                            <div class="image-grid__image">
-                                <img class="lazyloaded" data-src="{{:resource.linkUrl}}"
-                                     src="{{:resource.linkUrl}}"
-                                     alt="{{:resource.title}}">
-                            </div>
-                        </div>
-                    </div>
-                 </figure>
-                {{else}}
-                {{/if}}
-            </header>
-        </div>
-    </section>
-    {{/for}}
+                </ul> 
+			   </div> 
+			  </div> 
+	    </div> 	
+     </div> 
+	 
+	 <figure class="image-grid tle-section__image-grid image-grid--mosaic image-grid--2"> 
+      <div class="image-grid__inner"> 
+          {{for images}}
+       <div class="image-grid__grid-item"> 
+        <div class="image-grid__image"> 
+         <img class="lazyloaded" data-src="" src="{{:src}}" alt="{{:alt}}" /> 
+        </div> 
+       </div> 
+            {{/for}}
+       <div class="image-grid__grid-item"> 
+        <figcaption class="image-grid__captions" aria-hidden="true"> 
+         <span class="image-grid__caption">The  </span> 
+         <span class="image-grid__caption">Presenting</span> 
+        </figcaption> 
+       </div> 
+      </div> 
+     </figure> 
+    </div> 
+   </div> 
+  </section>
+  {{/for}}
+
+  
   </div>
 </main>
 </script>

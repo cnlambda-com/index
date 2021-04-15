@@ -1,54 +1,121 @@
 var aboutData = {
     sections:[
         {
-            contents:[
-                "About us" ,     				
-                "xxxxx"
+            secType:"about",
+            title:"About us",
+            details:"CNlambda（CN®λ）will be driven by the needs of enterprises, to assist young scientific research personnel as the goal, aimed at building a strong link of global international cooperation, the establishment of world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.",
+            paragraphs:[
+                {
+                    title:"Mission",
+                    details:"Committed to high-tech innovation research and development and landing, to serve the world economy."
+                },
+                {
+                    title:"Vision",
+                    details:"To found a world-class, enterprise application-driven, cryptography and artificial intelligence research institute."
+                },
+                {
+                    title:"Governance",
+                    details:"CNlambda（CN®λ）is managed jointly by the Finance Committee and the Executive Committee. The Finance Committee is responsible for obtaining funding or contributions from enterprises, setting macro objectives for the allocation of funds and scientific research outputs, and the Executive Committee is responsible for assessing projects and coordinating the personnel and progress of projects.",
+                }
             ],
-        }/*,
+            resource_cap:"Charter download",
+            resource_src:"../files/documents/Articles_of_Association.zip",
+            pic_alt:"Team logo",
+            pic_data_src:"../files/images/202003/4.png",
+            pic_src:"../files/images/logo.png",
+            figcap_text:"team logo",
+            figcap_button:"Download",
+            figcap_src:"../files/images/202003/4.png" 
+                
+            
+        },
         {
-            contents:[
-                "Governance model" ,
-                "<div class="tle-section__content">"+
-              "<div class="tle-section__description">"+ 
-               "<p>xxxxx</p>"+ 
-               "<h4>Vision</h4> "+
-               "<p>xxxxx</p>"+ 
-               "<h4>Outcomes</h4> "+
-               "<p>xxxxx</p>"+ 
-               "<li class="installation-downloads-item"><span>Windows</span> <a href="http://get.adobe.com/air/"><span>Download</span></a></li>"+
-              "</div> "+
-             "</div>"+ 
-             "<figure class="image-grid tle-section__image-grid image-grid--single image-grid--1"> "+
-              "<div class="image-grid__inner">"+ 
-               "<div class="image-grid__grid-item"> "+
-                "<div class="image-grid__image"> "+
-                 "<img class="lazyloaded" data-src="../files/images/202003/4.png" src="../files/images/202003/4.png" alt="团队Logo" />"+
-                "</div> "+
-                "<figcaption class="image-grid__captions" aria-hidden="true"> "+
-                 "<a href="../files/images/202003/4.png" download="CNlambda-logo"><span class="image-grid__caption">Download</span></a>"+
-                "</figcaption> "+
-               "</div> "+
-              "</div>"+ 
-             "</figure>"
+            secType:"data",
+            title:"Core Data",
+            data:[
+                {
+                    title:"Researchers",
+                    items:[
+                        {
+                            item:"Total",
+                            data:"6"
+                        },
+                        {
+                            item:"Proportion of PhDs",
+                            data:"83%"
+                        },
+                        {
+                            item:"Proportion of Masters",
+                            data:"17%"
+                        }
+                    ]
+                },
+                {
+                    title:"Developers",
+                    items:[
+                        {
+                            item:"Total",
+                            data:"6"
+                        },
+                        {
+                            item:"Average working years",
+                            data:"5.5"
+                        },
+                        {
+                            item:"Proportion of Masters",
+                            data:"28%"
+                        }
+                    ]
+                },
+                {
+                    title:"Funding",
+                    items:[
+                        {
+                            item:"Total",
+                            data:"* RMB"
+                        },
+                        {
+                            item:"Number of sponsored units",
+                            data:"1"
+                        },
+                        {
+                            item:"Number of projects",
+                            data:"4"
+                        }
+                    ]
+                }
+            ],
+            
+            images:[
+                {
+                    data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
+                    src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
+                    alt:"MIT’s first building was in Boston, before the move to Cambridge in 1916."
+                },
+                {
+                    data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
+                    src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
+                    alt:"Aesop’s Fables II,” by Mark di Suvero, is part of MIT’s public art collection."
+                }
+            ],
+            captions:[
+                "xxxxx","xxxxx"
             ]
         },
         {
-            contents:[
-                "Research flourishes" ,     			
-                
-                "<div class='gallery-images js-gallery-images'>" +
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                      "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                        "<p style='text-align: center;cursor:pointer;'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                     "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-            "</div>"
+            secType:"contact",
+            title:"Join us",
+            contact:[
+                {
+                    part:"Contact",
+                    con:"Please email us through: xxxx"
+                },
+                {
+                    part:"Donate",
+                    con:"CNlambda Bitcoin address: xxxxx."
+                }
             ]
         }
-*/
     ]
 };
 
