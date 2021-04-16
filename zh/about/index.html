@@ -219,11 +219,10 @@
             </section>
 			
             {{for sections}}
+            {{if secType == 'about'}}
 		 <section class="tle-section "> 
 		   <div class="tle-container"> 
-			<div class="tle-section__inner tle-padding"> 
-
-             {{if secType == 'about'}}
+			<div class="tle-section__inner tle-padding">
              <header id="mission" class="tle-section__header"> 
                 <h2 class="tle-section__title">{{:title}}</h2> 
                </header> 
@@ -234,7 +233,7 @@
                 <h4>{{:title}}</h4> 
                 <p>{{:details}}</p>
                 {{/for}}
-                <a href=‘{{:resource_src}}’ download="CNlambda-document"><span>{{:resource_cap}}</span></a>
+                <a href="{{:resource_src}}" download="CNlambda-document"><span>{{:resource_cap}}</span></a>
 			  </div> 
 			 </div> 
 			 <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1"> 
@@ -253,10 +252,13 @@
 			 </figure> 
 
              {{else secType=='data'}}
-			 <header id="mission" class="tle-section__header"> 
-			  <h2 class="tle-section__title">{{:title}}</h2> 
-			 </header> 
-			 <div class="tle-column-6"> 
+             <section class="tle-section "> 
+                <div class="tle-container"> 
+                 <div class="tle-section__inner tle-padding">
+                <header id="mission" class="tle-section__header"> 
+                <h2 class="tle-section__title">{{:title}}</h2> 
+                </header> 
+                <div class="tle-column-6"> 
                 {{for data}}
                 <h4>{{:title}}</h4> 
                     <ul class="data-list"> 
@@ -286,16 +288,19 @@
                </figure>
 			 
                {{else secType=='contact'}}
-			 <header id="mission" class="tle-section__header"> 
-			  <h2 class="tle-section__title">{{:title}}</h2> 
-			 </header> 
-             {{for contact}}
-			 <div class="tle-section__content"> 
-			  <div class="tle-section__description"> 
-			   <h4 id="contact">{{:part}}</h4> 
-			   <p>{{:con}} </p> 
-			  </div> 
-			 </div> 
+               <section class="tle-section "> 
+                <div class="tle-container"> 
+                 <div class="tle-section__inner tle-padding">
+                <header id="mission" class="tle-section__header"> 
+                <h2 class="tle-section__title">{{:title}}</h2> 
+                </header> 
+                {{for contact}}
+                <div class="tle-section__content"> 
+                <div class="tle-section__description"> 
+                <h4 id="contact">{{:part}}</h4> 
+                <p>{{:con}} </p> 
+                </div> 
+                </div> 
              {{/for}}
             
 			 
