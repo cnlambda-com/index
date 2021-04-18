@@ -36,9 +36,9 @@ var researchData = {
 		{
             title: "Artificial Intelligence + Blockchain",
             contents:[
-            "xxxxx",
-            "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
-            "                                &amp; xxx</a>"
+            "xxxxx"
+            //"<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
+            //"                                &amp; xxx</a>"
             ],
             items:[
                 {

@@ -36,10 +36,9 @@ var researchData = {
         {
             title: "人工智能 + 区块链",
             contents:[
-            "xxxxx",
-            "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
-            "                                &amp; xxx</a>"
-            
+            "xxxxx"
+            //"<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
+            //"                                &amp; xxx</a>"
             ],
             items:[
                 {
@@ -72,7 +71,7 @@ var researchData = {
 		{
             title: "可信执行环境",
             contents:[
-                "xxxxx\n" +
+                "xxxxx\n"+
                 "xxx\n" +
                 "xx",
                 "<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
