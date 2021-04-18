@@ -225,7 +225,7 @@
                <div class="index"> 
                 <ul class="index__list"> 
                 {{for itemContents}}
-                    <li class="index__item"> <a href='{{:src}}' target="_blank" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
+                    <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
                 {{/for}}
                 </ul> 
                </div> 
@@ -238,88 +238,9 @@
        {{/for}}
 
 
-	   <!--
-		<section class="tle-section"> 
-		   <div class="tle-container"> 
-			<div class="tle-section__inner tle-padding">
-			 <header id="prospective-graduate-students" class="tle-section__header">
-			  <h2 class="tle-section__title">项目执行委员会</h2>
-			 </header>
-			 <div class="js-view-dom-id"> 
-			  <div class="tle-section__index"> 
-			   <div class="index"> 
-				<ul class="index__list"> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				</ul> 
-			   </div> 
-			  </div> 	  
-			 </div> 
-			</div> 
-		   </div> 
-		  </section>
-		  
-		  <section class="tle-section"> 
-		   <div class="tle-container"> 
-			<div class="tle-section__inner tle-padding">
-			 <header id="prospective-graduate-students" class="tle-section__header">
-			  <h2 class="tle-section__title">资金管理委员会</h2>
-			 </header>
-			 <div class="js-view-dom-id"> 
-			  <div class="tle-section__index"> 
-			   <div class="index"> 
-				<ul class="index__list"> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				 <li class="index__item"> <a href="" target="_blank" rel="noopener">xxx<span class="visually"> (opens in new window)</span></a> </li> 
-				</ul> 
-			   </div> 
-			  </div> 
-			 </div> 
-			</div> 
-		   </div> 
-		  </section>
-        -->
+
   
-        <!--
-        <section class="tle-gutter-container">
-            <div class="tle-container">
-                <header class="tle-header tle-padding">
-                    <div class="tle-header__intro">
-                        <div class="tle-header__intro-text">
-                            {{for mainContent.items}}
-                            <p>{{:#data}}</p>
-                            {{/for}}
-                        </div>
-                    </div>
-                     <div class="">
-                        <div class="tle-container">
-                            <div class="gallery-content">
-                                 <div class='gallery-images js-gallery-images'>
-                                    {{for mainContent.itemContents}}
-                                        <figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>
-                                            <div class='gallery-image__crop' tabindex='-1'>
-                                            <img class='gallery-image__media lazyloaded'  style='cursor:pointer;' alt='{{:alt}}' src='{{:src}}'>
-                                            <p style='text-align: center'>{{:name}}</p>
-                                            </div>
-                                            <figcaption class='gallery-image__caption'>{{:desc}}</figcaption>
-                                        </figure>
-                                    {{/for}}
-                               </div>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-            </div>
-        </section>
-		-->
+        
 		
         {{for sections}}
         <section class="tle-section tle-section--alt-layout ">
@@ -341,7 +262,7 @@
                         <ul class="numbered-link-list">
                             {{for resource.details}}
                             <li class="numbered-link-list__item">
-                                <a href="{{:linkUrl}}" target="_blank">{{:title}}</a>
+                                <a href="{{:linkUrl}}" target="_self">{{:title}}</a>
                             </li>
                             {{/for}}
                         </ul>
@@ -381,7 +302,7 @@
                <div class="index"> 
                 <ul class="index__list"> 
                 {{for itemContents}}
-                    <li class="index__item"> <a href='{{:src}}' target="_blank" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
+                    <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
                 {{/for}}
                 </ul> 
                </div> 

@@ -46,7 +46,7 @@ var researchData = {
                     url:"../news/chenwei.html"
                 },
                 {
-                    itemName:"区块链系统的自动的异常检测",
+                    itemName:"区块链中的欺诈检测：基于深度学习的特征学习方法",
                     url:"../news/talooria.html"
                 },
                 {

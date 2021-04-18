@@ -46,7 +46,7 @@ var researchData = {
                     url:"../news/chenwei.html"
                 },
                 {
-                    itemName:"Automatical Anomaly Detection in Blockchain Systems",
+                    itemName:"Fraud Detection on Blockchain: A Deep Learning-based Representation Learning approach",
                     url:"../news/talooria.html"
                 },
                 {
