@@ -1,6 +1,60 @@
 var researchData = {
     sections:[
         {
+            title: "基于指纹特征的随机验证码增强技术",
+            url:"../news/chenwei.html",
+            contents:[
+            "xxxxx"
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/FFRV.png",
+                desc: ""
+            }
+        },
+        {
+            title: "区块链中的欺诈检测：基于深度学习的特征学习方法",
+            url:"../news/talooria.html",
+            contents:[
+            "xxxxx"
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/talooria.jpg",
+                desc: ""
+            }
+        },
+        {
+            title: "区块链 Layer 2 扩展方案",
+            url:"../news/shuangw.html",
+            contents:[
+            "xxxxx"
+            //"<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
+            //"                                &amp; xxx</a>"
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/gra.png",
+                desc: ""
+            }
+        },
+		{
+            title: "基于人工智能(深度学习)的区块链交易数据分析",
+            url:"../news/shanzhu.html",
+            contents:[
+                "xxxxx\n"
+                ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/shanzhu.jpg",
+                desc: ""
+            }
+        }
+    ]
+};
+/*var researchData = {
+    sections:[
+        {
             title: "可信执行环境 + 区块链",
             contents:[
             "xxxxx"
@@ -107,4 +161,4 @@ var researchData = {
         }
     ]
 };
-
+*/

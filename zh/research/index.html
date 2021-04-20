@@ -69,12 +69,12 @@
                 <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
                    data-drupal-link-system-path="node/12">研究</a>
             </li>
+            <li class="site-nav__link-item">
+                <a href="../team/index.html" class="site-nav__link js-nav-item" data-drupal-link-system-path="node/14">团队</a>
+            </li>
             <li class="site-nav__link-item menu-item--active-trail">
                 <a href="../parnter/index.html" class="site-nav__link js-nav-item menu-item--active-trail"
                    data-drupal-link-system-path="node/13">合作</a>
-            </li>
-            <li class="site-nav__link-item">
-                <a href="../team/index.html" class="site-nav__link js-nav-item" data-drupal-link-system-path="node/14">团队</a>
             </li>
             <li class="site-nav__link-item">
                 <a href="../about/index.html" class="site-nav__more-link" data-drupal-link-system-path="node/16">关于</a>
@@ -129,11 +129,10 @@
             <a class="site-footer__nav__link js-nav-item " href="../research/index.html">研究</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">合作</a>
-        </li>
-
-        <li class="site-footer__nav__link-item">
             <a class="site-footer__nav__link js-nav-item " href="../team/index.html">团队</a>
+        </li>
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">合作</a>
         </li>
         <li class="site-footer__nav__link-item">
             <a class="site-footer__nav__link js-nav-item " href="../about/index.html">关于</a>
@@ -227,16 +226,20 @@
                         {{for contents}}
                         <p>{{: #data}}</p>
                         {{/for}}
+                        <a href='{{:url}}' target="_self" rel="noopener">更多</a>
                        </div>
 					   
-					   <div class="tle-section__resources"> 
-						   <h5>项目</h5> 
-						   <ul class="numbered-link-list"> 
-							{{for items}}
-                            <li class="numbered-link-list__item"> <a href='{{:url}}' target="_self" rel="noopener">{{:itemName}}<span class="visually-hidden"> </span></a> </li> 
-                           {{/for}}
-                            </ul> 
-						</div>
+                       <!-- item tags
+                        <div class="tle-section__resources"> 
+                            <h5>项目</h5> 
+                            <ul class="numbered-link-list"> 
+                             {{for items}}
+                             <li class="numbered-link-list__item"> <a href='{{:url}}' target="_self" rel="noopener">{{:itemName}}<span class="visually-hidden"> </span></a> </li> 
+                            {{/for}}
+                             </ul> 
+                         </div>
+                       -->
+					   
                     </div>                
 					
                     {{if mediaFile.type == 'vedio'}}

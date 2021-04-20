@@ -69,12 +69,12 @@
                 <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
                    data-drupal-link-system-path="node/12">Research</a>
             </li>
+            <li class="site-nav__link-item">
+                <a href="../team/index.html" class="site-nav__link js-nav-item" data-drupal-link-system-path="node/14">Team</a>
+            </li>
             <li class="site-nav__link-item menu-item--active-trail">
                 <a href="../parnter/index.html" class="site-nav__link js-nav-item menu-item--active-trail"
                    data-drupal-link-system-path="node/13">Parnter</a>
-            </li>
-            <li class="site-nav__link-item">
-                <a href="../team/index.html" class="site-nav__link js-nav-item" data-drupal-link-system-path="node/14">Team</a>
             </li>
             <li class="site-nav__link-item">
                 <a href="../about/index.html" class="site-nav__more-link"
@@ -126,10 +126,10 @@
             <a class="site-footer__nav__link js-nav-item " href="../research/index.html">Research</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">Parnter</a>
+            <a class="site-footer__nav__link js-nav-item " href="../team/index.html">Team</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../team/index.html">Team</a>
+            <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">Parnter</a>
         </li>
         <li class="site-footer__nav__link-item">
             <a class="site-footer__nav__link js-nav-item " href="../about/index.html">About</a>
@@ -239,16 +239,19 @@
                         {{for contents}}
                         <p>{{: #data}}</p>
                         {{/for}}
+                        <a href='{{:url}}' target="_self" rel="noopener">Learn more</a>
                        </div>
                        
-                       <div class="tle-section__resources"> 
-                           <h5>Items</h5> 
-                           <ul class="numbered-link-list"> 
-                           {{for items}}
-                            <li class="numbered-link-list__item"> <a href='{{:url}}' target="_self" rel="noopener">{{:itemName}}<span class="visually-hidden"> </span></a> </li> 
-                           {{/for}}
-                           </ul> 
-                        </div>
+                       <!--
+                        <div class="tle-section__resources"> 
+                            <h5>Items</h5> 
+                            <ul class="numbered-link-list"> 
+                            {{for items}}
+                             <li class="numbered-link-list__item"> <a href='{{:url}}' target="_self" rel="noopener">{{:itemName}}<span class="visually-hidden"> </span></a> </li> 
+                            {{/for}}
+                            </ul> 
+                         </div>
+                       -->
                     </div>
 
 
