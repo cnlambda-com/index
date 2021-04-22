@@ -31,6 +31,16 @@
     <!--[if lt IE 9]>
     <link rel="stylesheet" media="all" href="/themes/cnlambda/assets/css/ie-7-8.css?q29575"/>
     <![endif]-->
+    <style type="text/css">
+        .p1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        }
+        </style>
+       
 </head>
 <body class="tle research" style="min-height: 800px;">
 <a href="#main" class="skip-to-content">Skip to content ↓</a>
@@ -209,6 +219,7 @@
                 </header>
             </div>
        </section>
+
        {{for sections}}
        
         <section class="tle-section">
@@ -223,10 +234,30 @@
                     
                     <div class="tle-section__content">
                         <div class="tle-section__description">
+                            <br><br>
                         {{for contents}}
-                        <p>{{: #data}}</p>
+                        <p class="p1">{{: #data}}</p>
                         {{/for}}
-                        <a href='{{:url}}' target="_self" rel="noopener">更多</a>
+                        <p class="front-page--recent-highlights--more-news">
+                            
+                            <!--
+                                <a class="front-page--recent-highlights--more-news--link" href="{{:url}}">了解更多</a> 
+                            <span class="front-page--news-clip--teaser--link-arrow">→</span>
+                            
+                            <p>  
+                            <a class="front-page--recent-highlights--more-news--link" href="{{:url}}">了解更多</a>  
+                            <svg class="arrow--point-right" xmlns="http://www.w3.org/2000/svg" width="15.094" viewBox="0 0 15.094 14.266">
+                                    <g id="iconfinder_arrow-up_3313575" transform="translate(18.68 18.266) rotate(180)">
+                                      <line id="Line_1300" data-name="Line 1300" y1="12" transform="translate(11 5.266)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                      <path id="Path_2594" data-name="Path 2594" d="M5,11.133,11.133,5l6.133,6.133" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    </g>
+                                </svg>
+                            -->
+                            
+                            </p>
+                          
+                            
+                          </p>
                        </div>
 					   
                        <!-- item tags
