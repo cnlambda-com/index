@@ -31,6 +31,15 @@
     <!--[if lt IE 9]>
     <link rel="stylesheet" media="all" href="/themes/cnlambda/assets/css/ie-7-8.css?q29575"/>
     <![endif]-->
+    <style type="text/css">
+        .p1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        }
+        </style>
 </head>
 <body class="tle research" style="min-height: 800px;">
 <a href="#main" class="skip-to-content">Skip to content ↓</a>
@@ -218,7 +227,7 @@
                            {{:title}}
                         </h2>
                     </div>
-
+                    <br><br>
                 <!--    {{if #index == 0}}
                     <div class="tle-header__intro-continued">
                     {{else}}
@@ -237,9 +246,9 @@
                     <div class="tle-section__content">
                         <div class="tle-section__description">
                         {{for contents}}
-                        <p>{{: #data}}</p>
+                        <p class="p1">{{: #data}}</p>
                         {{/for}}
-                        <a href='{{:url}}' target="_self" rel="noopener">Learn more</a>
+                       
                        </div>
                        
                        <!--
