@@ -18,7 +18,7 @@ var researchData = {
             url:"../news/talooria.html",
             contents:[
             "Recently, blockchain becomes a popular cryptocurrency scheme, with a digital decentralized ledger in which all transactions are recorded chronologically and publicly. One of blockchain’s primary advantages is making reliable transactions among a group of untrusted participants, so it makes anomaly detection extremely important to preserve its essence and effectiveness. "
-            +"<p><a class=\"tle-section__cta\" href=\"../news/chenwei.html\">Learn more\n</a></p>" 
+            +"<p><a class=\"tle-section__cta\" href=\"../news/talooria.html\">Learn more\n</a></p>" 
             ],
             mediaFile: {
                 type: "image",
@@ -31,7 +31,7 @@ var researchData = {
             url:"../news/shuangw.html",
             contents:[
             "Blockchain layer 2 scaling solutions are aiming to increase the throughput of blockchain and decrease the transaction fee without changing the underlying blockchain structure. The current layer 2 solution such as zk-Rollup, Plasma, Nocust … they share a same idea that a operator over blockchain is introduced to the system, the operator handle users’ transactions and does off-line computations.  These systems are focus on moving vast of the data and computation offline so the blockchain will handle less data, while most of them do not introduce privacy aspect to their system yet. In these system, users’ balance and transaction values are all transparent, which is not desirable for privacy. Privacy and scalability, however, are hard to achieve at the same time. Since adding privacy and confidentiality for a blockchain inevitably adds more computation and data to the blockchain, reducing the transaction throughput and increasing the transaction fees, thus downgrading the scalability of the system. There is always a trade-off between these two aspects."
-            +"<p><a class=\"tle-section__cta\" href=\"../news/chenwei.html\">Learn more\n</a></p>" //"<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
+            +"<p><a class=\"tle-section__cta\" href=\"../news/shuangw.html\">Learn more\n</a></p>" //"<a class=\"tle-section__cta\" href=\"centers-labs-programs/index.html\">xxx\n" +
             //"                                &amp; xxx</a>"
             ],
             mediaFile: {
@@ -45,7 +45,7 @@ var researchData = {
             url:"../news/shanzhu.html",
             contents:[
                 "Benefited from the anonymity and great value of the blockchain, digital currency and the decentralized finance (DeFi) built on it has also become a trend. However, the encryption and anonymity of virtual currencies also provide many illegal sellers with technical advantages, such as encrypted crimes, ransomware, money laundering, and so on. Therefore, based on the openness and transparency of transaction records on the chain, we aim to use artificial intelligence, especially the deep learning methods, to mine more information, and to help government agencies as well as the enterprises analyze, understand and supervise the transactions."
-                +"<p><a class=\"tle-section__cta\" href=\"../news/chenwei.html\">Learn more\n</a></p>" ],
+                +"<p><a class=\"tle-section__cta\" href=\"../news/shanzhu.html\">Learn more\n</a></p>" ],
             mediaFile: {
                 type: "image",
                 linkUrl: "../files/images/research/shanzhu.jpg",
