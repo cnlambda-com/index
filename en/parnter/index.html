@@ -213,7 +213,11 @@
     </section>
     
     {{for sections}}
-   <section class="tle-section "> 
+    {{if #index == 0}}
+    <section class="tle-gutter-container">
+    {{else}}
+    <section class="tle-section">
+    {{/if}} 
    <div class="tle-container"> 
     <div class="tle-section__inner tle-padding"> 
      <header id="mitalumninews" class="tle-section__header"> 

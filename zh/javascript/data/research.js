@@ -41,7 +41,7 @@ var researchData = {
             ],
             mediaFile: {
                 type: "image",
-                linkUrl: "../files/images/research/gra.png",
+                linkUrl: "../files/images/research/gra.jpg",
                 desc: ""
             }
         },

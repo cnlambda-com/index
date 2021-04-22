@@ -1,7 +1,7 @@
 var researchData = {
     sections:[
         {
-            title: "Finger Feature-based Random Verification Code Enhancement Technology",
+            title: "Fingerprint Feature-based Random Verification Code Enhancement Technology",
             url:"../news/chenwei.html",
             contents:[
             "Pure number based random verification codes are widely used in mobile payments, for example, large payment platforms such as Alipay and PayPal all use random verification codes to verify user identity. However, as the main receiver of pure digital verification codes, SIM cards are easy to be copied. In addition, due to the existence of pseudo signal stations, pure digital verification codes are easy to be hijacked or stolen. Once the thief obtains the random verification code, he can easily crack the identity verification barrier of the payment platform and conduct illegal operations, which brings great risks to mobile payment. While, due to the characteristics of the pure digital verification code, it is difficult for us to enhance its reliability and security."

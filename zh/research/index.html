@@ -221,8 +221,12 @@
        </section>
 
        {{for sections}}
-       
+       {{if #index == 0}}
+        <section class="tle-gutter-container">
+        {{else}}
         <section class="tle-section">
+        {{/if}}
+
         
             <div class="tle-container">
                 <header class="tle-header tle-padding">
