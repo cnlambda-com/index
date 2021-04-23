@@ -1,7 +1,19 @@
 var researchData = {
     sections:[
+	    {
+            title: "AI-based Blockchain Data Analysis",
+            url:"../news/shanzhu.html",
+            contents:[
+                "Benefited from the anonymity and great value of the blockchain, digital currency and the decentralized finance (DeFi) built on it has also become a trend. However, the encryption and anonymity of virtual currencies also provide many illegal sellers with technical advantages, such as encrypted crimes, ransomware, money laundering, and so on. Therefore, based on the openness and transparency of transaction records on the chain, we aim to use artificial intelligence, especially the deep learning methods, to mine more information, and to help government agencies as well as the enterprises analyze, understand and supervise the transactions."
+                +"<p><a class=\"tle-section__cta\" href=\"../news/shanzhu.html\">Learn more\n</a></p>" ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/shanzhu.jpg",
+                desc: ""
+            }
+        },
         {
-            title: "Fingerprint Feature-based Random Verification Code Enhancement Technology",
+            title: "Fingerprint Enhancement Technology",
             url:"../news/chenwei.html",
             contents:[
             "Pure number based random verification codes are widely used in mobile payments, for example, large payment platforms such as Alipay and PayPal all use random verification codes to verify user identity. However, as the main receiver of pure digital verification codes, SIM cards are easy to be copied. In addition, due to the existence of pseudo signal stations, pure digital verification codes are easy to be hijacked or stolen. Once the thief obtains the random verification code, he can easily crack the identity verification barrier of the payment platform and conduct illegal operations, which brings great risks to mobile payment. While, due to the characteristics of the pure digital verification code, it is difficult for us to enhance its reliability and security."
@@ -14,7 +26,7 @@ var researchData = {
             }
         },
         {
-            title: "Fraud Detection on Blockchain: A Deep Learning-based Representation Learning approach",
+            title: "Fraud Detection on Blockchain Address",
             url:"../news/talooria.html",
             contents:[
             "Recently, blockchain becomes a popular cryptocurrency scheme, with a digital decentralized ledger in which all transactions are recorded chronologically and publicly. One of blockchain’s primary advantages is making reliable transactions among a group of untrusted participants, so it makes anomaly detection extremely important to preserve its essence and effectiveness. "
@@ -39,19 +51,8 @@ var researchData = {
                 linkUrl: "../files/images/research/gra.jpg",
                 desc: ""
             }
-        },
-		{
-            title: "Artificial Intelligence(Deep Learning) Based Transaction Data Analysis of the Blockchain",
-            url:"../news/shanzhu.html",
-            contents:[
-                "Benefited from the anonymity and great value of the blockchain, digital currency and the decentralized finance (DeFi) built on it has also become a trend. However, the encryption and anonymity of virtual currencies also provide many illegal sellers with technical advantages, such as encrypted crimes, ransomware, money laundering, and so on. Therefore, based on the openness and transparency of transaction records on the chain, we aim to use artificial intelligence, especially the deep learning methods, to mine more information, and to help government agencies as well as the enterprises analyze, understand and supervise the transactions."
-                +"<p><a class=\"tle-section__cta\" href=\"../news/shanzhu.html\">Learn more\n</a></p>" ],
-            mediaFile: {
-                type: "image",
-                linkUrl: "../files/images/research/shanzhu.jpg",
-                desc: ""
-            }
         }
+		
     ]
 };
 /*var researchData = {

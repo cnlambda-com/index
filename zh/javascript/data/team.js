@@ -220,7 +220,7 @@ var teamData = {
             items: "行政管理团队",
             itemContents: [
             {
-                    alt: "aaaaa",
+                    alt: "bbbbb",
                     src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
                     name: "",
                     desc:  "entrepreneurship on Earth"
