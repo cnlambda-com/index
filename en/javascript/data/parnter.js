@@ -7,47 +7,54 @@ var parnterData = {
             ],
             images:[
                 {
-                    src: "../files/images/202003/4.png",
-                    alt: "XXXXX"
+                    src: "../files/images/202003/sustech.png",
+                    alt: "Southern Universiry of Science and Technology"
                 },
                 {
-                    src: "../files/images/202003/4.png",
-                    alt: "XXXXX"
+                    src: "../files/images/202003/Birmingham.png",
+                    alt: "Norwegian University of Science and Technology"
                 },
-                {
-                    src: "../files/images/202003/4.png",
-                    alt: "XXXXX"
-                }
             ],
             colleges:[
                 {
-                    college: "XXX University",
-                    link: ""
+                    college: "Southern Universiry of Science and Technology(China)",
+                    link: "https://www.sustech.edu.cn/"
                 },
                 {
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
+                    college: "Norwegian University of Science and Technology(Norway)",
+                    link: "https://www.ntnu.edu/"
+                },
+                {
+                    college: "Queen Mary, University of London(British)",
+                    link: "https://www.qmul.ac.uk/"
+                },
+                {
+                    college: "Univerisity of Birmingham(British)",
+                    link: "https://www.birmingham.ac.uk/index.aspx"
+                },
+                {
+                    college: "Nankai University(China)",
+                    link: "https://www.nankai.edu.cn/"
+                },
+                {
+                    college: "Renmin University of China(China)",
+                    link: "https://www.ruc.edu.cn/"
+                },
+                {
+                    college: "Imperial College London(British)",
+                    link: "https://www.imperial.ac.uk/"
+                },
+                {
+                    college: "Univeristy of Oxford(British)",
+                    link: "https://www.ox.ac.uk/cn"
+                },
+                {
+                    college: "Newcastle University(British)",
+                    link: "https://www.ncl.ac.uk/"
+                },
+                {
+                    college: "National University of Defense Technology(China)",
+                    link: "https://www.nudt.edu.cn/"
                 }
             ],
             resource: {

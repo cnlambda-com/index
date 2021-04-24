@@ -6,28 +6,28 @@ var homeData = {
             +"<a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> is focusing on how to effectively use artificial intelligence to strengthen the security and privacy of related industries, then produces results that can benefit enterprises and improve the quality of people life.",
             hotContents: [
                 {
-                    title: "XXXXXXXXXXXXX",
-                    linkUrl: ""
+                   title: "[2021-04-15] Welcome Dr. S from the Norwegian University of Science and Technology to join our team.",
+                    linkUrl: "../news/shuangw.html"
                 },
                 {
-                    title: "XXXXXXXXXXXXX",
-                    linkUrl: ""
+                    title: "[2021-04-01] Welcome Dr. X from Mary College, University of London to join our team.",
+                    linkUrl: "../news/talooria.html"
                 },
                 {
-                    title: "XXXXXXXXXXXXX",
-                    linkUrl: ""
+                    title: "[2021-03-01] The logo of Cnlambda Research Team is officially confirmed.",
+                    linkUrl: "../about/index.html"
                 },
                 {
-                    title: "XXXXXXXXXXXXX",
-                    linkUrl: ""
+                    title: "[2021-02-10] Cnlambda officially issue the charter.",
+                    linkUrl: "../about/index.html"
                 },
                 {
-                    title: "XXXXXXXXXXXXX",
-                    linkUrl: ""
+                    title: "[2021-01-25] Welcome Dr. W from the University of Birmingham to join our team.",
+                    linkUrl: "../news/chenwei.html"
                 },
                 {
-                    title: "XXXXXXXXXXXXX",
-                    linkUrl: ""
+                    title: "[2020-12-20] Cnlambda is officially established.",
+                    linkUrl: "../about/index.html"
                 }
             ],
             resource: {

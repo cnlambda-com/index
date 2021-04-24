@@ -7,13 +7,13 @@ var parnterData = {
             ],
             images:[
                 {
-                    src: "../files/images/202003/4.png",
-                    alt: "XXXXX"
+                    src: "../files/images/202003/sustech.png",
+                    alt: "Southern Universiry of Science and Technology"
                 },
                 {
-                    src: "../files/images/202003/4.png",
-                    alt: "XXXXX"
-                }
+                    src: "../files/images/202003/Birmingham.png",
+                    alt: "Norwegian University of Science and Technology"
+                },
             ],
             colleges:[
                 {
