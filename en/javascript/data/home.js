@@ -1,7 +1,7 @@
 var homeData = {
     sections: [
         {
-            title: " <a href=\"https://cnlambda.com\" target=\"_blank\">CNlambda (CN<sup>&reg;</sup>&lambda;)</a> is a nonprofit enterprise-focused cryptography research group. <a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> aims to solve the practical security and privacy problems for the enterprise, from threat detection, security modeling, protocol design, to implementations of real applications. <a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> brings together researchers, business leaders, entrepreneurs in a catalytic environment to produce visionary results that will have an impact on people's real life.",
+            title: " <a href=\"https://cnlambda.com\" target=\"_blank\">CNlambda (CN<sup>&reg;</sup>&lambda;)</a> is a nonprofit enterprise-focused cryptography and artificial intelligence research group. <a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> aims to solve the practical security and privacy problems for the enterprise, from threat detection, security modeling, protocol design, to implementations of real applications. <a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> brings together researchers, business leaders, entrepreneurs in a catalytic environment to produce visionary results that will have an impact on people's real life.",
             hotContents: [
                 {
                     title: "XXXXXXXXXXXXX",
