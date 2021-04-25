@@ -224,7 +224,7 @@
                <div class="index"> 
                 <ul class="index__list"> 
                 {{for itemContents}}
-                    <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
+                    <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> {{:name}}</span></a> </li> 
                 {{/for}}
                 </ul> 
                </div> 
@@ -236,11 +236,7 @@
         {{/if}}
        {{/for}}
 
-
-
-  
-        
-		
+	
         {{for sections}}
         <section class="tle-section tle-section--alt-layout ">
             <div class="tle-container">
@@ -251,11 +247,11 @@
                     <div class="tle-section__content">
                         <div class="tle-section__description">
                             {{for descs}}
-                            <p>{{:#data}}</p>
+                            {{:#data}}
                             {{/for}}
                         </div>
                     </div>
-                    {{if resource.type == "text"}}
+                    <!--{{if resource.type == "text"}}
                     <div class="tle-section__resources">
                         <h5>Top Resources</h5>
                         <ul class="numbered-link-list">
@@ -281,7 +277,7 @@
                         </div>
                     </figure>
                     {{else}}
-                    {{/if}}
+                    {{/if}}!-->
                 </div>
             </div>
         </section>
@@ -301,7 +297,7 @@
                <div class="index"> 
                 <ul class="index__list"> 
                 {{for itemContents}}
-                    <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
+                    <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> {{:name}}</span></a> </li> 
                 {{/for}}
                 </ul> 
                </div> 

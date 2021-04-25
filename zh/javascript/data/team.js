@@ -4,7 +4,7 @@ var teamData = {
             "执行委员会",
         itemContents: [
                {
-                    alt: "aaaaa",
+                    alt: "李博士",
                     src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
                     name: "",
                     desc:  "entrepreneurship on Earth"
@@ -35,7 +35,7 @@ var teamData = {
         {
             name: "区块链研究团队",
             descs: [
-                "xxxxxx\n"
+                "待确认"
             ],
             resource: {
                 type: "text",
@@ -71,34 +71,14 @@ var teamData = {
 		{
             name: "人工智能研究团队",
             descs: [
-                "xxxxxx\n"
+                   "待确认"
             ],
             resource: {
-                type: "text",
+                type: "image",
                 details: [
                     {
-                        title: "热点排行榜1",
-                        linkUrl: "https://innovation.mit.edu/resources/"
-                    },
-                    {
-                        title: "热点排行榜2",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜",
-                        linkUrl: "http://entrepreneurship.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜",
-                        linkUrl: "https://alum.mit.edu/"
+                        title: "团队成员合影",
+                        linkUrl:"../files/images/202003/MIT-Astronaut-Isolation-SL.jpg"
                     }
                 ]
             }
@@ -138,111 +118,75 @@ var teamData = {
             "项目执行委员会",
         itemContents: [
             {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  "entrepreneurship on Earth"
+                    alt: "Dr. Lee",
+                    src: "",
+                    name: "(伯明翰大学)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Dr. W",
+                    src: "",
+                    name: "(国防科技大学)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            }    
+                    alt: "Dr. X",
+                    src: "",
+					name: "(牛津大学)",
+                    desc:  ""
+            }  
          ]
         },
         {
         items: "资金管理委员会",
         itemContents: [
             {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    alt: "Mr. W",
+                    src: "",
                     name: "",
-                    desc:  "entrepreneurship on Earth"
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Dr. Lee",
+                    src: "",
+                    name: "(伯明翰大学)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
+                    alt: "Dr. JX",
+                    src: "",
+                    name: "(深圳大学)",
+                    desc:  ""
+            }  ,
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-            {
-                alt: "aaaaa",
-                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                name: "",
-                desc:  "entrepreneurship on Earth"
-            },
-            {
-                alt: "aaaaa",
-                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                name: "",
-                desc:  " entrepreneurship on Earth"
-            },
-            {
-                alt: "aaaaa",
-                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                name: "",
-                desc:  " entrepreneurship on Earth"
-            },
-            {
-                alt: "aaaaa",
-                src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                name: "",
-                desc:  " entrepreneurship on Earth"
-            }    
+                    alt: "Dr. S",
+                    src: "",
+                    name: "(挪威科技大学)",
+                    desc:  ""
+            } 
             ]
         },
         {
             items: "行政管理团队",
             itemContents: [
             {
-                    alt: "bbbbb",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  "entrepreneurship on Earth"
+                    alt: "Ms. Zhang",
+                    src: "",
+                    name: "(南开大学)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Ms. Xiao",
+                    src: "",
+                    name: "(布里斯托大学)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            }    
+                    alt: "Ms. Wang",
+                    src: "",
+                    name: "帝国理工大学",
+                    desc:  ""
+            }  
          ]
         }
     ],
