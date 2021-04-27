@@ -81,39 +81,11 @@ var parnterData = {
             ],
             colleges:[
                 {
-                    college: "XXX大学",
+                    college: "上海朝夕网络",
                     link: ""
                 },
                 {
-                    college: "XXX大学",
-                    link: ""
-                },
-                {
-                    college: "XXX大学",
-                    link: ""
-                },
-                {
-                    college: "XXX大学",
-                    link: ""
-                },
-                {
-                    college: "XXX大学",
-                    link: ""
-                },
-                {
-                    college: "XXX大学",
-                    link: ""
-                },
-                {
-                    college: "XXX大学",
-                    link: ""
-                },
-                {
-                    college: "XXX大学",
-                    link: ""
-                },
-                {
-                    college: "XXX大学",
+                    college: "国家电网",
                     link: ""
                 }
             ],
