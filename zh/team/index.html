@@ -244,16 +244,17 @@
                     <header id="ecosystem" class="tle-section__header">
                         <h2 class="tle-section__title">{{:name}}</h2>
                     </header>
-                    <div class="tle-section__content">
+                   <!-- <div class="tle-section__content">
                         <div class="tle-section__description">
                             {{for descs}}
                             {{:#data}}
                             {{/for}}
                         </div>
-                    </div>
-                    <!--{{if resource.type == "text"}}
-                    <div class="tle-section__resources">
-                        <h5>Top Resources</h5>
+                    </div> -->
+                  <!--{{if resource.type == "text"}} -->
+                    <div class="tle-section__content">
+                        <div class="tle-section__description">
+                       
                         <ul class="numbered-link-list">
                             {{for resource.details}}
                             <li class="numbered-link-list__item">
@@ -261,12 +262,14 @@
                             </li>
                             {{/for}}
                         </ul>
-                    </div>
-                    {{else resource.type == "image"}}
+                       </div>
+					</div>
+					
+                    <!--{{else resource.type == "image"}}
                     <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
                         <div class="image-grid__inner">
                             <div class="image-grid__grid-item">
-                                {{for resource.details}}
+                                {{for resource1.details1}}
                                 <div class="image-grid__image">
                                     <img class="lazyloaded" data-src="{{:linkUrl}}"
                                          src="{{:linkUrl}}"

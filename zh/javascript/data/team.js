@@ -1,36 +1,5 @@
 var teamData = {
-    mainContent: {
-        items: 
-            "执行委员会",
-        itemContents: [
-               {
-                    alt: "李博士",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  "entrepreneurship on Earth"
-               },
-                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-               },
-                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-               },
-                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-               }
-               
-        ]
-    },
-	
+ 	
     sections: [
         {
             name: "区块链研究团队",
@@ -41,27 +10,23 @@ var teamData = {
                 type: "text",
                 details: [
                     {
-                        title: "张三",
+                        title: "Dr. Lee (可信计算环境TEEs和区块链，隐私合约)",
                         linkUrl: "https://innovation.mit.edu/resources/"
                     },
                     {
-                        title: "热点排行榜2",
+                        title: "Dr. Pa (IOT和区块链的软件架构研究，软件可靠性)",
                         linkUrl: "https://alum.mit.edu/"
                     },
                     {
-                        title: "热点排行榜",
+                        title: "Dr. Q (共识算法，DAG数据结构)",
                         linkUrl: "https://alum.mit.edu/"
                     },
                     {
-                        title: "热点排行榜",
+                        title: "Dr. C (分布式密钥管理)",
                         linkUrl: "https://alum.mit.edu/"
                     },
                     {
-                        title: "热点排行榜",
-                        linkUrl: "http://entrepreneurship.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜",
+                        title: "Dr. S (零知识证明，密码协议)",
                         linkUrl: "https://alum.mit.edu/"
                     }
                 ]
@@ -74,42 +39,23 @@ var teamData = {
                    "待确认"
             ],
             resource: {
-                type: "image",
+                type: "text",
                 details: [
                     {
-                        title: "团队成员合影",
-                        linkUrl:"../files/images/202003/MIT-Astronaut-Isolation-SL.jpg"
+                        title: "Dr. W（机器学习，计算机视觉）",
+                        linkUrl: ""
+                    },
+                    {
+                        title: "Dr. JX（深度学习，医疗图像分析）",
+                        linkUrl: ""
+                    },
+                    {
+                        title: "Dr. X（模式试别，机器学习）",
+                        linkUrl: ""
                     }
                 ]
             }
         }
-		
-		/*,
-        {
-            name: "孙小风",
-            descs: [
-                "MIT is at the&nbsp;center of one of the most vibrant hubs of innovation and\n" +
-                "                                entrepreneurship on Earth. To make our community the world’s most stimulating and\n" +
-                "                                supportive academic environment for innovation, we offer classes, mentorship, guidance,\n" +
-                "                                and <a href=\"https://innovation.mit.edu/resources/\" target=\"_blank\">resources</a>\n" +
-                "                                tailored for student, faculty, postdoc, and alumni entrepreneurs. We also cultivate the\n" +
-                "                                strength of our regional innovation ecosystem, in part through an ambitious, decade-long\n" +
-                "                                redevelopment initiative in <a href=\"http://kendallsquare.org/\" target=\"_blank\">Kendall\n" +
-                "                                    Square</a>.",
-                "supportive academic environment for innovation, we offer classes, mentorship, guidance," +
-                "                                and <a href=\\\"https://innovation.mit.edu/resources/\\\" target=\\\"_blank\\\">resources</a>" +
-                "                                tailored for student,"
-            ],
-            resource: {
-                type: "image",
-                details: [
-                    {
-                        title: "MIT Alumni Association",
-                        linkUrl:"../files/images/202003/MIT-Astronaut-Isolation-SL.jpg"
-                    }
-                ]
-            }
-        }*/
     ],
 
     section1:[
