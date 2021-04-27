@@ -50,7 +50,7 @@ var teamData = {
                         linkUrl: ""
                     },
                     {
-                        title: "Dr. X（模式试别，机器学习）",
+                        title: "Dr. X（模式识别，机器学习）",
                         linkUrl: ""
                     }
                 ]
@@ -130,7 +130,7 @@ var teamData = {
                 {
                     alt: "Ms. Wang",
                     src: "",
-                    name: "帝国理工大学",
+                    name: "(帝国理工大学)",
                     desc:  ""
             }  
          ]

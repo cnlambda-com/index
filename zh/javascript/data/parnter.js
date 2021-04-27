@@ -24,7 +24,6 @@ var parnterData = {
                     college: "挪威科技大学(挪威)",
                     link: "https://www.ntnu.edu/"
                 },
-
                 {
                     college: "伦敦大学玛丽女王学院(英国)",
                     link: "https://www.qmul.ac.uk/"

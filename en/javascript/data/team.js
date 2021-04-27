@@ -3,33 +3,29 @@ var teamData = {
         {
             name: "Blockchain Research Team",
             descs: [
-                "xxxxxx\n"
+                "Remains to be confirmed."
             ],
             resource: {
                 type: "text",
                 details: [
                     {
-                        title: "Apple",
+                        title: "Dr. Lee (Trusted Execution Environment, TEEs, Blockchains and Privacy Contracts)",
                         linkUrl: "https://innovation.mit.edu/resources/"
                     },
                     {
-                        title: "Top2",
+                        title: "Dr. Pa (IOT, Research on Software Architecture of Blockchain and Software Reliability)",
                         linkUrl: "https://alum.mit.edu/"
                     },
                     {
-                        title: "Top",
+                        title: "Dr. Q (Consensus Algorithm and DAG Data Structure)",
                         linkUrl: "https://alum.mit.edu/"
                     },
                     {
-                        title: "Top",
+                        title: "Dr. C (Distributed Key Management)",
                         linkUrl: "https://alum.mit.edu/"
                     },
                     {
-                        title: "Top",
-                        linkUrl: "http://entrepreneurship.mit.edu/"
-                    },
-                    {
-                        title: "Top",
+                        title: "Dr. S (Zero-Knowledge Proof and Cryptographic Protocol)",
                         linkUrl: "https://alum.mit.edu/"
                     }
                 ]
@@ -39,34 +35,22 @@ var teamData = {
 		{
             name: "Artificial Intelligence Research Team",
             descs: [
-                "xxxxxx\n"
+                "Remains to be confirmed."
             ],
             resource: {
                 type: "text",
                 details: [
                     {
-                        title: "Apple",
-                        linkUrl: "https://innovation.mit.edu/resources/"
+                        title: "Dr. W（Machine Learning and Computer Vision）",
+                        linkUrl: ""
                     },
                     {
-                        title: "Top2",
-                        linkUrl: "https://alum.mit.edu/"
+                        title: "Dr. JX（Deep Learning and Medical Image Analysis）",
+                        linkUrl: ""
                     },
                     {
-                        title: "Top",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "Top",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "Top",
-                        linkUrl: "http://entrepreneurship.mit.edu/"
-                    },
-                    {
-                        title: "Top",
-                        linkUrl: "https://alum.mit.edu/"
+                        title: "Dr. X（Pattern Recognition and Machine Learning）",
+                        linkUrl: ""
                     }
                 ]
             }
@@ -78,28 +62,22 @@ var teamData = {
             "Project Executive Committee",
         itemContents: [
             {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  "entrepreneurship on Earth"
+                    alt: "Dr. Lee",
+                    src: "",
+                    name: "(University of Birmingham)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Dr. W",
+                    src: "",
+                    name: "(National University of Defense Technology)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Dr. X",
+                    src: "",
+					name: "(Univeristy of Oxford)",
+                    desc:  ""
             }    
          ]
         },
@@ -108,28 +86,28 @@ var teamData = {
             "Fund Management Committee",
         itemContents: [
             {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
+                    alt: "Mr. W",
+                    src: "",
                     name: "",
-                    desc:  "entrepreneurship on Earth"
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Dr. Lee",
+                    src: "",
+                    name: "(University of Birmingham)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
+                    alt: "Dr. JX",
+                    src: "",
+                    name: "(Shenzhen University)",
+                    desc:  ""
+            }  ,
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Dr. S",
+                    src: "",
+                    name: "(Norwegian University of Science and Technology)",
+                    desc:  ""
             }    
             ]
         },
@@ -137,265 +115,25 @@ var teamData = {
             items: "Administrative Team",
             itemContents: [
             {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  "entrepreneurship on Earth"
+                    alt: "Ms. Zhang",
+                    src: "",
+                    name: "(Nankai University)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
+                    alt: "Ms. Xiao",
+                    src: "",
+                    name: "(University of Bristol)",
+                    desc:  ""
             },
                 {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            }    
+                    alt: "Ms. Wang",
+                    src: "",
+                    name: "(Imperial College London)",
+                    desc:  ""
+            }     
          ]
         }
 
     ],
-
-    mainContent: {
-        items: 
-            "Project Executive Committee",
-        itemContents: [
-            {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  "entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            }    
-         ]
-    },
-	    mainContent1: {
-        items: 
-            "Fund Management Committee",
-        itemContents: [
-            {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  "entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            },
-                {
-                    alt: "aaaaa",
-                    src: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg",
-                    name: "",
-                    desc:  " entrepreneurship on Earth"
-            }    
-            ]
-        /*
-        itemContents: [
-            "<div class='gallery-images js-gallery-images'>" +
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                      "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                        "<p style='text-align: center'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                     "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                        "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                         "<p style='text-align: center'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                    "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                    "<img class='gallery-image__media lazyloaded'  style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                "<p style='text-align: center'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                    "</div>"+
-                     "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                        "<div class='gallery-image__crop' tabindex='-1'>"+
-                            "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                            "<p style='text-align: center'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                        "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                    "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                    "<p style='text-align: center'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                    "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                    "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                    "<p style='text-align: center'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                    "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-                "<figure class='js-gallery-image gallery-image gallery-image--1x1 loaded' tabindex='0'>"+
-                    "<div class='gallery-image__crop' tabindex='-1'>"+
-                    "<img class='gallery-image__media lazyloaded' style='cursor:pointer;' alt='Conducting research in a biological engineering lab' src='../files/images/202003/MIT-Astronaut-Isolation-SL.jpg'>"+
-                        "<p style='text-align: center'><a href=\"https://cnlambda.com\" target=\"_blank\"> Rujia Li </a> <br> Leader and coordinator,<br> University of Birmingham</p>"+
-                    "</div>"+
-                    "<figcaption class='gallery-image__caption'>Conducting research in a biological engineering lab</figcaption>"+
-                "</figure>"+
-            "</div>"
-        ]
-        */
-    }
-	/*,
-    sections: [
-        {
-            name: "王菲菲",
-            descs: [
-                "MIT is at the&nbsp;center of one of the most vibrant hubs of innovation and\n" +
-                "                                entrepreneurship on Earth. To make our community the world’s most stimulating and\n" +
-                "                                supportive academic environment for innovation, we offer classes, mentorship, guidance,\n" +
-                "                                and <a href=\"https://innovation.mit.edu/resources/\" target=\"_blank\">resources</a>\n" +
-                "                                tailored for student, faculty, postdoc, and alumni entrepreneurs. We also cultivate the\n" +
-                "                                strength of our regional innovation ecosystem, in part through an ambitious, decade-long\n" +
-                "                                redevelopment initiative in <a href=\"http://kendallsquare.org/\" target=\"_blank\">Kendall\n" +
-                "                                    Square</a>.",
-                "supportive academic environment for innovation, we offer classes, mentorship, guidance,\\n\" +\n" +
-                "                                and <a href=\\\"https://innovation.mit.edu/resources/\\\" target=\\\"_blank\\\">resources</a>\\n\" +\n" +
-                "                                tailored for student,"
-            ],
-            resource: {
-                type: "text",
-                details: [
-                    {
-                        title: "热点排行榜1",
-                        linkUrl: "https://innovation.mit.edu/resources/"
-                    },
-                    {
-                        title: "热点排行榜2",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜2Alumni Career Resources",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜2Lifelong Learning",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜2Give to MIT",
-                        linkUrl: "http://entrepreneurship.mit.edu/"
-                    },
-                    {
-                        title: "热点排行榜2MIT Alumni Association",
-                        linkUrl: "https://alum.mit.edu/"
-                    }
-                ]
-            }
-        },
-        {
-            name: "章子怡",
-            descs: [
-                "MIT is at the&nbsp;center of one of the most vibrant hubs of innovation and\n" +
-                "                                entrepreneurship on Earth. To make our community the world’s most stimulating and\n" +
-                "                                supportive academic environment for innovation, we offer classes, mentorship, guidance,\n" +
-                "                                and <a href=\"https://innovation.mit.edu/resources/\" target=\"_blank\">resources</a>\n" +
-                "                                tailored for student, faculty, postdoc, and alumni entrepreneurs. We also cultivate the\n" +
-                "                                strength of our regional innovation ecosystem, in part through an ambitious, decade-long\n" +
-                "                                redevelopment initiative in <a href=\"http://kendallsquare.org/\" target=\"_blank\">Kendall\n" +
-                "                                    Square</a>.",
-                "supportive academic environment for innovation, we offer classes, mentorship, guidance,\\n\" +\n" +
-                "                                and <a href=\\\"https://innovation.mit.edu/resources/\\\" target=\\\"_blank\\\">resources</a>\\n\" +\n" +
-                "                                tailored for student,"
-            ],
-            resource: {
-                type: "text",
-                details: [
-                    {
-                        title: "MIT Alumni Association",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "Alumni Directory",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "Alumni Career Resources",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "Lifelong Learning",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "Give to MIT",
-                        linkUrl: "https://alum.mit.edu/"
-                    },
-                    {
-                        title: "MIT Alumni Association",
-                        linkUrl: "https://alum.mit.edu/"
-                    }
-                ]
-            }
-        },
-        {
-            name: "孙小风",
-            descs: [
-                "MIT is at the&nbsp;center of one of the most vibrant hubs of innovation and\n" +
-                "                                entrepreneurship on Earth. To make our community the world’s most stimulating and\n" +
-                "                                supportive academic environment for innovation, we offer classes, mentorship, guidance,\n" +
-                "                                and <a href=\"https://innovation.mit.edu/resources/\" target=\"_blank\">resources</a>\n" +
-                "                                tailored for student, faculty, postdoc, and alumni entrepreneurs. We also cultivate the\n" +
-                "                                strength of our regional innovation ecosystem, in part through an ambitious, decade-long\n" +
-                "                                redevelopment initiative in <a href=\"http://kendallsquare.org/\" target=\"_blank\">Kendall\n" +
-                "                                    Square</a>.",
-                "supportive academic environment for innovation, we offer classes, mentorship, guidance," +
-                "                                and <a href=\\\"https://innovation.mit.edu/resources/\\\" target=\\\"_blank\\\">resources</a>" +
-                "                                tailored for student,"
-            ],
-            resource: {
-                type: "image",
-                details: [
-                    {
-                        title: "MIT Alumni Association",
-                        linkUrl: "../files/images/202003/MIT-Astronaut-Isolation-SL.jpg"
-                    }
-                ]
-            }
-        }
-    ] */
 };

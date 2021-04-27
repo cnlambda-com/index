@@ -3,7 +3,7 @@ var parnterData = {
         {
             title: "Academia" ,
             details: [
-                "Cryptography is a branch of mathematics and computer science, and its principles involve information theory. Ronald Levist, a renowned cryptologist, explains that \"cryptography is about how to communicate in an environment where enemies exist\", which, from an engineering point of view, is equivalent to the difference between cryptography and pure mathematics. The development of cryptography has promoted computer science, especially in the technology used in computer and network security, such as access control and the confidentiality of information." 
+                "Cnlambda adhering to the purpose of \"Research Autonomy, Academic Freedom\", regarding promoting the application of research results and accelerating the training of professional talents as our primary goals." 
             ],
             images:[
                 {
@@ -66,7 +66,7 @@ var parnterData = {
         {
             title: "Industry" ,
             details: [            
-                "Cryptography is a branch of mathematics and computer science, and its principles involve information theory. Ronald Levist, a renowned cryptologist, explains that \"cryptography is about how to communicate in an environment where enemies exist\", which, from an engineering point of view, is equivalent to the difference between cryptography and pure mathematics. The development of cryptography has promoted computer science, especially in the technology used in computer and network security, such as access control and the confidentiality of information." 
+                "Cnlambda attaches great importance to the practical application of technical basic research, and is committed to providing theoretically supported technical solutions and products for the industry to promote the development of the entire cryptography and AI industry." 
             ],
             images:[
                 {
@@ -80,32 +80,11 @@ var parnterData = {
             ],
             colleges:[
                 {
-                    college: "XXX University",
+                    college: "Zhaoxi Network Shanghai",
                     link: ""
                 },
                 {
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
-                    link: ""
-                },{
-                    college: "XXX University",
+                    college: "State Grid Corporation of China",
                     link: ""
                 }
             ],

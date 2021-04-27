@@ -231,76 +231,80 @@
         {{/if}}
        {{/for}}
 		
-        {{for sections}}
-        <section class="tle-section tle-section--alt-layout ">
-            <div class="tle-container">
-                <div class="tle-section__inner tle-padding">
-                    <header id="ecosystem" class="tle-section__header">
-                        <h2 class="tle-section__title">{{:name}}</h2>
-                    </header>
-                    <div class="tle-section__content">
-                        <div class="tle-section__description">
-                            {{for descs}}
-                            <p>{{:#data}}</p>
-                            {{/for}}
-                        </div>
-                    </div>
-                    {{if resource.type == "text"}}
-                    <div class="tle-section__resources">
-                        <h5>Top Resources</h5>
-                        <ul class="numbered-link-list">
-                            {{for resource.details}}
-                            <li class="numbered-link-list__item">
-                                <a href="{{:linkUrl}}" target="_blank">{{:title}}</a>
-                            </li>
-                            {{/for}}
-                        </ul>
-                    </div>
-                    {{else resource.type == "image"}}
-                    <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
-                        <div class="image-grid__inner">
-                            <div class="image-grid__grid-item">
-                                {{for resource.details}}
-                                <div class="image-grid__image">
-                                    <img class="lazyloaded" data-src="{{:linkUrl}}"
-                                         src="{{:linkUrl}}"
-                                         alt="{{:title}}">
-                                </div>
-                                {{/for}}
-                            </div>
-                        </div>
-                    </figure>
-                    {{else}}
-                    {{/if}}
-                </div>
-            </div>
-        </section>
-        {{/for}}
+       {{for sections}}
+       <section class="tle-section tle-section--alt-layout ">
+           <div class="tle-container">
+               <div class="tle-section__inner tle-padding">
+                   <header id="ecosystem" class="tle-section__header">
+                       <h2 class="tle-section__title">{{:name}}</h2>
+                   </header>
+                  <!-- <div class="tle-section__content">
+                       <div class="tle-section__description">
+                           {{for descs}}
+                           {{:#data}}
+                           {{/for}}
+                       </div>
+                   </div> -->
+                 <!--{{if resource.type == "text"}} -->
+                   <div class="tle-section__content">
+                       <div class="tle-section__description">
+                      
+                       <ul class="numbered-link-list">
+                           {{for resource.details}}
+                           <li class="numbered-link-list__item">
+                               <a href="{{:linkUrl}}" target="_self">{{:title}}</a>
+                           </li>
+                           {{/for}}
+                       </ul>
+                      </div>
+                   </div>
+                   
+                   <!--{{else resource.type == "image"}}
+                   <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
+                       <div class="image-grid__inner">
+                           <div class="image-grid__grid-item">
+                               {{for resource1.details1}}
+                               <div class="image-grid__image">
+                                   <img class="lazyloaded" data-src="{{:linkUrl}}"
+                                        src="{{:linkUrl}}"
+                                        alt="{{:title}}">
+                               </div>
+                               {{/for}}
+                           </div>
+                       </div>
+                   </figure>
+                   {{else}}
+                   {{/if}}!-->
+               </div>
+           </div>
+       </section>
+       {{/for}}	
 
-        {{for section1}}
-       {{if #index>1}}
-       <section class="tle-section"> 
-           <div class="tle-container"> 
-            <div class="tle-section__inner tle-padding">
-             <header id="prospective-graduate-students" class="tle-section__header">
-              <h2 class="tle-section__title">{{:items}}</h2>
-             </header>
-             <div class="js-view-dom-id"> 
-              <div class="tle-section__index"> 
-               <div class="index"> 
-                <ul class="index__list"> 
-                {{for itemContents}}
-                    <li class="index__item"> <a href='{{:src}}' target="_blank" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
-                {{/for}}
-                </ul> 
-               </div> 
-              </div>      
-             </div> 
+
+       {{for section1}}
+      {{if #index>1}}
+      <section class="tle-section"> 
+          <div class="tle-container"> 
+           <div class="tle-section__inner tle-padding">
+            <header id="prospective-graduate-students" class="tle-section__header">
+             <h2 class="tle-section__title">{{:items}}</h2>
+            </header>
+            <div class="js-view-dom-id"> 
+             <div class="tle-section__index"> 
+              <div class="index"> 
+               <ul class="index__list"> 
+               {{for itemContents}}
+                   <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> {{:name}}</span></a> </li> 
+               {{/for}}
+               </ul> 
+              </div> 
+             </div>      
             </div> 
            </div> 
-          </section>
-        {{/if}}
-       {{/for}}
+          </div> 
+         </section>
+       {{/if}}
+      {{/for}}
 
     </div>
 </main>
