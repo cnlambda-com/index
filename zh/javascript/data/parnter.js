@@ -51,10 +51,6 @@ var parnterData = {
                 {
                     college: "纽卡斯尔大学(英国)",
                     link: "https://www.ncl.ac.uk/"
-                },
-                {
-                    college: "国防科技大学(中国)",
-                    link: "https://www.nudt.edu.cn/"
                 }
             ],
             resource: {

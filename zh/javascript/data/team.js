@@ -72,7 +72,7 @@ var teamData = {
                 {
                     alt: "Dr. W",
                     src: "",
-                    name: "(国防科技大学)",
+                    name: "",
                     desc:  ""
             },
                 {
