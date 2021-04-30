@@ -88,7 +88,7 @@ var teamData = {
             {
                     alt: "Mr. W",
                     src: "",
-                    name: "",
+                    name: "(University of Birmingham)",
                     desc:  ""
             },
                 {

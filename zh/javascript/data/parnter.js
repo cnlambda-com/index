@@ -51,7 +51,7 @@ var parnterData = {
                 {
                     college: "纽卡斯尔大学(英国)",
                     link: "https://www.ncl.ac.uk/"
-                }
+                },
             ],
             resource: {
                 type: "vedio",

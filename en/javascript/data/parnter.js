@@ -51,7 +51,7 @@ var parnterData = {
                 {
                     college: "Newcastle University(British)",
                     link: "https://www.ncl.ac.uk/"
-                }
+                },
             ],
             resource: {
                 type: "vedio",
