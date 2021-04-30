@@ -70,7 +70,7 @@ var teamData = {
                 {
                     alt: "Dr. W",
                     src: "",
-                    name: "(National University of Defense Technology)",
+                    name: "(University of Birmingham)",
                     desc:  ""
             },
                 {
@@ -88,7 +88,7 @@ var teamData = {
             {
                     alt: "Mr. W",
                     src: "",
-                    name: "",
+                    name: "(University of Birmingham)",
                     desc:  ""
             },
                 {

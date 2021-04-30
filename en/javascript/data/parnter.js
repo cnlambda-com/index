@@ -52,10 +52,6 @@ var parnterData = {
                     college: "Newcastle University(British)",
                     link: "https://www.ncl.ac.uk/"
                 },
-                {
-                    college: "National University of Defense Technology(China)",
-                    link: "https://www.nudt.edu.cn/"
-                }
             ],
             resource: {
                 type: "vedio",

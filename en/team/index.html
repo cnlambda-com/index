@@ -218,9 +218,9 @@
               <div class="tle-section__index"> 
                <div class="index"> 
                 <ul class="index__list"> 
-                {{for itemContents}}
-                    <li class="index__item"> <a href='{{:src}}' target="_blank" rel="noopener">{{:alt}}<span class="visually"> (opens in new window)</span></a> </li> 
-                {{/for}}
+                    {{for itemContents}}
+                    <li class="index__item"> <a href='{{:src}}' target="_self" rel="noopener">{{:alt}}<span class="visually"> {{:name}}</span></a> </li> 
+                    {{/for}}
                 </ul> 
                </div> 
               </div>      
