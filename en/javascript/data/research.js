@@ -51,6 +51,19 @@ var researchData = {
                 linkUrl: "../files/images/research/gra.jpg",
                 desc: ""
             }
+        },
+        {
+            title: "User-friendly Blockchain Address Technology",
+            url:"../news/leon.html",
+            contents:[
+            "Currently, the development of blockchain changes with each passing day, there appear many valuable applications. Focusing on the blockchain address, it is in the form of irregular hexadecimal encoding. Which brings the problem: the address is difficult to remember, easy confusion, and the ease of use is poor! Moreover, it is impossible to provide personalized customization for individuals and companies, for example: use the name, email address, domain name, or other differentiated identifier as blockchain address."
+            +"<p><a class=\"tle-section__cta\" href=\"../news/leon.html\">Learn more\n</a></p>" 
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/leon.png",
+                desc: ""
+            }
         }
 		
     ]
