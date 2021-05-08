@@ -19,7 +19,7 @@ var aboutData = {
                 }
             ],
             resource_cap:"Charter download",
-            resource_src:"../files/documents/Articles_of_Association.zip",
+            resource_src:"../files/documents/Articles_of_Association.docx",
             pic_alt:"Team logo",
             pic_data_src:"../files/images/202003/4.png",
             pic_src:"../files/images/logo.png",

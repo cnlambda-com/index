@@ -19,7 +19,7 @@ var aboutData = {
                 }
             ],
             resource_cap:"章程下载",
-            resource_src:"../files/documents/Articles_of_Association.zip",
+            resource_src:"../files/documents/组织章程.docx",
             pic_alt:"团队logo",
             pic_data_src:"../files/images/202003/4.png",
             pic_src:"../files/images/logo.png",
