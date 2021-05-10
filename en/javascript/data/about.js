@@ -25,7 +25,7 @@ var aboutData = {
             pic_src:"../files/images/logo.png",
             figcap_text:"team logo",
             figcap_button:"Download",
-            figcap_src:"../files/images/202003/4.png" 
+            figcap_src:"../files/images/CNlambda_logo.zip" 
                 
             
         },

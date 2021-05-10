@@ -25,7 +25,7 @@ var aboutData = {
             pic_src:"../files/images/logo.png",
             figcap_text:"研究团队标识",
             figcap_button:"下载",
-            figcap_src:"../files/images/202003/4.png" 
+            figcap_src:"../files/images/CNlambda_logo.zip" 
                 
             
         },
