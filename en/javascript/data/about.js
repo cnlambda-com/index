@@ -21,8 +21,8 @@ var aboutData = {
             resource_cap:"Charter download",
             resource_src:"../files/documents/Articles_of_Association.docx",
             pic_alt:"Team logo",
-            pic_data_src:"../files/images/202003/4.png",
-            pic_src:"../files/images/logo.png",
+            pic_data_src:"../files/images/202003/structure.png",
+            pic_src:"../files/images/202003/structure.png",
             figcap_text:"team logo",
             figcap_button:"Download",
             figcap_src:"../files/images/CNlambda_logo.zip" 

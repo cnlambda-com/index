@@ -21,8 +21,8 @@ var aboutData = {
             resource_cap:"章程下载",
             resource_src:"../files/documents/组织章程.docx",
             pic_alt:"团队logo",
-            pic_data_src:"../files/images/202003/4.png",
-            pic_src:"../files/images/logo.png",
+            pic_data_src:"../files/images/202003/structure.png",
+            pic_src:"../files/images/202003/structure.png",
             figcap_text:"研究团队标识",
             figcap_button:"下载",
             figcap_src:"../files/images/CNlambda_logo.zip" 
