@@ -89,17 +89,36 @@ var aboutData = {
             images:[
                 {
                     data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    alt:"MIT’s first building was in Boston, before the move to Cambridge in 1916."
+                    src:"../files/images/202003/4.png",
+                    alt:"MIT’s first building was in Boston, before the move to Cambridge in 1916.",
+                    caption:{
+                        figcap_text:"密码学研究团队标识",
+                        figcap_button:"下载",
+                        figcap_src:"../files/images/Cryptography_Research_Group.zip" 
+                    }
                 },
                 {
                     data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    alt:"Aesop’s Fables II,” by Mark di Suvero, is part of MIT’s public art collection."
+                    src:"../files/images/202003/4.png",
+                    alt:"Aesop’s Fables II,” by Mark di Suvero, is part of MIT’s public art collection.",
+                    caption:{
+                        figcap_text:"人工智能研究团队标识",
+                        figcap_button:"下载",
+                        figcap_src:"../files/images/AI_Research_Group.zip"      
+                    }
                 }
             ],
             captions:[
-                "xxxxx","xxxxx"
+                {
+                    figcap_text:"密码学研究团队标识",
+                    figcap_button:"下载",
+                    figcap_src:"../files/images/Cryptography_Research_Group.zip" 
+                },
+                {
+                    figcap_text:"人工智能研究团队标识",
+                    figcap_button:"下载",
+                    figcap_src:"../files/images/AI_Research_Group.zip"               
+                }
             ]
         },
         {

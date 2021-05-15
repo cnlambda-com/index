@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js theme--nimbus-3000">
+<html lang="en" class="no-js theme--orange">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="copyright" content="Copyright: cnlambda, 2021. Design borrowed from MIT - http://web.mit.edu/">
+    <meta name="copyright" content="Copyright: cnlambda, 2021，网站设计源于MIT - http://web.mit.edu/">
     <link rel="shortcut icon" href="../themes/cnlambda/favicon.ico" type="image/vnd.microsoft.icon"/>
 
-    <title>About  | Enterprise-focused Cryptography Research Group</title>
+    <title>研究  | 面向企业应用的密码学研究组</title>
     <link rel="apple-touch-icon" sizes="57x57" href="../themes/cnlambda/assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../themes/cnlambda/assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../themes/cnlambda/assets/favicon/apple-icon-72x72.png">
@@ -31,17 +31,24 @@
     <!--[if lt IE 9]>
     <link rel="stylesheet" media="all" href="/themes/cnlambda/assets/css/ie-7-8.css?q29575"/>
     <![endif]-->
+    <style type="text/css">
+        .p1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        }
+        </style>
+       
 </head>
-<body class="tle about" style="min-height: 800px;">
+<body class="tle research" style="min-height: 800px;">
 <a href="#main" class="skip-to-content">Skip to content ↓</a>
 <div id="notification">
     <notification v-if="isHomepage"></notification>
 </div>
-
-
 <nav class="site-nav js-site-nav">
     <div class="site-nav__width">
-
         <a class="site-nav__logo-link" href="../home/index.html">
             <svg width="85" height="45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
@@ -59,31 +66,28 @@
                     <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="36" id="svg_3" y="36.041641" x="25.520871" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">N</text>
                 </g>
             </svg>
-
-            <h1 class="visually-hidden">Enterprise-focused Cryptography Research Group</h1>
+            <h1 class="visually-hidden">面向企业应用的密码学研究组</h1>
         </a>
 
 
         <ul class="site-nav__links">
             <li class="site-nav__link-item menu-item--collapsed">
                 <a href="../home/index.html" class="site-nav__link js-nav-item menu-item--collapsed"
-                   data-drupal-link-system-path="node/11">Home</a>
+                   data-drupal-link-system-path="node/11">主页</a>
             </li>
             <li class="site-nav__link-item menu-item--collapsed">
-                <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed"
-                   data-drupal-link-system-path="node/12">Research</a>
+                <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
+                   data-drupal-link-system-path="node/12">研究</a>
             </li>
             <li class="site-nav__link-item">
-                <a href="../team/index.html" class="site-nav__link js-nav-item" 
-                data-drupal-link-system-path="node/14">Team</a>
+                <a href="../team/index.html" class="site-nav__link js-nav-item" data-drupal-link-system-path="node/14">团队</a>
             </li>
             <li class="site-nav__link-item menu-item--active-trail">
-                <a href="../team/index.html" class="site-nav__link js-nav-item menu-item--active-trail"
-                   data-drupal-link-system-path="node/13">Parnter</a>
+                <a href="../parnter/index.html" class="site-nav__link js-nav-item menu-item--active-trail"
+                   data-drupal-link-system-path="node/13">合作</a>
             </li>
             <li class="site-nav__link-item">
-                <a href="../about/index.html" class="site-nav__link js-nav-item menu-item--active-trail is-active"
-                   data-drupal-link-system-path="node/16">About</a>
+                <a href="../about/index.html" class="site-nav__more-link" data-drupal-link-system-path="node/16">关于</a>
             </li>
 
 
@@ -92,21 +96,21 @@
 
         <div class="site-nav__buttons" style="padding-right: 85px;">
             <button class="site-nav__mobile-trigger js-mobile-nav-trigger"><span
-                    class="js-mobile-nav-trigger-text">Menu</span> <span
+                    class="js-mobile-nav-trigger-text">导航</span> <span
                     class="site-nav__arrow js-mobile-nav-trigger-arrow">↓</span></button>
         </div>
 
         <div class="site-nav__buttons">
             <select id="language" style="min-width: 83px; padding: 15px 15px 15px 5px">
-                <option value="zh">中文</option>
-                <option value="en" selected>EN</option>
+                <option value="zh" selected>中文</option>
+                <option value="en">EN</option>
             </select>
         </div>
 
     </div>
 </nav>
 
-<div id="about-container"></div>
+<div id="research-container"></div>
 <footer class="site-footer">
     <a href="../home/index.html" class="site-footer__logo-link">
         <svg width="85" height="45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -125,28 +129,28 @@
                 <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="36" id="svg_3" y="36.041641" x="25.520871" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">N</text>
             </g>
         </svg>
-        <span class="visually-hidden">Massachusetts Institute of Technology</span>
+        <span class="visually-hidden">面向企业应用的密码学研究组</span>
     </a>
     <ul class="site-footer__nav-mod">
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../education/index.html">Home</a>
+            <a class="site-footer__nav__link js-nav-item " href="../home/index.html">主页</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../research/index.html">Research</a>
+            <a class="site-footer__nav__link js-nav-item " href="../research/index.html">研究</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../team/index.html">Team</a>
+            <a class="site-footer__nav__link js-nav-item " href="../team/index.html">团队</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">Parnter</a>
+            <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">合作</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../about/index.html">About</a>
+            <a class="site-footer__nav__link js-nav-item " href="../about/index.html">关于</a>
         </li>
     </ul>
 
     <div class="site-footer__cta-mod">
-        <a class="site-footer__join-us-link" href="?#contact">
+        <a class="site-footer__join-us-link" href="../about/index.html?#contact">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 16 16"
                  class="arrow-northeast site-footer__join-us-icon">
@@ -156,174 +160,154 @@
                 </g>
             </svg>
 
-            <span>Security for the enterprise.</span></a>
+            <span>加入我们&nbsp;&nbsp;为企业数字安全加持.</span></a>
     </div>
 
     <div class="site-footer__utility-mod">
         <p class="site-footer__name">
-            <a href="../index.html">Enterprise-focused Cryptography Research Group</a>
+            <a href="../home/index.html">面向企业应用的密码学研究组</a>
         </p>
         <div class="site-footer__contact-info">
             <a href="https://map.baidu.com/poi/%E5%8D%97%E5%B1%B1%E6%99%BA%E5%9B%AD-A7%E6%A0%8B/@12691818.462550761,2567194.175,15.75z?uid=53aaff3b1ffbb23b07026f2e&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&querytype=detailConInfo&da_src=shareurl"
-               target="_blank" class="site-footer__contact-info-link">GE Fogg Building, Mile End Rd, Bethnal Green, London
-            </a>
+               target="_blank" class="site-footer__contact-info-link">深圳市南山区南山智园A7栋</a>
         </div>
         <p>
-			Copyright &copy; <a href="http://cnlambda.com/">Cnlambda</a> 2021; Design borrowed from <a href="http://web.mit.edu/" target="_blank">MIT</a>
+             Copyright &copy; <a href="http://cnlambda.com/">Cnlambda</a> 2021; 网站设计源于 <a href="http://web.mit.edu/" target="_blank">MIT</a>
         </p>
+
+
     </div>
 </footer>
+<script src="../themes/cnlambda/assets/js/modernizr_q29575.js"></script>
 <script src="../javascript/js/jquery-3.2.1.min.js"></script>
 <script src="../javascript/js/jsviews.min.js"></script>
 <script src="../javascript/commonTemplate.js"></script>
-<script src="../javascript/data/about.js"></script>
-<script src="../themes/cnlambda/assets/js/modernizr_q29575.js"></script>
+<script src="../javascript/data/research.js"></script>
 
 <!--[if gt IE 8]><!-->
 <script src="../themes/cnlambda/assets/js/main_q29575.js"></script>
 <!--<![endif]-->
-
 <!--[if lt IE 9]>
 <script src="/themes/cnlambda/assets/js/ie-7-8.js?q29575"></script>
 <![endif]-->
+
 <script type="text/javascript">
     $(function () {
-        renderTemplate("aboutTmpl", aboutData, "about-container");
+        renderTemplate("researchTmpl", researchData, "research-container");
     });
-	
-    var $root = $('html, body');
-	function toWhere(id){
-		if (!id || id === 0) {
-		  $root.animate({ scrollTop: 0 }, 200)
-		}
-		const scrollHeight = $('#' + id).offset().top
-		$root.animate({ scrollTop: scrollHeight - 60 }, 200)
-	}
-
-	$(function () {
-	    toWhere(window.location.hash.slice(1))
-	})
 </script>
+
 </body>
 </html>
-<script id="aboutTmpl" type="text/x-jsrender">
-    <main class="tle-main page-about-mit" id="main" tabindex="0" aria-live="polite">
-        <div data-drupal-messages-fallback class="hidden"></div>
-        <div class="tle-content-mod">
-            <section class="tle-gutter-container">
-                <div class="tle-container">
-                    <header class="tle-padding">
-                        <div class="tle-header__intro">
-                            <ul class="breadcrumbs">
-                                <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">Home</a></li>
-                                <li class="breadcrumb"><span>&nbsp;About</span></li>
-                            </ul>
-                            <div class="tle-gutter">
-                                <h2 class="tle-gutter__title"><span>About</span></h2>
-                                <div class="tle-gutter__bg"></div>
-                            </div>
+<script id="researchTmpl" type="text/x-jsrender">
+    <main class="tle-main page-research" id="main" tabindex="0" aria-live="polite">
+    <div data-drupal-messages-fallback class="hidden"></div>
+    <div class="tle-content-mod">
+        <section class="tle-gutter-container">
+            <div class="tle-container">
+                <header class="tle-padding">
+                    <div class="tle-header__intro">
+                        <ul class="breadcrumbs">
+                            <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">主页</a></li>
+                            <li class="breadcrumb"><span>&nbsp;产品</span></li>
+                        </ul>
+                        <div class="tle-gutter">
+                            <h2 class="tle-gutter__title"><span>产品</span></h2>
+                            <div class="tle-gutter__bg"></div>
                         </div>
-                    </header>
+                    </div>
+                </header>
+            </div>
+       </section>
+
+       
+<section class="tle-gutter-container">
+ <div class="tle-container">
+   <div class="tle-section__inner tle-padding">
+           <header id="centers" class="tle-section__header">
+       <h2 class="tle-section__title">产品</h2>
+     </header>
+     
+     
+               <div class="tle-section__content">
+
+                     <div class="tle-section__description">
+             <p>产品的简单介绍</p>
+
+<p><a class="tle-section__cta" href="/research/centers-labs-programs/">查看产品详情</a></p>
+            </div>
+         
+                 </div>
+       
+                 
+       
+                <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
+         <div class="image-grid__inner">
+                         <div class="image-grid__grid-item">
+               <div class="image-grid__image">
+                 <img class="lazyloaded"  data-src="" src="" alt="产品1">
+               </div>
+               <figcaption class="image-grid__captions" aria-hidden="true">
+                                   <span class="image-grid__caption">
+                                       产品1
+                                    </span>
+             </figcaption>
+             </div>
+                     </div>
+       </figure>
+
+   </div>
+ </div>
+</section>
+             
+
+
+
+
+<section class="tle-section " 
+>
+ <div class="tle-container">
+   <div class="tle-section__inner tle-padding">
+           <header id="collaborating" class="tle-section__header">
+       <h2 class="tle-section__title">产品</h2>
+     </header>
+     
+     
+               <div class="tle-section__content">
+
+                     <div class="tle-section__description">
+             <p>产品的简单介绍</p>
+
+<p><a class="tle-section__cta" href="/research/research-alliances/">查看产品详情</a></p>
+            </div>
+         
+                 </div>
+       
+                 
+       
+                <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
+                <div class="image-grid__inner">
+                         <div class="image-grid__grid-item">
+               <div class="image-grid__image">
+                 <img class="lazyloaded"  data-src="" src="" alt="产品2">
+               </div>
+               <figcaption class="image-grid__captions" aria-hidden="true">
+                                   <span class="image-grid__caption">
+                                       产品2
+                                    </span>
+                </figcaption>
+                            </div>
                 </div>
-            </section>
-            
-            {{for sections}}
-            {{if secType == 'about'}}
-            <section class="tle-gutter-container">
-		   <div class="tle-container"> 
-			<div class="tle-section__inner tle-padding">
-             <header id="mission" class="tle-section__header"> 
-                <h2 class="tle-section__title">{{:title}}</h2> 
-               </header> 
-			 <div class="tle-section__content"> 
-			  <div class="tle-section__description"> 
-                <p>{{:details}}</p> 
-                {{for paragraphs}}
-                <h4>{{:title}}</h4> 
-                <p>{{:details}}</p>
-                {{/for}}
-                <a href="{{:resource_src}}" download="CNlambda-document"><span>{{:resource_cap}}</span></a>
-			  </div> 
-			 </div> 
-			 <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1"> 
-			  <div class="image-grid__inner"> 
-			   <div class="image-grid__grid-item"> 
-				<div class="image-grid__image"> 
-                    <img class="lazyloaded" data-src="{{:pic_data_src}}" src="{{:pic_src}}" alt="{{:pic_alt}}" />
-				</div> 
-			   </div> 
-			   <div class="image-grid__grid-item">
-                <figcaption class="image-grid__captions" aria-hidden="true"> 
-                    <span class="image-grid__caption">Governance</span>
-                   </figcaption> 
-			   </div> 
-			   </div> 
-			 </figure> 
+                </figure>
 
-             {{else secType=='data'}}
-             <section class="tle-section "> 
-                <div class="tle-container"> 
-                 <div class="tle-section__inner tle-padding">
-                <header id="mission" class="tle-section__header"> 
-                <h2 class="tle-section__title">{{:title}}</h2> 
-                </header> 
-                <div class="tle-column-6"> 
-                {{for data}}
-                <h4>{{:title}}</h4> 
-                    <ul class="data-list"> 
-                        {{for items}}
-                    <li class="data-list__item "> <span class="data-list__label "><span>{{:item}}</span></span> <span class="data-list__value "><span>{{:data}}</span></span></li> 
-                        {{/for}}
-                    </ul> 
-                {{/for}}
-			 </div> 
-             <figure class="image-grid tle-section__image-grid image-grid--mosaic image-grid--2"> 
-                <div class="image-grid__inner"> 
-                    {{for images}}
-                 <div class="image-grid__grid-item"> 
-                  <div class="image-grid__image"> 
-                   <img class="lazyloaded" data-src="{{:data_src}}" src="{{:src}}" alt="{{:alt}}" /> 
-                   <figcaption class="image-grid__captions" aria-hidden="true">
-                    {{:caption.figcap_text}}<a href="{{:caption.figcap_src}}" download="CNlambda-logo"><span class="image-grid__caption">{{:caption.figcap_button}}</span></a>
-                   </figcaption> 
-                  </div> 
-                 </div> 
-                 {{/for}}
-                 <!--
-                    <div class="image-grid__grid-item"> 
-                        <figcaption class="image-grid__captions" aria-hidden="true">
-                         {{for captions}} 
-                         {{:figcap_text}}<a href="{{:figcap_src}}" download="CNlambda-logo"><span class="image-grid__caption">{{:figcap_button}}</span></a>
-                         {{/for}}
-                        </figcaption> 
-                       </div> 
-                 -->
-                </div> 
-               </figure>
-			 
-               {{else secType=='contact'}}
-               <section class="tle-section "> 
-                <div class="tle-container"> 
-                 <div class="tle-section__inner tle-padding">
-                <header id="mission" class="tle-section__header"> 
-                <h2 class="tle-section__title">{{:title}}</h2> 
-                </header> 
-                {{for contact}}
-                <div class="tle-section__content"> 
-                <div class="tle-section__description"> 
-                <h4 id="contact">{{:part}}</h4> 
-                <p>{{:con}} </p> 
-                </div> 
-                </div> 
-             {{/for}}
-            
-			 
-             {{/if}}
-			</div> 
-		   </div> 
-		   </section>
-           {{/for}}
+       
+     
+   </div>
+ </div>
+</section>
 
-        </div>
-    </main>
+
+    </div>
+</main>
+
 </script>

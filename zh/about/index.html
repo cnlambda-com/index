@@ -243,8 +243,8 @@
 				</div> 
 			   </div> 
 			   <div class="image-grid__grid-item">
-                <figcaption class="image-grid__captions" aria-hidden="true"> 
-                    {{:figcap_text}}<a href="{{:figcap_src}}" download="CNlambda-logo"><span class="image-grid__caption">{{:figcap_button}}</span></a>
+                <figcaption class="image-grid__captions" aria-hidden="true">  
+                    <span class="image-grid__caption">治理结构</span>
                    </figcaption> 
 			   </div> 
 			   </div> 
@@ -273,16 +273,21 @@
                  <div class="image-grid__grid-item"> 
                   <div class="image-grid__image"> 
                    <img class="lazyloaded" data-src="{{:data_src}}" src="{{:src}}" alt="{{:alt}}" /> 
+                   <figcaption class="image-grid__captions" aria-hidden="true">
+                    {{:caption.figcap_text}}<a href="{{:caption.figcap_src}}" download="CNlambda-logo"><span class="image-grid__caption">{{:caption.figcap_button}}</span></a>
+                   </figcaption> 
                   </div> 
                  </div> 
                  {{/for}}
-                 <div class="image-grid__grid-item"> 
-                  <figcaption class="image-grid__captions" aria-hidden="true">
-                   {{for captions}} 
-                   <span class="image-grid__caption">{{:#data}} </span> 
-                   {{/for}}
-                  </figcaption> 
-                 </div> 
+                 <!--
+                    <div class="image-grid__grid-item"> 
+                        <figcaption class="image-grid__captions" aria-hidden="true">
+                         {{for captions}} 
+                         {{:figcap_text}}<a href="{{:figcap_src}}" download="CNlambda-logo"><span class="image-grid__caption">{{:figcap_button}}</span></a>
+                         {{/for}}
+                        </figcaption> 
+                       </div> 
+                 -->
                 </div> 
                </figure>
 			 
