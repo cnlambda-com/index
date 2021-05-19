@@ -64,6 +64,19 @@ var researchData = {
                 linkUrl: "../files/images/research/leon.png",
                 desc: ""
             }
+        },
+        {
+            title: "Hardware optimization for zero-knowledge proof",
+            url:"../news/zkp-hardware.html",
+            contents:[
+            "Blockchain is a distributed ledger that is append-only, immutable and public, and it uses a consensus protocol to make every node in the network agree on the same record. While in the traditional blockchain system, such as Bitcoin, Ethereum, all the transactions are public, users’ balances and transaction flows are all transparent, which is not desirable for privacy.  Zero-knowledge proof, which is a cryptographic proof system, is widely used for solving these problems. It can hide the secrets that the prover holds while still give proof that the secret satisfies some properties. For example, in Zerocash, a zero-knowledge proof is used to show that a user has a valid coin while other people cannot tell which valid coin this user has. Thus, by using zero-knowledge proof, a user can spend a coin without telling which coin it is; other parties can only tell the coin is from a large collection of valid coins. Apart from the privacy issues on blockchain systems, zero-knowledge can also be used for verified computations. Users can send fewer data and have less computation on-chain to save the cost of the transaction fee, while the computation can still be verified. For example, in ZK-Rollup systems, the zero-knowledge proof is used to make sure that all the off-chain transactions are computed correctly； namely, a prover generates a proof for the off-line transactions and sends it to the blockchain. The blockchain only needs to verify the proof, and it does not need to verify the transaction one by one, thus saving vast computations."
+            +"<p><a class=\"tle-section__cta\" href=\"../news/zkp-hardware.html\">Learn more\n</a></p>" 
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/Drawing17.png",
+                desc: ""
+            }
         }
 		
     ]
