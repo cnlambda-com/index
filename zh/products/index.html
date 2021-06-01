@@ -76,18 +76,24 @@
                    data-drupal-link-system-path="node/11">主页</a>
             </li>
             <li class="site-nav__link-item menu-item--collapsed">
-                <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
+                <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed"
                    data-drupal-link-system-path="node/12">研究</a>
             </li>
             <li class="site-nav__link-item">
-                <a href="../team/index.html" class="site-nav__link js-nav-item" data-drupal-link-system-path="node/14">团队</a>
+                <a href="../team/index.html" class="site-nav__link js-nav-item" 
+                data-drupal-link-system-path="node/14">团队</a>
+            </li>
+            <li class="site-nav__link-item menu-item--collapsed">
+                <a href="../products/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
+                   data-drupal-link-system-path="node/15">成果</a>
             </li>
             <li class="site-nav__link-item menu-item--active-trail">
                 <a href="../parnter/index.html" class="site-nav__link js-nav-item menu-item--active-trail"
                    data-drupal-link-system-path="node/13">合作</a>
             </li>
             <li class="site-nav__link-item">
-                <a href="../about/index.html" class="site-nav__more-link" data-drupal-link-system-path="node/16">关于</a>
+                <a href="../about/index.html" class="site-nav__more-link" 
+                data-drupal-link-system-path="node/16">关于</a>
             </li>
 
 
@@ -142,6 +148,9 @@
             <a class="site-footer__nav__link js-nav-item " href="../team/index.html">团队</a>
         </li>
         <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../products/index.html">成果</a>
+        </li>
+        <li class="site-footer__nav__link-item">
             <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">合作</a>
         </li>
         <li class="site-footer__nav__link-item">
@@ -182,7 +191,7 @@
 <script src="../javascript/js/jquery-3.2.1.min.js"></script>
 <script src="../javascript/js/jsviews.min.js"></script>
 <script src="../javascript/commonTemplate.js"></script>
-<script src="../javascript/data/research.js"></script>
+<script src="../javascript/data/product.js"></script>
 
 <!--[if gt IE 8]><!-->
 <script src="../themes/cnlambda/assets/js/main_q29575.js"></script>
@@ -193,13 +202,13 @@
 
 <script type="text/javascript">
     $(function () {
-        renderTemplate("researchTmpl", researchData, "research-container");
+        renderTemplate("productTmpl", productData, "research-container");
     });
 </script>
 
 </body>
 </html>
-<script id="researchTmpl" type="text/x-jsrender">
+<script id="productTmpl" type="text/x-jsrender">
     <main class="tle-main page-research" id="main" tabindex="0" aria-live="polite">
     <div data-drupal-messages-fallback class="hidden"></div>
     <div class="tle-content-mod">
@@ -209,10 +218,10 @@
                     <div class="tle-header__intro">
                         <ul class="breadcrumbs">
                             <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">主页</a></li>
-                            <li class="breadcrumb"><span>&nbsp;产品</span></li>
+                            <li class="breadcrumb"><span>&nbsp;成果</span></li>
                         </ul>
                         <div class="tle-gutter">
-                            <h2 class="tle-gutter__title"><span>产品</span></h2>
+                            <h2 class="tle-gutter__title"><span>成果</span></h2>
                             <div class="tle-gutter__bg"></div>
                         </div>
                     </div>
@@ -220,13 +229,13 @@
             </div>
        </section>
 
-       
+{{for sections}} 
 <section class="tle-section tle-section--alt-layout ">
  <div class="tle-container">
    <div class="tle-section__inner tle-padding">
 
 			<header id="centers" class="tle-section__header">
-			<h2 class="tle-section__title">产品</h2>
+			<h2 class="tle-section__title">{{:title}}</h2>
 			</header>
      
      
@@ -239,18 +248,16 @@
 			<div class="tle-section__resources"> 
 			  <h5>Top Resources</h5> 
 			  <ul class="numbered-link-list"> 
-			   <li class="numbered-link-list__item"> <a href="/visitmit">Visit MIT</a> </li> 
-			   <li class="numbered-link-list__item"> <a href="https://www.kendallsq.org" target="_blank">Kendall Square</a> </li> 
-			   <li class="numbered-link-list__item"> <a href="https://www.boston.gov/visiting-boston" target="_blank">Visiting Boston</a> </li> 
-			   <li class="numbered-link-list__item"> <a href="/visitmit">Visit MIT</a> </li> 
-			   <li class="numbered-link-list__item"> <a href="https://www.kendallsq.org" target="_blank">Kendall Square</a> </li> 
-			   <li class="numbered-link-list__item"> <a href="https://www.boston.gov/visiting-boston" target="_blank">Visiting Boston</a> </li> 
+                {{for items}}
+			   <li class="numbered-link-list__item"> <a href="{{:url}}">{{:name}}</a> </li>  
+                {{/for}}
 			  </ul> 
 			 </div> 
        
    </div>
  </div>
 </section>
+{{/for}}
              
 <!--分界线-->
  
@@ -258,71 +265,30 @@
    <div class="tle-container"> 
     <div class="gallery-content"> 
      <div class="gallery-images js-gallery-images"> 
+         {{for figure2x2}}
       <figure class="js-gallery-image gallery-image gallery-image--2x2 loaded" tabindex="0"> 
        <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
+        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="{{:src}}" data-src="{{:src}}" alt="{{:alt}}" src="{{:src}}" /> 
        </div> 
        <figcaption class="gallery-image__caption">
-        description
+        {{:description}}
        </figcaption> 
       </figure> 
+      {{/for}}
+
+      {{for figure1x1}}
       <figure class="js-gallery-image gallery-image gallery-image--1x1 loaded" tabindex="0"> 
-       <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
-       </div> 
-       <figcaption class="gallery-image__caption">
-        description
-       </figcaption> 
+        <div class="gallery-image__crop" tabindex="-1"> 
+            <img class="gallery-image__media lazyloaded" data-flickity-lazyload="{{:src}}" data-src="{{:src}}" alt="{{:alt}}" src="{{:src}}" /> 
+           </div> 
+           <figcaption class="gallery-image__caption">
+            {{:description}}
+           </figcaption> 
       </figure> 
-      <figure class="js-gallery-image gallery-image gallery-image--1x1 loaded" tabindex="0"> 
-       <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
-       </div> 
-       <figcaption class="gallery-image__caption">
-        description
-       </figcaption> 
-      </figure> 
-      <figure class="js-gallery-image gallery-image gallery-image--1x1 loaded" tabindex="0"> 
-       <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
-       </div> 
-       <figcaption class="gallery-image__caption">
-        description
-       </figcaption> 
-      </figure> 
-      <figure class="js-gallery-image gallery-image gallery-image--1x1 loaded" tabindex="0"> 
-       <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
-       </div> 
-       <figcaption class="gallery-image__caption">
-       description
-       </figcaption> 
-      </figure> 
-      <figure class="js-gallery-image gallery-image gallery-image--1x1 loaded" tabindex="0"> 
-       <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
-       </div> 
-       <figcaption class="gallery-image__caption">
-        description
-       </figcaption> 
-      </figure> 
-      <figure class="js-gallery-image gallery-image gallery-image--1x1 loaded" tabindex="0"> 
-       <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
-       </div> 
-       <figcaption class="gallery-image__caption">
-        description
-       </figcaption> 
-      </figure> 
-      <figure class="js-gallery-image gallery-image gallery-image--1x1 loaded" tabindex="0"> 
-       <div class="gallery-image__crop" tabindex="-1"> 
-        <img class="gallery-image__media lazyloaded" data-flickity-lazyload="../files/images/logo.png" data-src="../files/images/logo.png" alt="Studying on Killian Court" src="../files/images/logo.png" /> 
-       </div> 
-       <figcaption class="gallery-image__caption">
-        description
-       </figcaption> 
-      </figure> 
+      {{/for}}
      </div> 
+
+
      <nav class="slider-nav"> 
       <button class="slider-button slider-button--prev js-slider-prev"> 
        <svg viewbox="0 0 22 18" width="22" height="18" xmlns="http://www.w3.org/2000/svg" class="arrow-left slider-button__arrow--prev"> 

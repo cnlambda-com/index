@@ -31,6 +31,16 @@
     <!--[if lt IE 9]>
     <link rel="stylesheet" media="all" href="/themes/cnlambda/assets/css/ie-7-8.css?q29575"/>
     <![endif]-->
+    <style type="text/css">
+        .p1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        }
+        </style>
+       
 </head>
 <body class="tle research" style="min-height: 800px;">
 <a href="#main" class="skip-to-content">Skip to content ↓</a>
@@ -70,20 +80,14 @@
                    data-drupal-link-system-path="node/12">研究</a>
             </li>
             <li class="site-nav__link-item">
-                <a href="../team/index.html" class="site-nav__link js-nav-item" 
-                data-drupal-link-system-path="node/14">团队</a>
-            </li>
-            <li class="site-nav__link-item">
-                <a href="../products/index.html" class="site-nav__link js-nav-item" 
-                data-drupal-link-system-path="node/15">成果</a>
+                <a href="../team/index.html" class="site-nav__link js-nav-item" data-drupal-link-system-path="node/14">团队</a>
             </li>
             <li class="site-nav__link-item menu-item--active-trail">
                 <a href="../parnter/index.html" class="site-nav__link js-nav-item menu-item--active-trail"
                    data-drupal-link-system-path="node/13">合作</a>
             </li>
             <li class="site-nav__link-item">
-                <a href="../about/index.html" class="site-nav__more-link" 
-                data-drupal-link-system-path="node/16">关于</a>
+                <a href="../about/index.html" class="site-nav__more-link" data-drupal-link-system-path="node/16">关于</a>
             </li>
 
 
@@ -138,9 +142,6 @@
             <a class="site-footer__nav__link js-nav-item " href="../team/index.html">团队</a>
         </li>
         <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../products/index.html">成果</a>
-        </li>
-        <li class="site-footer__nav__link-item">
             <a class="site-footer__nav__link js-nav-item " href="../parnter/index.html">合作</a>
         </li>
         <li class="site-footer__nav__link-item">
@@ -168,10 +169,10 @@
         </p>
         <div class="site-footer__contact-info">
             <a href="https://map.baidu.com/poi/%E5%8D%97%E5%B1%B1%E6%99%BA%E5%9B%AD-A7%E6%A0%8B/@12691818.462550761,2567194.175,15.75z?uid=53aaff3b1ffbb23b07026f2e&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&querytype=detailConInfo&da_src=shareurl"
-               target="_self" class="site-footer__contact-info-link">深圳市南山区南山智园A7栋</a>
+               target="_blank" class="site-footer__contact-info-link">深圳市南山区南山智园A7栋</a>
         </div>
         <p>
-            Copyright &copy; <a href="http://cnlambda.com/">Cnlambda</a> 2021; 网站设计源于 <a href="http://web.mit.edu/" target="_blank">MIT</a>
+             Copyright &copy; <a href="http://cnlambda.com/">Cnlambda</a> 2021; 网站设计源于 <a href="http://web.mit.edu/" target="_blank">MIT</a>
         </p>
 
 
@@ -199,75 +200,85 @@
 </body>
 </html>
 <script id="researchTmpl" type="text/x-jsrender">
-    <main class="tle-main page-research" id="main" tabindex="0" aria-live="polite">
-    <div data-drupal-messages-fallback class="hidden"></div>
-    <div class="tle-content-mod">
-        <section class="tle-gutter-container">
-            <div class="tle-container">
-                <header class="tle-padding">
-                    <div class="tle-header__intro">
-                        <ul class="breadcrumbs">
-                            <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">主页</a></li>
-                            <li class="breadcrumb"><span>&nbsp;基于指纹特征的随机验证码增强技术</span></li>
-                        </ul>
-                        <div class="tle-gutter">
-                            <h2 class="tle-gutter__title"><span>项目</span></h2>
-                            <div class="tle-gutter__bg"></div>
-                        </div>
-                    </div>
-                </header>
-            </div>
-       </section>
-       
-       
-        <section class="tle-section"> 
-   <div class="tle-container"> 
-    <div class="tle-section__inner tle-padding">
-     <header id="prospective-students" class="tle-section__header">
-      <h2 class="tle-section__title">基于指纹特征的随机验证码增强技术</h2>
-     </header>
-	 
-      <div class="tle-section__index"> 
-        <br>
-        纯数字的随机验证码在当今的移动支付中有着广泛的应用，如支付宝，贝宝等大型支付平台都使用随机验证码作为用户身份的验证手段。但是作为纯数字验证码的主要接收端，手机卡却容易被复制，另外由于伪基站的存在，基于短信平台的纯数字验证码容易被劫持和盗用。盗用者在获得随机验证码之后，就能轻易的破解支付平台的身份验证屏障，进而进行不法操作，这给移动支付带来很大的风险。而由于纯数字验证码本身的特性，我们很难在增强其可靠性和安全性。
-        
-      <br><br>
-	  <div class="image-grid__inner"> 
-	   <div class="image-grid__grid-item"> 
-        <div style="text-align: center; width: 800px; ">
-		 <img  width="100%" class="lazyloaded" data-src="../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg" src="../files/images/research/FFRV.png" alt="在历史上，密码学和人工智能在社会的发展中发挥了巨大作用。" style="margin: 0 auto;"/> 
-        </div>
+    
+    <main class="primary-container">
 
-	   </div> 
-	  </div>
-
-      <br><br>
-        因此，为了解决此问题，我们提出将人体指纹特征和随机验证码动态结合起来以保护随机验证码的安全性。指纹特征具有安全性，唯一性和多样性等多种具有安全属性的特点。基于指纹特征的随机验证码增强技术创造性的将指纹特征与随机验证码动态的结合起来。赋予了原始的纯数字随机验证码指纹特征和动态映射关系的保护。相比于纯数字验证码，所提出的密级增强技术使得验证系统破解的难度大大增加。对大额资金场景，此技术可以极大的提高资金支付的安全性。
-			  
-	  <br><br>
-	   
-	  </div> 
-    </div> 
-   </div> 
-  </section>
-
-  <section class="tle-section"> 
-    <div class="tle-container"> 
-     <div class="tle-section__inner tle-padding">
-      <header id="prospective-students" class="tle-section__header">
-       <h2 class="tle-section__title">个人简介</h2>
-      </header>
+        <!-- Autosuggest UI handled by Vue.js components -->
+      <div class="es-search-mod" id="search-app"
+        @keydown.up.exact.prevent="onUp"
+        @keydown.down.exact.prevent="onDown"
+        @keydown.tab.exact="onTab"
+        @keydown.shift.tab.exact="onShiftTab"
+        :class="{
+          'search-has-quick-links': searchMode
+        }">
+        <div class="es-search__overflow">
       
-        <div class="tle-section__index"> 
-         <br>
-         W博士是来自英国伯明翰大学计算机学院的一名在读博士生，其专业是人工智能-计算机视觉。他目前的研究点主要在于如何将人工智能技术与数字钱包支付有效的结合，利用人工智能技术来辅助数字货币的安全。
+          <a href="#" class="scroll-top js-scroll-top">Menu</a>
+      
+          <div class="es-search__width js-search-terms">
+            <form method="GET" action="/search" id="es-search-form" class="es-search-form js-es-search-form">
+                      <label for="es-search-form-input" class="es-search__label js-search-trigger">Explore websites, people, and locations</label>
+                      <div class="es-search__box-mod">
+                <svg width="30" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="currentColor" stroke-width="1.5" class="icon--search-mag search-box__mag">
+                  <g stroke="currentColor" stroke-width="1.5" fill="none">
+                    <circle cx="9.20757329" cy="8.99160695" r="8.50646589"></circle>
+                    <path d="M14.8522097,14.6362434 L20.7140392,20.4980728" id="Line-4"></path>
+                  </g>
+                </svg>
+                <div class="es-search__box-trigger js-search-trigger"></div>
+                <input
+                  type="query"
+                  v-model="query"
+                  v-on:click="onFocus"
+                  v-on:keydown="onKeydown"
+                  v-on:keyup="onInput"
+                  ref="searchInput"
+                  class="es-search__box js-search-input"
+                  id="es-search-form-input"
+                  autocomplete="off"
+                  name="q"
+                  aria-label="search">
+                          <span class="es-search__placeholder" ref="searchPlaceholder">
+                  What are you looking for?
+                </span>
+                <button
+                  v-on:click="resetQuery"
+                  v-if="searchMode"
+                  ref="resetButton"
+                  class="es-search__reset js-search-reset"
+                  type="reset"
+                  for="es-search-form"
+                  aria-label="reset">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" class="form-reset">
+                    <circle fill="red" cx="13" cy="13" r="13"/>
+                    <path class="st1" d="M9.9 9.9l6.5 6.5M16.4 9.9l-6.5 6.5"/>
+                  </svg>
+                </button>
+                <div class="es-search__results-mod" v-if="query.length">
+                  <result-list ref="results" :query="query"></result-list>
+                  <button class="es-search__submit js-search-focusable" type="submit" form="es-search-form">
+                    <span class="es-search__submit__text">See More Results</span>
+                    <svg viewBox="0 0 22 18" width="22" height="18" xmlns="http://www.w3.org/2000/svg" class="arrow-left es-search__submit__arrow">
+                      <g  fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M9.058 1.219L1.203 9.074l7.855 7.855M1.5 9.074h20.005"/>
+                      </g>
+                    </svg>
+                  </button>
+                  <p class="es-search__feedback"><a class="es-search__feedback-link" href="/feedback">Suggestions or feedback?</a></p>
+                </div>
+      
+              </div>
+            </form>
+      
+            <suggested-links v-if="!query.length"></suggested-links>
+          </div>
         </div>
-     </div> 
-    </div> 
-   </section>
-         
+      
+        <wallpaper-image v-if="searchMode"></wallpaper-image>
+      </div>
+      
        
-    </div>
-</main>
+      </main>
 
 </script>
