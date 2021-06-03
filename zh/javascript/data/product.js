@@ -2,18 +2,19 @@ var productData = {
     sections:[
 		{
             title: "产品",
+            contents:"<p>CNlambda（CN®λ）将以企业需求为驱动，辅助青年科研人才为目标，旨在构建全球国际合作的强链接，创办世界一流，以企业应用驱动的密码学和人工智能研究机构，实现企业与科研人才的互利共赢。</p>",
             items:[
                 {
-                    name:"Visit MIT",
-                    url:"/visitmit"
+                    name:"关于我们",
+                    url:"../about/index.html"
                 },
                 {
-                    name:"Kendall Square",
-                    url:"https://www.kendallsq.org"
+                    name:"团队",
+                    url:"../team/index.html"
                 },
                 {
-                    name:"Visiting Boston",
-                    url:"https://www.boston.gov/visiting-boston"
+                    name:"合作",
+                    url:"../partner/index.html"
                 }
             ],
         }

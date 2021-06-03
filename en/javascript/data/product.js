@@ -2,18 +2,19 @@ var productData = {
     sections:[
 		{
             title: "Products",
+            contents:"<p>CNlambda（CN®λ）will be driven by the needs of enterprises, to assist young scientific research personnel as the goal, aimed at building a strong link of global international cooperation, the establishment of world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.</p>",
             items:[
                 {
-                    name:"Visit MIT",
-                    url:"/visitmit"
+                    name:"About us",
+                    url:"../about/index.html"
                 },
                 {
-                    name:"Kendall Square",
-                    url:"https://www.kendallsq.org"
+                    name:"Team",
+                    url:"../team/index.html"
                 },
                 {
-                    name:"Visiting Boston",
-                    url:"https://www.boston.gov/visiting-boston"
+                    name:"Partner",
+                    url:"../partner/index.html"
                 }
             ],
         }
