@@ -3,7 +3,7 @@ var aboutData = {
         {
             secType:"about",
             title:"关于我们",
-            details:"CNlambda（CN®λ）将以企业需求为驱动，辅助青年科研人才为目标，旨在构建全球国际合作的强链接，创办世界一流，以企业应用驱动的密码学和人工智能研究机构，实现企业与科研人才的互利共赢。",
+            details:"Martislab 将以企业需求为驱动，辅助青年科研人才为目标，旨在构建全球国际合作的强链接，创办世界一流，以企业应用驱动的密码学和人工智能研究机构，实现企业与科研人才的互利共赢。",
             paragraphs:[
                 {
                     title:"使命",
@@ -15,7 +15,7 @@ var aboutData = {
                 },
                 {
                     title:"治理模式",
-                    details:"CNlambda（CN®λ）由资金委员会与执行委员会共同管理，其中资金委员会负责从企业负责取得资助资金或捐款，制定资金分配计划和科研产出的宏观目标；执行委员会负责评估项目，协调项目的人员和进度。",
+                    details:"Martislab 由资金委员会与执行委员会共同管理，其中资金委员会负责从企业负责取得资助资金或捐款，制定资金分配计划和科研产出的宏观目标；执行委员会负责评估项目，协调项目的人员和进度。",
                 }
             ],
             resource_cap:"章程下载",
@@ -25,7 +25,7 @@ var aboutData = {
             pic_src:"../files/images/202003/structure.png",
             figcap_text:"研究团队标识",
             figcap_button:"下载",
-            figcap_src:"../files/images/CNlambda_logo.zip" 
+            figcap_src:"../files/images/Martislab_logo.zip" 
                 
             
         },
@@ -88,8 +88,8 @@ var aboutData = {
             
             images:[
                 {
-                    data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    src:"../files/images/202003/4.png",
+                    data_src:"../files/images/logos/10.png",
+                    src:"../files/images/logos/10.png",
                     alt:"MIT’s first building was in Boston, before the move to Cambridge in 1916.",
                     caption:{
                         figcap_text:"密码学研究团队标识",
@@ -98,8 +98,8 @@ var aboutData = {
                     }
                 },
                 {
-                    data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    src:"../files/images/202003/4.png",
+                    data_src:"../files/images/logos/10.png",
+                    src:"../files/images/logos/10.png",
                     alt:"Aesop’s Fables II,” by Mark di Suvero, is part of MIT’s public art collection.",
                     caption:{
                         figcap_text:"人工智能研究团队标识",

@@ -1,9 +1,9 @@
 var homeData = {
     sections: [
         {
-            title: "<a href=\"https://cnlambda.com\" target=\"_blank\"> CNlambda（CN®λ）</a>  是一家以企业安全需求为中心的非营利性密码学和人工智能研究小组。"
-            +"<a href=\"https://cnlambda.com\" target=\"_blank\"> CN®λ </a> 旨在通过人工智能的协助解决企业面临的安全和隐私的实际问题，服务范围包括智能威胁检测，智能安全建模，协议设计，密码应用实现等。"
-            +"<a href=\"https://cnlambda.com\" target=\"_blank\"> CN®λ </a> 致力于研究如何有效的使用人工智能手段加强相关行业的安全和隐私，以产生造福企业，提高人民幸福生活的成果。",
+            title: "<a href=\"https://cnlambda-com.github.io/martislab/zh/home/index.html\" target=\"_blank\">Martislab</a>  是一家以企业安全需求为中心的非营利性密码学和人工智能研究小组。"
+            +"<a href=\"https://cnlambda-com.github.io/martislab/zh/home/index.html\" target=\"_blank\">Martislab</a> 旨在通过人工智能的协助解决企业面临的安全和隐私的实际问题，服务范围包括智能威胁检测，智能安全建模，协议设计，密码应用实现等。"
+            +"<a href=\"https://cnlambda-com.github.io/martislab/zh/home/index.html\" target=\"_blank\">Martislab</a> 致力于研究如何有效的使用人工智能手段加强相关行业的安全和隐私，以产生造福企业，提高人民幸福生活的成果。",
             hotContents: [
                 {
                    title: "[2021-04-15] 欢迎挪威科技大学的S博士加入团队",

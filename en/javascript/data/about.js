@@ -3,7 +3,7 @@ var aboutData = {
         {
             secType:"about",
             title:"About us",
-            details:"CNlambda（CN®λ）will be driven by the needs of enterprises, to assist young scientific research personnel as the goal, aimed at building a strong link of global international cooperation, the establishment of world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.",
+            details:"Martislab will be driven by the needs of enterprises, to assist young scientific research personnel as the goal, aimed at building a strong link of global international cooperation, the establishment of world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.",
             paragraphs:[
                 {
                     title:"Mission",
@@ -15,7 +15,7 @@ var aboutData = {
                 },
                 {
                     title:"Governance",
-                    details:"CNlambda（CN®λ）is managed jointly by the Finance Committee and the Executive Committee. The Finance Committee is responsible for obtaining funding or contributions from enterprises, setting macro objectives for the allocation of funds and scientific research outputs, and the Executive Committee is responsible for assessing projects and coordinating the personnel and progress of projects.",
+                    details:"Martislab is managed jointly by the Finance Committee and the Executive Committee. The Finance Committee is responsible for obtaining funding or contributions from enterprises, setting macro objectives for the allocation of funds and scientific research outputs, and the Executive Committee is responsible for assessing projects and coordinating the personnel and progress of projects.",
                 }
             ],
             resource_cap:"Charter download",
@@ -25,7 +25,7 @@ var aboutData = {
             pic_src:"../files/images/202003/structure.png",
             figcap_text:"team logo",
             figcap_button:"Download",
-            figcap_src:"../files/images/CNlambda_logo.zip" 
+            figcap_src:"../files/images/Martislab_logo.zip" 
                 
             
         },
@@ -88,8 +88,8 @@ var aboutData = {
             
             images:[
                 {
-                    data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    src:"../files/images/202003/4.png",
+                    data_src:"../files/images/logos/10.png",
+                    src:"../files/images/logos/10.png",
                     alt:"MIT’s first building was in Boston, before the move to Cambridge in 1916.",
                     caption:{
                         figcap_text:"Cryptography Research Team logo",
@@ -98,8 +98,8 @@ var aboutData = {
                     }
                 },
                 {
-                    data_src:"../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg",
-                    src:"../files/images/202003/4.png",
+                    data_src:"../files/images/logos/10.png",
+                    src:"../files/images/logos/10.png",
                     alt:"Aesop’s Fables II,” by Mark di Suvero, is part of MIT’s public art collection.",
                     caption:{
                         figcap_text:"Artificial Intelligence Research Team logo",
@@ -122,7 +122,7 @@ var aboutData = {
                 },
                 {
                     part:"Donate",
-                    con:"CNlambda Bitcoin address: xxxxx."
+                    con:"Martislab Bitcoin address: xxxxx."
                 }
             ]
         }

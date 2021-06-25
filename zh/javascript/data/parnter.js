@@ -3,7 +3,7 @@ var parnterData = {
         {
             title: "学术界" ,
             details: [
-               "Cnlambda 秉承 \"研究自治、学术自由\" 的宗旨，将促进研究成果的应用和加速专业人才的培养作为首要目标。"
+               "Martislab 秉承 \"研究自治、学术自由\" 的宗旨，将促进研究成果的应用和加速专业人才的培养作为首要目标。"
             ],
             images:[
                 {
@@ -62,15 +62,15 @@ var parnterData = {
         {
             title: "工业界" ,
             details: [  
-              "Cnlambda重视技术基础研究的实际应用，致力于为工业界提供有理论支撑的技术方案和产品，以推动整个密码学和AI的产业发展。"			
+              "Martislab 重视技术基础研究的实际应用，致力于为工业界提供有理论支撑的技术方案和产品，以推动整个密码学和AI的产业发展。"			
             ],
             images:[
                 {
-                    src:"../files/images/202003/4.png",
+                    src:"../files/images/logos/10.png",
                     alt:"XXXXX"
                 },
                 {
-                    src:"../files/images/202003/4.png",
+                    src:"../files/images/logos/10.png",
                     alt:"XXXXX"
                 }
             ],

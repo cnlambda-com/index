@@ -1,9 +1,9 @@
 var homeData = {
     sections: [
         {
-            title: " <a href=\"https://cnlambda.com\" target=\"_blank\">CNlambda (CN<sup>&reg;</sup>&lambda;)</a> is a nonprofit enterprise-focused cryptography research group."
-            +" <a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> aims to solve the practical security and privacy problems for the enterprise via under the help of Artificial Intelligence. The service includes, intelligent threat detection, intelligent security modeling, protocol design, and the implementations of real applications. "
-            +"<a href=\"https://cnlambda.com\" target=\"_blank\">CN<sup>&reg;</sup>&lambda;</a> is focusing on how to effectively use artificial intelligence to strengthen the security and privacy of related industries, then produces results that can benefit enterprises and improve the quality of people life.",
+            title: " <a href=\"https://cnlambda-com.github.io/martislab/zh/home/index.html\" target=\"_blank\">Martislab</a> is a nonprofit enterprise-focused cryptography research group."
+            +" <a href=\"https://cnlambda-com.github.io/martislab/zh/home/index.html\" target=\"_blank\">Martislab</a> aims to solve the practical security and privacy problems for the enterprise via under the help of Artificial Intelligence. The service includes, intelligent threat detection, intelligent security modeling, protocol design, and the implementations of real applications. "
+            +"<a href=\"https://cnlambda-com.github.io/martislab/zh/home/index.html\" target=\"_blank\">Martislab</a> is focusing on how to effectively use artificial intelligence to strengthen the security and privacy of related industries, then produces results that can benefit enterprises and improve the quality of people life.",
             hotContents: [
                 {
                    title: "[2021-04-15] Welcome Dr. S from the Norwegian University of Science and Technology to join our team.",

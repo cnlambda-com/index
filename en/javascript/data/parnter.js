@@ -3,7 +3,7 @@ var parnterData = {
         {
             title: "Academia" ,
             details: [
-                "Cnlambda adhering to the purpose of \"Research Autonomy, Academic Freedom\", regarding promoting the application of research results and accelerating the training of professional talents as our primary goals." 
+                "Martislab adhering to the purpose of \"Research Autonomy, Academic Freedom\", regarding promoting the application of research results and accelerating the training of professional talents as our primary goals." 
             ],
             images:[
                 {
@@ -62,15 +62,15 @@ var parnterData = {
         {
             title: "Industry" ,
             details: [            
-                "Cnlambda attaches great importance to the practical application of technical basic research, and is committed to providing theoretically supported technical solutions and products for the industry to promote the development of the entire cryptography and AI industry." 
+                "Martislab attaches great importance to the practical application of technical basic research, and is committed to providing theoretically supported technical solutions and products for the industry to promote the development of the entire cryptography and AI industry." 
             ],
             images:[
                 {
-                    src:"../files/images/202003/4.png",
+                    src:"../files/images/logos/10.png",
                     alt:"XXXXX"
                 },
                 {
-                    src:"../files/images/202003/4.png",
+                    src:"../files/images/logos/10.png",
                     alt:"XXXXX"
                 }
             ],

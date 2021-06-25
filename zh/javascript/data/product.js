@@ -2,7 +2,7 @@ var productData = {
     sections:[
 		{
             title: "产品",
-            contents:"<p>CNlambda（CN®λ）将以企业需求为驱动，辅助青年科研人才为目标，旨在构建全球国际合作的强链接，创办世界一流，以企业应用驱动的密码学和人工智能研究机构，实现企业与科研人才的互利共赢。</p>",
+            contents:"<p>Martislab 将以企业需求为驱动，辅助青年科研人才为目标，旨在构建全球国际合作的强链接，创办世界一流，以企业应用驱动的密码学和人工智能研究机构，实现企业与科研人才的互利共赢。</p>",
             items:[
                 {
                     name:"关于我们",
@@ -21,44 +21,44 @@ var productData = {
     ],
     figure2x2:[
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         }
     ],
     figure1x1:[
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         },
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         },
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         },
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         },
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         },
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         },
         {
-            src:"../files/images/logo.png",
+            src:"../files/images/logos/11.png",
             alt:"Studying on Killian Court",
             discription:"discription"
         }
