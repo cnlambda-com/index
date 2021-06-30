@@ -75,14 +75,7 @@ var parnterData = {
                 }
             ],
             colleges:[
-                {
-                    college: "上海朝夕网络",
-                    link: ""
-                },
-                {
-                    college: "国家电网",
-                    link: ""
-                }
+                
             ],
             resource: {
                 type: "image",

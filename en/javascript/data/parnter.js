@@ -75,14 +75,7 @@ var parnterData = {
                 }
             ],
             colleges:[
-                {
-                    college: "Zhaoxi Network Shanghai",
-                    link: ""
-                },
-                {
-                    college: "State Grid Corporation of China",
-                    link: ""
-                }
+                
             ],
             resource: {
                 type: "image",
