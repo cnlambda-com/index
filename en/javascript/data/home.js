@@ -14,11 +14,11 @@ var homeData = {
                     linkUrl: "../news/talooria.html"
                 },
                 {
-                    title: "[2021-03-01] The logo of Cnlambda Research Team is officially confirmed.",
+                    title: "[2021-03-01] The logo of Martislab Research Team is officially confirmed.",
                     linkUrl: "../about/index.html"
                 },
                 {
-                    title: "[2021-02-10] Cnlambda officially issue the charter.",
+                    title: "[2021-02-10] Martislab officially issue the charter.",
                     linkUrl: "../about/index.html"
                 },
                 {
@@ -26,7 +26,7 @@ var homeData = {
                     linkUrl: "../news/chenwei.html"
                 },
                 {
-                    title: "[2020-12-20] Cnlambda is officially established.",
+                    title: "[2020-12-20] Martislab is officially established.",
                     linkUrl: "../about/index.html"
                 }
             ],

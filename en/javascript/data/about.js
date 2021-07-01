@@ -118,7 +118,7 @@ var aboutData = {
             contact:[
                 {
                     part:"Contact",
-                    con:"Please email us through: xxxx"
+                    con:"Please email us through: contact@martislab.org"
                 },
                 {
                     part:"Donate",

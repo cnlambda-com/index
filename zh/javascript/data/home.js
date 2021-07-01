@@ -14,11 +14,11 @@ var homeData = {
                     linkUrl: "../news/talooria.html"
                 },
                 {
-                    title: "[2021-03-01] Cnlambda研究团队标识正式确认",
+                    title: "[2021-03-01] Martislab研究团队标识正式确认",
                     linkUrl: "../about/index.html"
                 },
                 {
-                    title: "[2021-02-10] Cnlambda正式发布对外章程",
+                    title: "[2021-02-10] Martislab正式发布对外章程",
                     linkUrl: "../about/index.html"
                 },
                 {
@@ -26,7 +26,7 @@ var homeData = {
                     linkUrl: "../news/chenwei.html"
                 },
                 {
-                    title: "[2020-12-20] Cnlambda正式成立了",
+                    title: "[2020-12-20] Martislab正式成立了",
                     linkUrl: "../about/index.html"
                 }
             ],

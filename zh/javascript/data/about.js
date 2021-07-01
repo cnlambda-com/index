@@ -127,7 +127,7 @@ var aboutData = {
             contact:[
                 {
                     part:"联系",
-                    con:"请电子邮箱联系: xxxx "
+                    con:"请电子邮箱联系: contact@martislab.org "
                 },
                 {
                     part:"捐赠",
