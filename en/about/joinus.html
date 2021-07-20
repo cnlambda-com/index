@@ -31,7 +31,6 @@
     <!--[if lt IE 9]>
     <link rel="stylesheet" media="all" href="/themes/martislab/assets/css/ie-7-8.css?q29575"/>
     <![endif]-->
-
 </head>
 <body class="tle about" style="min-height: 800px;">
 <a href="#main" class="skip-to-content">Skip to content ↓</a>
@@ -205,102 +204,68 @@
                 </div>
             </section>
             
-            {{for sections}}
-            {{if secType == 'about'}}
             <section class="tle-gutter-container">
-		   <div class="tle-container"> 
-			<div class="tle-section__inner tle-padding">
-             <header id="mission" class="tle-section__header"> 
-                <h2 class="tle-section__title">{{:title}}</h2> 
-               </header> 
-			 <div class="tle-section__content"> 
-			  <div class="tle-section__description"> 
-                <p>{{:details}}</p> 
-                {{for paragraphs}}
-                <h4>{{:title}}</h4> 
-                <p>{{:details}}</p>
-                {{/for}}
-                <a href="{{:resource_src}}" download="Martislab-document"><span>{{:resource_cap}}</span></a>
-			  </div> 
-			 </div> 
-			 <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1"> 
-			  <div class="image-grid__inner"> 
-			   <div class="image-grid__grid-item"> 
-				<div class="image-grid__image"> 
-                    <img class="lazyloaded" data-src="{{:pic_data_src}}" src="{{:pic_src}}" alt="{{:pic_alt}}" />
-				</div> 
-			   </div> 
-			   <div class="image-grid__grid-item">
-                <figcaption class="image-grid__captions" aria-hidden="true"> 
-                    <span class="image-grid__caption">Governance</span>
-                   </figcaption> 
-			   </div> 
-			   </div> 
-			 </figure> 
-
-             {{else secType=='data'}}
-             <section class="tle-section "> 
                 <div class="tle-container"> 
                  <div class="tle-section__inner tle-padding">
-                <header id="mission" class="tle-section__header"> 
-                <h2 class="tle-section__title">{{:title}}</h2> 
-                </header> 
-                <div class="tle-column-6"> 
-                {{for data}}
-                <h4>{{:title}}</h4> 
-                    <ul class="data-list"> 
-                        {{for items}}
-                    <li class="data-list__item "> <span class="data-list__label "><span>{{:item}}</span></span> <span class="data-list__value "><span>{{:data}}</span></span></li> 
-                        {{/for}}
-                    </ul> 
-                {{/for}}
-			 </div> 
-             <figure class="image-grid tle-section__image-grid image-grid--mosaic image-grid--2"> 
-                <div class="image-grid__inner"> 
-                    {{for images}}
-                 <div class="image-grid__grid-item"> 
-                  <div class="image-grid__image"> 
-                   <img class="lazyloaded" data-src="{{:data_src}}" src="{{:src}}" alt="{{:alt}}" /> 
-                   <figcaption class="image-grid__captions" aria-hidden="true">
-                    {{:caption.figcap_text}}<a href="{{:caption.figcap_src}}" download="Martislab-logo"><span class="image-grid__caption">{{:caption.figcap_button}}</span></a>
-                   </figcaption> 
+                  <header id="mission" class="tle-section__header"> 
+                     <h2 class="tle-section__title">Researcher</h2> 
+                    </header> 
+                  <div class="tle-section__content"> 
+                   <div class="tle-section__description"> 
+                       <h4>Researcher</h4>
+                       <p>Online</p>
+
+                       <h4>Duties</h4>
+                       <p>Participate in the scientific research of the frontier topics of the blockchain. 
+                        Publish academic papers or apply for patents.</p>
+
+                        <h4>Requirements</h4>
+                        <ol>
+                            <li>Candidates with a strong interest in scientific research, experience in scientific research, and a spirit of exploration and curiosity for new fields are preferred.</li>
+                            <li>PhD or PhD students are preferred.</li>
+                            <li>Candidates familiar with the basic knowledge of blockchain, such as distributed systems, cryptography, game theory, computer networks, etc, are preferred. Candidates whose majors are related to blockchain are preferred.</li>
+                            <li>Candidates who have published more papers in CCF-A conferences and journals are preferred.</li>
+                        </ol>
+     
+                     
+     
+                   </div> 
                   </div> 
                  </div> 
-                 {{/for}}
-                 <!--
-                    <div class="image-grid__grid-item"> 
-                        <figcaption class="image-grid__captions" aria-hidden="true">
-                         {{for captions}} 
-                         {{:figcap_text}}<a href="{{:figcap_src}}" download="Maritislab-logo"><span class="image-grid__caption">{{:figcap_button}}</span></a>
-                         {{/for}}
-                        </figcaption> 
-                       </div> 
-                 -->
                 </div> 
-               </figure>
-			 
-               {{else secType=='contact'}}
-               <section class="tle-section "> 
-                <div class="tle-container"> 
-                 <div class="tle-section__inner tle-padding">
-                <header id="mission" class="tle-section__header"> 
-                    <a href="../about/joinus.html"><h2 class="tle-section__title">{{:title}}</h2> </a>
-                </header> 
-                {{for contact}}
-                <div class="tle-section__content"> 
-                <div class="tle-section__description"> 
-                <h4 id="contact">{{:part}}</h4> 
-                <p>{{:con}} </p> 
-                </div> 
-                </div> 
-             {{/for}}
-            
-			 
-             {{/if}}
-			</div> 
-		   </div> 
-		   </section>
-           {{/for}}
+                </section>
+     
+     
+     
+                <section class="tle-section">
+                 <div class="tle-container"> 
+                  <div class="tle-section__inner tle-padding">
+                   <header id="mission" class="tle-section__header"> 
+                      <h2 class="tle-section__title">Intern</h2> 
+                     </header> 
+                   <div class="tle-section__content"> 
+                    <div class="tle-section__description"> 
+                        <h4>Intern</h4>
+                        <p>Online</p>
+
+                        <h4>Duties</h4>
+                        <p>Assist research fellows on academic research.</p>
+
+                        <h4>Requirements</h4>
+                        <ol>
+                            <li>Familiar with at least one back-end language (C, C++, Java, Rust).</li>
+                            <li>Firmly grounded in the computer science, such as computer operating system, data structure, algorithm, cryptography, etc.</li>
+                            <li>Candidate possesses in-depth understanding of the blockchain and has experience in blockchain application development or reaearch experience in relavant fields is preferred.</li>
+                        </ol>
+
+      
+                      
+      
+                    </div> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 </section>
 
         </div>
     </main>

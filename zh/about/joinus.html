@@ -182,6 +182,7 @@
                             <ul class="breadcrumbs">
                                 <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">主页</a></li>
                                 <li class="breadcrumb"><span>&nbsp;关于</span></li>
+                                <li class="breadcrumb"><span>&nbsp;加入我们</span></li>
                             </ul>
                             <div class="tle-gutter">
                                 <h2 class="tle-gutter__title"><span>关于</span></h2>
@@ -192,102 +193,65 @@
                 </div>
             </section>
 			
-            {{for sections}}
-            {{if secType == 'about'}}
+            
             <section class="tle-gutter-container">
 		   <div class="tle-container"> 
 			<div class="tle-section__inner tle-padding">
              <header id="mission" class="tle-section__header"> 
-                <h2 class="tle-section__title">{{:title}}</h2> 
+                <h2 class="tle-section__title">研究员</h2> 
                </header> 
 			 <div class="tle-section__content"> 
 			  <div class="tle-section__description"> 
-                <p>{{:details}}</p> 
-                {{for paragraphs}}
-                <h4>{{:title}}</h4> 
-                <p>{{:details}}</p>
-                {{/for}}
-                <a href="{{:resource_src}}" download="Martislab-document"><span>{{:resource_cap}}</span></a>
+                  <h4>研究员</h4>
+                  <p>Online</p>
+
+                  <h4>岗位职责</h4>
+                  <p>参与区块链前沿课题的科研工作，发表学术论文或申请专利。</p>
+
+                  <h4>任职要求</h4>
+                  <ol>
+                    <li>对科研有浓厚兴趣，有参与科研的经历，对于新领域有探索精神与好奇心。</li>
+                    <li>PhD在读或PhD学历或以上者优先。</li>
+                    <li>熟悉区块链基础知识，专业和区块链相关者优先，如分布式系统，密码学，博弈论，计算机网络等优先。</li>
+                    <li>在CCF-A类会议上和期刊发表论文多者优先。</li>
+                  </ol>
+
+                
+
 			  </div> 
 			 </div> 
-			 <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1"> 
-			  <div class="image-grid__inner"> 
-			   <div class="image-grid__grid-item"> 
-				<div class="image-grid__image"> 
-                    <img class="lazyloaded" data-src="{{:pic_data_src}}" src="{{:pic_src}}" alt="{{:pic_alt}}" />
-				</div> 
-			   </div> 
-			   <div class="image-grid__grid-item">
-                <figcaption class="image-grid__captions" aria-hidden="true">  
-                    <span class="image-grid__caption">治理结构</span>
-                   </figcaption> 
-			   </div> 
-			   </div> 
-			 </figure> 
-
-             {{else secType=='data'}}
-             <section class="tle-section "> 
-                <div class="tle-container"> 
-                 <div class="tle-section__inner tle-padding">
-                <header id="mission" class="tle-section__header"> 
-                <h2 class="tle-section__title">{{:title}}</h2> 
-                </header> 
-                <div class="tle-column-6"> 
-                {{for data}}
-                <h4>{{:title}}</h4> 
-                    <ul class="data-list"> 
-                        {{for items}}
-                    <li class="data-list__item "> <span class="data-list__label "><span>{{:item}}</span></span> <span class="data-list__value "><span>{{:data}}</span></span></li> 
-                        {{/for}}
-                    </ul> 
-                {{/for}}
-			 </div> 
-             <figure class="image-grid tle-section__image-grid image-grid--mosaic image-grid--2"> 
-                <div class="image-grid__inner"> 
-                    {{for images}}
-                 <div class="image-grid__grid-item"> 
-                  <div class="image-grid__image"> 
-                   <img class="lazyloaded" data-src="{{:data_src}}" src="{{:src}}" alt="{{:alt}}" /> 
-                   <figcaption class="image-grid__captions" aria-hidden="true">
-                    {{:caption.figcap_text}}<a href="{{:caption.figcap_src}}" download="Martislab-logo"><span class="image-grid__caption">{{:caption.figcap_button}}</span></a>
-                   </figcaption> 
-                  </div> 
-                 </div> 
-                 {{/for}}
-                 <!--
-                    <div class="image-grid__grid-item"> 
-                        <figcaption class="image-grid__captions" aria-hidden="true">
-                         {{for captions}} 
-                         {{:figcap_text}}<a href="{{:figcap_src}}" download="Martislab-logo"><span class="image-grid__caption">{{:figcap_button}}</span></a>
-                         {{/for}}
-                        </figcaption> 
-                       </div> 
-                 -->
-                </div> 
-               </figure>
-			 
-               {{else secType=='contact'}}
-               <section class="tle-section "> 
-                <div class="tle-container"> 
-                 <div class="tle-section__inner tle-padding">
-                <header id="mission" class="tle-section__header"> 
-                    <a href="../about/joinus.html"><h2 class="tle-section__title">{{:title}}</h2> </a>
-                </header> 
-                {{for contact}}
-                <div class="tle-section__content"> 
-                <div class="tle-section__description"> 
-                <h4 id="contact">{{:part}}</h4> 
-                <p>{{:con}} </p> 
-                </div> 
-                </div> 
-             {{/for}}
-            
-			 
-             {{/if}}
 			</div> 
 		   </div> 
 		   </section>
-           {{/for}}
+
+
+
+           <section class="tle-section">
+            <div class="tle-container"> 
+             <div class="tle-section__inner tle-padding">
+              <header id="mission" class="tle-section__header"> 
+                 <h2 class="tle-section__title">实习生</h2> 
+                </header> 
+              <div class="tle-section__content"> 
+               <div class="tle-section__description"> 
+                   <h4>实习生</h4>
+                   <p>Online</p>
+ 
+                   <h4>岗位职责</h4>
+                  <p>协助研究员完成学术研究。</p>
+
+                  <h4>任职要求</h4>
+                  <ol>
+                    <li>至少精通一种后端语言（C、C++、Java、Rust）</li>
+                    <li>拥有扎实的计算机基础，如计算机操作系统，数据结构，算法，密码学等。</li>
+                    <li>对区块链知识有一定理解，有区块链应用开发经历或密码学等与区块链相关领域科研经历者优先。</li>
+                  </ol>
+ 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            </section>
 		  
 		  
         </div>
