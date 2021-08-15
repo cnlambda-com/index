@@ -131,7 +131,7 @@ var aboutData = {
                 },
                 {
                     part:"捐赠",
-                    con:"比特币捐赠地址: xxxxx."
+                    con:"比特币捐赠地址: 3JsJd4ggM87chQRybCfavn4pyCt27rY9v8 <br> 以太坊捐赠地址: 0x965dDf03115F80F032f507237E44e0e1A2a4925A"
                 }
             ]
         }
