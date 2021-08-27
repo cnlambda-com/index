@@ -32,20 +32,12 @@
     <link rel="stylesheet" media="all" href="/themes/martislab/assets/css/ie-7-8.css?q29575"/>
     <![endif]-->
     <style type="text/css">
-        .p1{
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;
-        }
         .ul{
             list-style-type:disc;
         }
 
 
         </style>
-       
 </head>
 <body class="tle research" style="min-height: 800px;">
 <a href="#main" class="skip-to-content">Skip to content ↓</a>
@@ -66,7 +58,7 @@
                    data-drupal-link-system-path="node/11">主页</a>
             </li>
             <li class="site-nav__link-item menu-item--collapsed">
-                <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed"
+                <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
                    data-drupal-link-system-path="node/12">研究</a>
             </li>
             <li class="site-nav__link-item">
@@ -82,8 +74,8 @@
                    data-drupal-link-system-path="node/13">合作</a>
             </li>
             <li class="site-nav__link-item menu-item--collapsed">
-                <a href="../newsletter/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
-                   data-drupal-link-system-path="node/12">简报</a>
+                <a href="../newsletter/index.html" class="site-nav__link js-nav-item menu-item--collapsed"
+                   data-drupal-link-system-path="node/17">简报</a>
             </li>
             <li class="site-nav__link-item">
                 <a href="../about/index.html" class="site-nav__more-link" 
@@ -160,10 +152,10 @@
         </p>
         <div class="site-footer__contact-info">
             <a href="https://map.baidu.com/poi/%E5%8D%97%E5%B1%B1%E6%99%BA%E5%9B%AD-A7%E6%A0%8B/@12691818.462550761,2567194.175,15.75z?uid=53aaff3b1ffbb23b07026f2e&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&querytype=detailConInfo&da_src=shareurl"
-               target="_blank" class="site-footer__contact-info-link">深圳市南山区南山智园A7栋</a>
+               target="_self" class="site-footer__contact-info-link">深圳市南山区南山智园A7栋</a>
         </div>
         <p>
-             Copyright &copy; <a href="https://martislab.org">Martislab</a> 2021; 网站设计源于 <a href="http://web.mit.edu/" target="_blank">MIT</a>
+            Copyright &copy; <a href="https://martislab.org">Martislab</a> 2021; 网站设计源于 <a href="http://web.mit.edu/" target="_blank">MIT</a>
         </p>
 
 
@@ -173,7 +165,7 @@
 <script src="../javascript/js/jquery-3.2.1.min.js"></script>
 <script src="../javascript/js/jsviews.min.js"></script>
 <script src="../javascript/commonTemplate.js"></script>
-<script src="../javascript/data/blog.js"></script>
+<script src="../javascript/data/research.js"></script>
 
 <!--[if gt IE 8]><!-->
 <script src="../themes/martislab/assets/js/main_q29575.js"></script>
@@ -184,99 +176,94 @@
 
 <script type="text/javascript">
     $(function () {
-        renderTemplate("blogTmpl", blogData, "research-container");
+        renderTemplate("researchTmpl", researchData, "research-container");
     });
 </script>
+
 </body>
 </html>
-<script id="blogTmpl" type="text/x-jsrender">
+<script id="researchTmpl" type="text/x-jsrender">
     <main class="tle-main page-research" id="main" tabindex="0" aria-live="polite">
-        <div data-drupal-messages-fallback class="hidden"></div>
-        <div class="tle-content-mod">
-            <section class="tle-gutter-container">
-                <div class="tle-container">
-                    <header class="tle-padding">
-                        <div class="tle-header__intro">
-                            <ul class="breadcrumbs">
-                                <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">主页</a></li>
-                                <li class="breadcrumb"><span>&nbsp;简报</span></li>
-                            </ul>
-                            <div class="tle-gutter">
-                                <h2 class="tle-gutter__title"><span>简报</span></h2>
-                                <div class="tle-gutter__bg"></div>
-                            </div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+    <div class="tle-content-mod">
+        <section class="tle-gutter-container">
+            <div class="tle-container">
+                <header class="tle-padding">
+                    <div class="tle-header__intro">
+                        <ul class="breadcrumbs">
+                            <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">主页</a></li>
+                            <li class="breadcrumb"><a class="breadcrumb__link" href="../Research/index.html">研究</a></li>
+                            <li class="breadcrumb"><span>&nbsp;基于SGX/TEE的比特币钱包</span></li>
+                        </ul>
+                        <div class="tle-gutter">
+                            <h2 class="tle-gutter__title"><span>项目</span></h2>
+                            <div class="tle-gutter__bg"></div>
                         </div>
-                    </header>
-                </div>
-           </section>
-           {{for sections}}
-           {{if #index == 0}}
-            <section class="tle-gutter-container">
-            {{else}}
-            <section class="tle-section">
-            {{/if}}
-                <div class="tle-container">
-                    <header class="tle-header tle-padding">
-                        <div class="tle-header__intro">
-                            <h2 class="tle-section__title">
-                               {{:title}}
-                            </h2>
-                        </div>
-                        <br><br>
-    
-    
-                        <div class="tle-section__content">
-                            <div class="tle-section__description">
-                                {{for contents}}
-                                <ul class="ul">
-                                    <li><a href="{{:url}}" ><span>{{:ttl}}</span></a></li>
-                                </ul>
-                                {{/for}}          
-                           </div>
-                        </div>
-    
-    
-    
-                        {{if mediaFile.type == 'vedio'}}
-                        <figure class="tle-header__video">
-                            <div class="tle-header__video-wrapper">
-                                <video class="pause-video js-pause-video" autoplay loop muted tabindex="0">
-                                    <source src="{{:mediaFile.linkUrl}}"/>
-                                    {{:mediaFile.desc}}
-                                </video>
-    
-                                <div class="tle-header__video-controls">
-                                    <button class="tle-header__video-button js-video-button" type="button"
-                                            aria-label="Pause"></button>
-                                </div>
-                            </div>
-    
-                            <figcaption class="tle-header__video-caption">
-                            </figcaption>
-                        </figure>
-                        {{else mediaFile.type == 'image'}}
-                        <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
-                            <div class="image-grid__inner">
-                                <div class="image-grid__grid-item">
-                                    <div class="image-grid__image">
-                                        <img class="lazyloaded"
-                                             data-src="{{:mediaFile.linkUrl}}"
-                                             src="{{:mediaFile.linkUrl}}"
-                                             alt="{{:mediaFile.desc}}">
-                                    </div>
-                                    <figcaption class="image-grid__captions" aria-hidden="true">
-                                        <span class="image-grid__caption">{{:mediaFile.desc}}</span>
-                                    </figcaption>
-                                </div>
-                            </div>
-                        </figure>
-                        {{else}}
-                        {{/if}}
-                    </header>
-                </div>
-            </section>
-            <br><br>
-            {{/for}}
-        </div>
-    </main>
-</script>
+                    </div>
+                </header>
+            </div>
+       </section>
+       
+       
+       <section class="tle-section"> 
+        <div class="tle-container"> 
+         <div class="tle-section__inner tle-padding">
+          <header id="prospective-students" class="tle-section__header">
+           <h2 class="tle-section__title">基于SGX/TEE的比特币钱包</h2>
+         </header>
+          
+           <div class="tle-section__index"> 
+             <br>
+             <!--     第一段      -->
+             比特币钱包存储着用户的私钥，是用户拥有比特币的唯一凭证。如果用于的私钥被攻击者窃取， 那么用户的资金则会面临着被盗的风险。所以保证私钥的安全性对于用户的资金安全至关重要。目前大部分的软件比特币钱包为了保护安全性，一般会将私钥加密存储在用户电脑或者服务器中。基于这种方式虽然能保证在私钥没有使用时的安全，但在使用时，私钥会被解密并临时存储在内存中。 如果用户的操作系统受到病毒感染，则可能导致入侵者能够读取缓存在内存中的明文私钥，造成私钥的泄露。
+             <!--     /第一段      -->
+           <br><br>
+           <div class="image-grid__inner"> 
+            <div class="image-grid__grid-item"> 
+             <div style="text-align: center; width: 700px; ">
+              <img  width="130%" class="lazyloaded" data-src="../files/images/202003/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg" src="../files/images/research/atai.png" alt="In history, cryptography and artificial intelligence have played an important role in the development of society." style="margin: 0 auto;"/>
+             </div>
+     
+            </div> 
+           </div>
+     
+           <br><br>
+           <!--    第二段      -->
+           为了更好的保护用户的比特币财产，我们可以使用 Intel SGX 解决这个问题。
+           <ul class="ul">
+               
+            <li>Intel SGX 可以提供可信任的执行环境，保证在执行环节中的信息不被泄露。这样即使操作系统被攻破，我们依旧可以保证钱包私钥的安全。</li>
+            <li>通过Intel SGX 技术，可以始终将秘钥存储于与设备绑定的Enclave中，保证其从不离开Enclave。</li>
+            <li>相比于硬件钱包，使用Intel SGX技术实现的钱包一般不需要额外的硬件，在控制成本的同时提升了安全性。</li>
+           </ul>
+           <!--    /第二段      -->
+           <br><br>
+          
+            
+           </div> 
+         </div> 
+        </div> 
+       </section>
+     
+       <section class="tle-section"> 
+         <div class="tle-container"> 
+          <div class="tle-section__inner tle-padding">
+           <header id="prospective-students" class="tle-section__header">
+            <h2 class="tle-section__title">Personal Introduction</h2>
+           </header>
+           
+             <div class="tle-section__index"> 
+              <br>
+              <!--    个人介绍      -->
+              C 是来自英国伯明翰大学计算机学院的一名在读博士生，其专业是网络安全和可信执行环境安全。他目前的研究点主要在于如何将可信执行技术与数字钱包支付有效的结合，利用可信执行技术来提升数字货币的安全性。
+              <!--    /个人介绍      -->
+             </div>
+          </div> 
+         </div> 
+        </section>
+            
+         </div>
+     </main>
+     
+     </script>
+     

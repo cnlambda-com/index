@@ -77,6 +77,19 @@ var researchData = {
                 linkUrl: "../files/images/research/Drawing17.png",
                 desc: ""
             }
+        },
+        {
+            title: "SGX/TEE Based Bitcoin Wallet",
+            url:"../news/atai.html",
+            contents:[
+            "In the Bitcoin world, the only proof that a user owns bitcoin is the private key stored in the Bitcoin wallet.  If the private key is obtained by attackers, the user will have high risk of losing his/her Bitcoin. As the result, the security of this private key is essential for keeping the user's funding secure.  Currently, to ensure the security of Bitcoin wallet, the private key is usually encrypted and stored in the PC or in the server. Although this approach can provide protection when the key is not in use, the key will be less secure when it is in use. Because when using the key, it will be decrypted and stored in memory. If the Operating System is compromised, the attacker can read the private key in plaintext through reading the memory, and the key will be leaked to the attacker."
+            +"<p><a class=\"tle-section__cta\" href=\"../news/zkp-hardware.html\">Learn more\n</a></p>" 
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/atai.png",
+                desc: ""
+            }
         }
 		
     ]
