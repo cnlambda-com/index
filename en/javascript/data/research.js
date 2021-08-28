@@ -83,11 +83,37 @@ var researchData = {
             url:"../news/atai.html",
             contents:[
             "In the Bitcoin world, the only proof that a user owns bitcoin is the private key stored in the Bitcoin wallet.  If the private key is obtained by attackers, the user will have high risk of losing his/her Bitcoin. As the result, the security of this private key is essential for keeping the user's funding secure.  Currently, to ensure the security of Bitcoin wallet, the private key is usually encrypted and stored in the PC or in the server. Although this approach can provide protection when the key is not in use, the key will be less secure when it is in use. Because when using the key, it will be decrypted and stored in memory. If the Operating System is compromised, the attacker can read the private key in plaintext through reading the memory, and the key will be leaked to the attacker."
-            +"<p><a class=\"tle-section__cta\" href=\"../news/zkp-hardware.html\">Learn more\n</a></p>" 
+            +"<p><a class=\"tle-section__cta\" href=\"../news/atai.html\">Learn more\n</a></p>" 
             ],
             mediaFile: {
                 type: "image",
                 linkUrl: "../files/images/research/atai.png",
+                desc: ""
+            }
+        },
+        {
+            title: "MEV+SGX",
+            url:"../news/xiao.html",
+            contents:[
+            "Blockchain smart contracts have contributed to the creation of a fair and transparent transaction ecosystem. But unfortunately, with the increasing popularity of smart contracts, people have also discovered some new loopholes, and value may be lost without the user's knowledge. One example is miner extractable value (MEV)-a blockchain miner can dynamically reorder transactions (including or excluding transactions within a block) to gain profits at the expense of users. . Simply put, miners can determine the order in which transactions are processed on the blockchain and use this ability for their own benefit."
+            +"<p><a class=\"tle-section__cta\" href=\"../news/xiao.html\">Learn more\n</a></p>" 
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/xiao.png",
+                desc: ""
+            }
+        },
+        {
+            title: "Private-equity+SGX",
+            url:"../news/xiao1.html",
+            contents:[
+            "With the widespread application of blockchain technology, the digital currency market has a market with high volatility, high risks and high returns, which also makes quantitative trading a huge room for development. But one thing to point out is that no strategy can guarantee absolute profit. For example, brick trading and market making need to bear the risk of price changes, and strategic trading may fail under market changes, causing investors to suffer huge losses. In the private equity market, the key technology for profitability is the strategy of quantitative trading, which has the problem of privacy of strategy."
+            +"<p><a class=\"tle-section__cta\" href=\"../news/xiao1.html\">Learn more\n</a></p>" 
+            ],
+            mediaFile: {
+                type: "image",
+                linkUrl: "../files/images/research/xiao1.png",
                 desc: ""
             }
         }
