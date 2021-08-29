@@ -91,6 +91,7 @@ var researchData = {
                 desc: ""
             }
         },
+        /*
         {
             title: "MEV+SGX",
             url:"../news/xiao.html",
@@ -117,7 +118,7 @@ var researchData = {
                 desc: ""
             }
         }
-		
+		*/
     ]
 };
 /*var researchData = {
