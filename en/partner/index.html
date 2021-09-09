@@ -202,6 +202,7 @@
             company_names += company[index].company_name;
             company_names += '</a>' ;
             company_names += ' ';
+            if(index<company.length)company_names += '<br>';
         }
         return re + company_names;
         //return params.name + ': ' + value[2] + a;
