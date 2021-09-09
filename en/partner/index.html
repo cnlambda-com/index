@@ -96,7 +96,7 @@
 
     </div>
 </nav>
-
+<div id="world" style="width: 90%; height: 700px"></div>
 <div id="parnter-container"></div>
 <footer class="site-footer">
     <a href="../home/index.html" class="site-footer__logo-link">
@@ -172,8 +172,98 @@
         renderTemplate("parnterTmpl", parnterData, "parnter-container");
     });
 </script>
+
+
+
 <script src="../javascript/js/echarts.min.js"></script>
-<script src="../javascript/js/china.js"></script>
+<script src="../javascript/js/world.js"></script>
+<script type = "text/javascript">
+  var world = document.getElementById('world');
+  var worldMap = echarts.init(world);
+
+  var option = {
+    title: {
+      //text: '世界地图',
+      left: 'center'
+    },
+
+    tooltip: {
+      alwaysShowContent: true,
+      enterable: true,
+      formatter: function (params) {
+        var re = params.name + ":<br>" ;
+        var value = params.value;
+        var company = params.company;
+        var a = '<br> <a href="http://www.baidu.com" style="color: red">Read more</a>'
+        var company_names = '';
+        for (let index = 0; index < value.length; index++) {
+            company_names += 'a';
+        }
+        return re + company_names;
+        //return params.name + ': ' + value[2] + a;
+      }
+    },
+
+    geo: {
+      map: 'world',
+      silent: true,
+      itemStyle: {
+        color: '#dddddd',
+        borderColor: '#ffffff'
+      },
+      zoom: 1,
+    },
+
+    series: [{
+      type: 'effectScatter',
+      coordinateSystem: 'geo',
+      itemStyle: {
+        color: function (params) {
+          var color = '';
+          var value = params.value;
+          if (value[2] < 50) {
+            color = 'green'
+          }
+          if (value[2] >= 50 && value[2] < 100) {
+            color = 'yellow'
+          }
+          if (value[2] >= 100) {
+            color = 'red'
+          }
+          return color;
+        }
+      },
+      data: [
+        {
+          name: 'Shanghai',
+          value: [121.47, 31.23, 30],
+          company:[
+              {
+                  company_name:'a',
+                  company_url:''
+              },
+              {
+                  company_name:'b',
+                  company_url:''
+              },
+          ],
+        },
+        {
+          name: 'Beijing',
+          value: [116.40, 39.90, 30],
+          company:[
+              {
+                  company_name:'b',
+                  company_url:''
+              },
+          ]
+        },
+      ]
+    }]
+  }
+
+  worldMap.setOption(option);
+</script>
 
 </body>
 </html>
@@ -253,80 +343,7 @@
 
   
   </div>
+
   
 </main>
-</script>
-
-<div id="world" style="width: 90%; height: 800px">
-
-</div>
-<script src="../javascript/js/echarts.min.js"></script>
-<script src="../javascript/js/world.js"></script>
-<script>
-  var world = document.getElementById('world');
-  var worldMap = echarts.init(world);
-
-  var option = {
-    title: {
-      //text: '世界地图',
-      left: 'center'
-    },
-
-    tooltip: {
-      alwaysShowContent: true,
-      enterable: true,
-      formatter: function (params) {
-        var value = params.value;
-        var a = '<br> <a href="http://www.baidu.com" style="color: red">查看详情</a>'
-        return params.name ;
-        //return params.name + ': ' + value[2] + a;
-      }
-    },
-
-    geo: {
-      map: 'world',
-      silent: true,
-      itemStyle: {
-        color: '#dddddd',
-        borderColor: '#ffffff'
-      },
-      zoom: 1,
-    },
-
-    series: [{
-      type: 'effectScatter',
-      coordinateSystem: 'geo',
-      itemStyle: {
-        color: function (params) {
-          var color = '';
-          var value = params.value;
-          if (value[2] < 50) {
-            color = 'green'
-          }
-          if (value[2] >= 50 && value[2] < 100) {
-            color = 'yellow'
-          }
-          if (value[2] >= 100) {
-            color = 'red'
-          }
-          return color;
-        }
-      },
-      data: [{
-          name: 'Shanghai',
-          value: [121.47, 31.23, 30]
-        },
-        {
-          name: 'Beijing',
-          value: [116.40, 39.90, 30]
-        },
-        {
-          name: 'Chongqing',
-          value: [106.55, 29.56, 32]
-        }
-      ]
-    }]
-  }
-
-  worldMap.setOption(option);
 </script>

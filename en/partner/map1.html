@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+<title>地图标注</title>
+</head>
+
+<body>
+  <style>
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+    #map{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div id="map">
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet-src.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script>
+    var map;
+    map = L.map('map').setView([-25.363, 131.044], 5);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '<a href="https://www.openstreetmap.org/">OSM</a>',
+      maxZoom: 18,
+    }).addTo(map);
+    var marker = L.marker([-25.363, 131.044]);
+    marker.addTo(map);
+    $.getJSON('YOURFILE.json', function(r){
+        L.geoJSON(r, {color: '#333'}).addTo(map);
+    });
+</script>
+</div>
+</body>
+</html>
+

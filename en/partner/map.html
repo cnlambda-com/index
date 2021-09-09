@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>地图标注</title>
+</head>
+
+<body>
+  <div id="china" style="width: 900px; height: 600px">
+
+  </div>
+
+  <script src="../javascript/js/echarts.min.js"></script>
+  <script src="../javascript/js/china.js"></script>
+
+  <script>
+    var china = document.getElementById('china');
+    var chinaMap = echarts.init(china);
+
+    var option = {
+      title: {
+        text: '中国空气质量',
+        left: 'center'
+      },
+
+      tooltip: {
+        alwaysShowContent: true,
+        enterable: true,
+        formatter: function (params) {
+          var value = params.value;
+          var a = '<br> <a href="http://www.baidu.com" style="color: red">查看详情</a>'
+          return params.name + ': ' + value[2] + a;
+        }
+      },
+
+      geo: {
+        map: 'china',
+        silent: true,
+        itemStyle: {
+          color: '#004981',
+          borderColor: 'rgb(54,192,118)'
+        }
+      },
+
+      series: [{
+        type: 'effectScatter',
+        coordinateSystem: 'geo',
+        itemStyle: {
+          color: function (params) {
+            var color = '';
+            var value = params.value;
+            if (value[2] < 50) {
+              color = 'green'
+            }
+            if (value[2] >= 50 && value[2] < 100) {
+              color = 'yellow'
+            }
+            if (value[2] >= 100) {
+              color = 'red'
+            }
+            return color;
+          }
+        },
+        data: [{
+            name: '上海',
+            value: [121.47, 31.23, 55]
+          },
+          {
+            name: '北京',
+            value: [116.40, 39.90, 110]
+          },
+          {
+            name: '重庆',
+            value: [106.55, 29.56, 32]
+          }
+        ]
+      }]
+    }
+
+    chinaMap.setOption(option);
+  </script>
+</body>
+
+</html>
