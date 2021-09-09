@@ -191,13 +191,17 @@
       alwaysShowContent: true,
       enterable: true,
       formatter: function (params) {
-        var re = params.name + ":<br>" ;
+        var re = params.data.category+'<br>'+ params.name + ":<br>" ;
         var value = params.value;
-        var company = params.company;
-        var a = '<br> <a href="http://www.baidu.com" style="color: red">Read more</a>'
+        var company = params.data.company;
         var company_names = '';
-        for (let index = 0; index < value.length; index++) {
-            company_names += 'a';
+        for (let index = 0; index < company.length; index++) {
+            company_names += '<a href="';
+            company_names += company[index].company_url;
+            company_names += '" style="color: black">';
+            company_names += company[index].company_name;
+            company_names += '</a>' ;
+            company_names += ' ';
         }
         return re + company_names;
         //return params.name + ': ' + value[2] + a;
@@ -225,7 +229,7 @@
             color = 'green'
           }
           if (value[2] >= 50 && value[2] < 100) {
-            color = 'yellow'
+            color = 'orange'
           }
           if (value[2] >= 100) {
             color = 'red'
@@ -237,24 +241,26 @@
         {
           name: 'Shanghai',
           value: [121.47, 31.23, 30],
+          category:'Industry',
           company:[
               {
                   company_name:'a',
-                  company_url:''
+                  company_url:'../about/index.html'
               },
               {
                   company_name:'b',
-                  company_url:''
+                  company_url:'../about/index.html'
               },
           ],
         },
         {
           name: 'Beijing',
-          value: [116.40, 39.90, 30],
+          value: [116.40, 39.90, 60],
+          category:'Academia',
           company:[
               {
                   company_name:'b',
-                  company_url:''
+                  company_url:'../about/index.html'
               },
           ]
         },
