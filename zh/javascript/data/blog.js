@@ -5,8 +5,8 @@ var blogData={
             url:"",
             contents:[
                 {
-                    ttl:"Martislab Research Newsletter, August 21, 2021",
-                    url:"../files/documents/martislab宣传册.pdf"
+                    ttl:"Martislab 行业动态, 2021年8月21日",
+                    url:"../industryNews/21-8-21.html"
                 },
             ],
             mediaFile: {
@@ -20,7 +20,7 @@ var blogData={
             url:"",
             contents:[
                 {
-                    ttl:"Martislab Research Newsletter, August 21, 2021",
+                    ttl:"Martislab 研究动态, 2021年8月21日",
                     url:"../files/documents/martislab宣传册.pdf"
                 },
             ],
