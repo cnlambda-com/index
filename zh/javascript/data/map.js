@@ -92,11 +92,7 @@ series: [{
         company:[
             {
                 company_name:'南方科技大学',
-                company_url:'../about/index.html'
-            },
-            {
-                company_name:'b',
-                company_url:'../about/index.html'
+                company_url:'https://www.sustech.edu.cn/'
             },
         ],
     },

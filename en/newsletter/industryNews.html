@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js theme--orange">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="copyright" content="Copyright: martislab, 2021. Design borrowed from MIT - http://web.mit.edu/">
+    <link rel="shortcut icon" href="../themes/martislab/favicon.ico" type="image/vnd.microsoft.icon"/>
+
+    <title>Research  | Enterprise-focused Cryptography Research Group</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../themes/martislab/assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../themes/martislab/assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../themes/martislab/assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../themes/martislab/assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../themes/martislab/assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../themes/martislab/assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../themes/martislab/assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../themes/martislab/assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../themes/martislab/assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../themes/martislab/assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../themes/martislab/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../themes/martislab/assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../themes/martislab/assets/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/themes/martislab/assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" media="all" href="../themes/martislab/assets/css/main_q29575.css"/>
+    <!--<![endif]-->
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" media="all" href="/themes/martislab/assets/css/ie-7-8.css?q29575"/>
+    <![endif]-->
+    <style type="text/css">
+        .p1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        }
+        .ul{
+            list-style-type:disc;
+        }
+        </style>
+</head>
+<body class="tle research" style="min-height: 800px;">
+<a href="#main" class="skip-to-content">Skip to content ↓</a>
+<div id="notification">
+    <notification v-if="isHomepage"></notification>
+</div>
+<nav class="site-nav js-site-nav">
+    <div class="site-nav__width">
+        <a class="site-nav__logo-link" href="../home/index.html">
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="60" viewBox="0, 0, 400,120.71428571428571"><g id="svgg"><path id="path0" d="M117.857 36.322 C 117.857 61.046,119.615 64.261,133.792 65.460 L 139.286 65.924 139.286 62.248 L 139.286 58.571 135.893 58.570 C 127.918 58.568,124.922 55.029,124.441 45.044 L 124.095 37.857 131.690 37.857 L 139.286 37.857 139.286 34.286 L 139.286 30.714 131.786 30.714 L 124.286 30.714 124.286 25.000 L 124.286 19.286 121.071 19.286 L 117.857 19.286 117.857 36.322 M146.250 20.057 C 144.660 20.983,144.580 25.192,146.122 26.735 C 148.339 28.951,152.379 27.719,153.165 24.586 C 154.158 20.627,149.976 17.887,146.250 20.057 M196.429 42.500 L 196.429 65.714 200.000 65.714 L 203.571 65.714 203.571 42.500 L 203.571 19.286 200.000 19.286 L 196.429 19.286 196.429 42.500 M248.571 42.500 L 248.571 65.714 258.036 65.710 C 275.706 65.703,279.445 62.664,279.564 48.214 C 279.668 35.575,276.280 31.264,265.893 30.820 L 260.000 30.568 260.000 34.212 L 260.000 37.857 264.286 37.857 C 270.229 37.857,272.849 41.027,272.849 48.214 C 272.849 55.940,270.014 58.571,261.689 58.571 L 255.714 58.571 255.714 38.929 L 255.714 19.286 252.143 19.286 L 248.571 19.286 248.571 42.500 M5.714 48.222 L 5.714 65.714 9.286 65.714 L 12.857 65.714 12.857 53.293 C 12.857 38.221,13.730 36.388,20.107 38.065 C 22.964 38.816,23.571 41.677,23.571 54.392 L 23.571 65.714 26.727 65.714 L 29.882 65.714 30.120 53.288 C 30.388 39.226,30.863 37.857,35.468 37.857 C 40.291 37.857,40.714 39.097,40.714 53.214 L 40.714 65.714 44.339 65.714 L 47.964 65.714 47.732 51.479 C 47.473 35.577,47.178 34.559,42.092 31.965 C 38.693 30.232,31.772 30.293,28.839 32.081 C 26.758 33.350,26.525 33.362,25.421 32.257 C 24.459 31.295,22.494 31.039,14.975 30.900 L 5.714 30.730 5.714 48.222 M55.000 34.286 L 55.000 37.857 64.863 37.857 C 78.035 37.857,77.436 37.328,77.735 49.227 L 77.971 58.571 70.216 58.571 C 61.932 58.571,59.286 57.707,59.286 55.000 C 59.286 52.547,62.019 51.429,68.016 51.429 L 73.571 51.429 73.571 47.776 L 73.571 44.124 66.250 44.404 C 55.378 44.820,52.455 47.173,52.536 55.444 C 52.619 63.881,55.326 65.294,71.986 65.593 L 85.111 65.829 84.877 52.022 C 84.529 31.497,83.834 30.717,65.893 30.715 L 55.000 30.714 55.000 34.286 M100.183 31.512 C 93.549 33.428,91.471 38.498,90.922 54.107 L 90.514 65.714 94.186 65.714 L 97.857 65.714 97.874 56.607 C 97.903 41.092,99.689 37.857,108.226 37.857 L 112.857 37.857 112.857 34.286 L 112.857 30.714 107.679 30.779 C 104.830 30.814,101.457 31.144,100.183 31.512 M145.714 48.214 L 145.714 65.714 149.286 65.714 L 152.857 65.714 152.857 48.214 L 152.857 30.714 149.286 30.714 L 145.714 30.714 145.714 48.214 M162.926 31.618 C 159.622 33.316,158.304 36.012,158.304 41.071 C 158.304 49.532,160.947 51.403,172.925 51.418 C 181.569 51.429,183.571 52.126,183.571 55.124 C 183.571 57.957,181.366 58.571,171.194 58.571 L 161.429 58.571 161.429 62.206 L 161.429 65.840 172.679 65.591 C 188.085 65.250,191.766 62.687,190.467 53.209 C 189.508 46.213,187.109 44.840,175.129 44.434 C 166.816 44.153,166.289 44.047,165.591 42.516 C 163.773 38.525,165.381 37.857,176.811 37.857 L 187.143 37.857 187.143 34.286 L 187.143 30.714 175.893 30.725 C 168.387 30.732,164.072 31.029,162.926 31.618 M211.429 34.286 L 211.429 37.857 221.745 37.857 C 234.766 37.857,234.286 37.400,234.286 49.802 L 234.286 58.571 226.429 58.571 C 219.524 58.571,218.398 58.398,217.143 57.143 C 213.702 53.702,216.685 51.429,224.643 51.429 L 230.714 51.429 230.714 47.857 L 230.714 44.286 224.464 44.290 C 212.583 44.297,209.286 46.633,209.286 55.044 C 209.286 64.212,212.152 65.670,230.232 65.697 L 241.536 65.714 241.304 51.479 C 240.975 31.326,240.418 30.717,222.321 30.715 L 211.429 30.714 211.429 34.286 M305.879 31.609 C 295.027 35.088,293.805 57.749,304.161 63.462 C 313.641 68.691,326.445 63.888,328.494 54.334 C 332.157 37.255,321.541 26.588,305.879 31.609 M344.224 31.397 C 336.842 33.634,335.016 38.062,335.007 53.750 L 335.000 65.714 337.500 65.714 L 340.000 65.714 340.000 54.562 C 340.000 39.020,342.055 35.714,351.715 35.714 L 355.714 35.714 355.714 33.214 L 355.714 30.714 350.893 30.776 C 348.241 30.809,345.240 31.089,344.224 31.397 M368.214 31.587 C 362.182 33.726,359.246 38.227,358.730 46.128 C 357.892 58.942,362.813 64.439,376.031 65.455 L 382.143 65.925 382.143 63.423 L 382.143 60.920 376.765 60.514 C 367.990 59.850,363.550 55.595,363.587 47.884 C 363.629 39.188,368.010 35.714,378.933 35.714 L 385.781 35.714 385.569 54.624 C 385.305 78.211,386.129 76.674,373.554 77.024 L 365.000 77.262 365.000 79.773 L 365.000 82.283 374.497 82.034 C 390.663 81.611,390.291 82.282,390.573 53.069 L 390.789 30.714 380.573 30.771 C 374.954 30.802,369.393 31.169,368.214 31.587 M319.149 37.160 C 327.507 42.256,325.194 57.950,315.772 60.067 C 307.791 61.860,302.193 56.838,302.160 47.857 C 302.123 38.113,311.268 32.355,319.149 37.160 M284.821 57.914 C 283.231 58.840,283.151 63.049,284.694 64.592 C 286.910 66.808,290.950 65.576,291.736 62.443 C 292.730 58.484,288.547 55.744,284.821 57.914 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+            <h1 class="visually-hidden">Massachusetts Institute of Technology</h1>
+        </a>
+
+
+        <ul class="site-nav__links">
+            <li class="site-nav__link-item menu-item--collapsed">
+                <a href="../home/index.html" class="site-nav__link js-nav-item menu-item--collapsed"
+                   data-drupal-link-system-path="node/11">Home</a>
+            </li>
+            <li class="site-nav__link-item menu-item--collapsed">
+                <a href="../research/index.html" class="site-nav__link js-nav-item menu-item--collapsed "
+                   data-drupal-link-system-path="node/12">Research</a>
+            </li>
+            <li class="site-nav__link-item">
+                <a href="../team/index.html" class="site-nav__link js-nav-item" 
+                data-drupal-link-system-path="node/14">Team</a>
+            </li>
+            <li class="site-nav__link-item">
+                <a href="../products/index.html" class="site-nav__link js-nav-item" 
+                data-drupal-link-system-path="node/15">Achievement</a>
+            </li>
+            <li class="site-nav__link-item menu-item--active-trail">
+                <a href="../partner/index.html" class="site-nav__link js-nav-item menu-item--active-trail"
+                   data-drupal-link-system-path="node/13">Partner</a>
+            </li>
+            <li class="site-nav__link-item menu-item--collapsed">
+                <a href="../newsletter/index.html" class="site-nav__link js-nav-item menu-item--collapsed is-active"
+                   data-drupal-link-system-path="node/17">Newsletter</a>
+            </li>
+            <li class="site-nav__link-item">
+                <a href="../about/index.html" class="site-nav__more-link"
+                   data-drupal-link-system-path="node/16">About</a>
+            </li>
+        </ul>
+        <div class="site-nav__buttons" style="padding-right: 85px;">
+            <button class="site-nav__mobile-trigger js-mobile-nav-trigger"><span
+                    class="js-mobile-nav-trigger-text">Menu</span> <span
+                    class="site-nav__arrow js-mobile-nav-trigger-arrow">↓</span></button>
+        </div>
+
+        <div class="site-nav__buttons">
+            <select id="language" style="min-width: 83px; padding: 15px 15px 15px 5px">
+                <option value="zh">中文</option>
+                <option value="en" selected>EN</option>
+            </select>
+        </div>
+
+    </div>
+</nav>
+
+<div id="research-container"></div>
+<footer class="site-footer">
+    <a href="../home/index.html" class="site-footer__logo-link">
+        <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="110" viewBox="0, 0, 400,379.6733212341198"><g id="svgg"><path id="path0" d="M185.926 16.322 C 115.294 32.323,116.605 132.577,187.611 145.154 C 239.752 154.389,280.623 99.818,257.449 51.906 C 244.677 25.499,213.621 10.048,185.926 16.322 M206.171 29.811 C 238.511 35.035,257.832 67.306,246.934 97.896 C 244.869 103.693,239.972 112.071,238.885 111.668 C 238.387 111.482,230.618 102.923,223.118 94.296 C 222.217 93.259,222.746 92.708,227.874 89.342 C 233.927 85.367,234.483 84.687,234.483 81.240 C 234.483 78.180,233.906 77.830,211.625 67.375 C 200.304 62.063,189.490 56.482,187.080 54.708 C 181.144 50.338,174.565 47.339,167.652 45.852 L 161.811 44.595 166.023 41.135 C 171.126 36.944,181.838 31.616,187.296 30.555 C 189.492 30.128,191.942 29.650,192.740 29.492 C 195.627 28.924,201.548 29.065,206.171 29.811 M213.793 40.030 C 207.806 43.566,209.918 52.995,216.697 52.995 C 220.825 52.995,223.536 50.362,223.570 46.320 C 223.613 41.364,217.832 37.645,213.793 40.030 M190.345 40.799 C 187.927 43.216,189.810 47.913,193.197 47.913 C 195.725 47.913,197.459 46.179,197.459 43.651 C 197.459 41.063,196.241 39.927,193.466 39.927 C 192.229 39.927,190.824 40.319,190.345 40.799 M164.308 56.249 C 170.604 57.583,176.383 60.226,181.301 64.019 C 183.424 65.658,192.416 70.403,201.282 74.565 C 210.148 78.727,217.513 82.244,217.650 82.381 C 217.786 82.517,215.953 83.949,213.577 85.563 C 205.727 90.893,205.898 91.481,219.860 107.192 L 231.371 120.145 228.027 122.565 C 186.155 152.867,131.004 106.768,152.089 59.092 C 154.096 54.553,155.149 54.308,164.308 56.249 M176.746 77.675 C 172.952 79.553,171.325 82.369,171.325 87.056 C 171.325 96.034,182.606 100.222,188.834 93.556 C 196.618 85.223,187.007 72.596,176.746 77.675 M117.025 188.929 C 117.316 213.567,119.009 216.647,132.784 217.591 L 138.657 217.993 138.657 214.260 L 138.657 210.526 135.367 210.526 C 126.832 210.526,124.138 207.280,124.138 196.998 L 124.138 189.474 131.397 189.474 L 138.657 189.474 138.657 185.844 L 138.657 182.214 131.397 182.214 L 124.138 182.214 124.138 176.407 L 124.138 170.599 120.473 170.599 L 116.809 170.599 117.025 188.929 M145.666 171.926 C 143.021 174.849,144.890 179.310,148.760 179.310 C 152.720 179.310,154.536 174.863,151.724 172.051 C 149.912 170.239,147.243 170.184,145.666 171.926 M196.733 194.192 L 196.733 217.786 200.363 217.786 L 203.993 217.786 203.993 194.192 L 203.993 170.599 200.363 170.599 L 196.733 170.599 196.733 194.192 M249.728 194.192 L 249.728 217.786 260.463 217.786 C 277.710 217.786,281.307 214.717,281.307 200.000 C 281.307 187.209,277.084 182.214,266.271 182.214 L 261.343 182.214 261.343 185.844 L 261.343 189.474 265.517 189.497 C 271.689 189.531,274.410 192.733,274.410 199.962 C 274.410 208.066,271.697 210.526,262.761 210.526 L 256.987 210.526 256.987 190.563 L 256.987 170.599 253.358 170.599 L 249.728 170.599 249.728 194.192 M2.904 200.000 L 2.904 217.786 6.534 217.786 L 10.163 217.786 10.163 205.760 C 10.163 191.280,10.760 189.496,15.608 189.496 C 20.456 189.496,21.053 191.280,21.053 205.760 L 21.053 217.786 24.682 217.786 L 28.312 217.786 28.312 204.760 C 28.312 190.322,28.603 189.474,33.555 189.474 C 37.994 189.474,38.475 191.002,38.475 205.082 L 38.475 217.786 42.160 217.786 L 45.844 217.786 45.608 203.318 C 45.345 187.164,45.058 186.171,39.876 183.446 C 36.641 181.745,28.380 181.997,26.322 183.859 C 25.027 185.031,24.796 185.020,22.123 183.657 C 19.067 182.099,13.828 181.756,11.568 182.966 C 10.600 183.484,10.163 183.484,10.163 182.966 C 10.163 182.548,8.552 182.214,6.534 182.214 L 2.904 182.214 2.904 200.000 M52.995 185.781 L 52.995 189.474 63.158 189.474 C 76.600 189.474,76.225 189.130,76.225 201.452 L 76.225 210.526 67.893 210.526 C 59.940 210.526,59.511 210.449,58.439 208.814 C 56.036 205.146,58.880 203.267,66.835 203.267 L 71.869 203.267 71.869 200.000 L 71.869 196.733 64.428 196.744 C 53.507 196.760,50.672 198.812,50.672 206.700 C 50.672 216.321,53.379 217.786,71.158 217.786 L 83.485 217.786 83.469 204.537 C 83.443 183.480,82.791 182.704,64.826 182.333 L 52.995 182.089 52.995 185.781 M99.205 183.273 C 91.673 185.959,90.055 189.903,90.034 205.626 L 90.018 217.786 93.648 217.786 L 97.278 217.786 97.278 206.861 C 97.278 191.947,98.770 189.474,107.768 189.474 L 111.797 189.474 111.797 185.844 L 111.797 182.214 106.897 182.246 C 104.201 182.264,100.740 182.726,99.205 183.273 M145.191 200.000 L 145.191 217.786 148.820 217.786 L 152.450 217.786 152.450 200.000 L 152.450 182.214 148.820 182.214 L 145.191 182.214 145.191 200.000 M162.842 183.277 C 157.803 185.468,156.301 195.972,160.375 200.533 L 162.493 202.904 171.882 203.267 C 181.621 203.643,183.666 204.280,183.666 206.934 C 183.666 210.028,181.947 210.526,171.273 210.526 L 161.162 210.526 161.162 214.156 L 161.162 217.786 172.232 217.785 C 187.938 217.783,191.454 215.553,190.685 206.081 C 190.045 198.195,188.671 197.308,176.260 196.770 C 166.430 196.344,165.336 195.938,165.336 192.712 C 165.336 189.794,166.438 189.497,177.314 189.485 L 187.296 189.474 187.296 185.844 L 187.296 182.214 176.225 182.243 C 168.443 182.263,164.467 182.570,162.842 183.277 M211.978 185.795 L 211.978 189.474 222.142 189.474 C 235.584 189.474,235.209 189.130,235.209 201.452 L 235.209 210.526 227.538 210.526 C 218.709 210.526,217.060 209.948,217.060 206.853 C 217.060 204.040,219.026 203.267,226.182 203.267 L 231.579 203.267 231.579 200.000 L 231.579 196.733 223.920 196.733 C 212.234 196.733,209.363 199.058,209.936 208.058 C 210.478 216.560,213.020 217.786,230.104 217.786 L 242.468 217.786 242.467 204.174 C 242.465 183.342,241.915 182.695,223.906 182.347 L 211.978 182.116 211.978 185.795 M308.300 183.266 C 294.521 188.180,296.200 213.849,310.516 217.153 C 325.642 220.644,335.496 208.503,330.760 192.211 C 328.325 183.836,318.110 179.768,308.300 183.266 M346.642 183.305 C 339.388 185.870,337.578 190.469,337.572 206.352 L 337.568 217.786 340.109 217.786 L 342.650 217.786 342.651 206.715 C 342.652 191.169,344.487 188.027,353.910 187.427 L 358.621 187.127 358.621 184.670 L 358.621 182.214 354.083 182.246 C 351.588 182.264,348.240 182.740,346.642 183.305 M371.594 183.350 C 363.598 185.812,359.930 194.912,362.336 206.316 C 363.940 213.915,370.293 217.786,381.161 217.786 L 385.481 217.786 385.481 215.340 L 385.481 212.895 380.117 212.551 C 370.597 211.940,366.138 207.255,366.858 198.618 C 367.539 190.439,371.056 187.754,381.539 187.411 L 389.111 187.164 389.111 206.160 L 389.111 225.157 386.989 227.279 C 384.888 229.380,384.783 229.401,376.462 229.401 L 368.058 229.401 368.058 231.942 L 368.058 234.483 376.755 234.483 C 394.142 234.483,394.154 234.460,394.176 204.174 L 394.192 182.214 384.574 182.265 C 378.441 182.297,373.737 182.690,371.594 183.350 M320.424 188.303 C 328.660 191.744,328.865 207.562,320.721 211.258 C 311.991 215.220,304.234 209.924,304.190 199.972 C 304.149 190.428,312.001 184.783,320.424 188.303 M286.440 210.215 C 283.743 212.912,285.774 217.786,289.595 217.786 C 293.555 217.786,295.371 213.338,292.559 210.526 C 290.819 208.786,288.012 208.644,286.440 210.215 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+        <span class="visually-hidden">Enterprise-focused Cryptography Research Group</span>
+    </a>
+    <ul class="site-footer__nav-mod">
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../education/index.html">Home</a>
+        </li>
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../research/index.html">Research</a>
+        </li>
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../team/index.html">Team</a>
+        </li>
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../products/index.html">Achievement</a>
+        </li>
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../partner/index.html">Partner</a>
+        </li>
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../newsletter/index.html">Newsletter</a>
+        </li>
+        <li class="site-footer__nav__link-item">
+            <a class="site-footer__nav__link js-nav-item " href="../about/index.html">About</a>
+        </li>
+    </ul>
+
+    <div class="site-footer__cta-mod">
+        <a class="site-footer__join-us-link" href="../about/index.html?#contact">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 16 16"
+                 class="arrow-northeast site-footer__join-us-icon">
+                <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1.5" transform="translate(1 1)">
+                    <polyline points="3 0 14 0 14 11"/>
+                    <path d="M14,0 L0,14"/>
+                </g>
+            </svg>
+
+            <span>Security for the enterprise.</span></a>
+    </div>
+
+    <div class="site-footer__utility-mod">
+        <p class="site-footer__name">
+            <a href="../home/index.html">Enterprise-focused Cryptography Research Group</a>
+        </p>
+        <div class="site-footer__contact-info">
+            <a href="https://map.baidu.com/poi/%E5%8D%97%E5%B1%B1%E6%99%BA%E5%9B%AD-A7%E6%A0%8B/@12691818.462550761,2567194.175,15.75z?uid=53aaff3b1ffbb23b07026f2e&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&querytype=detailConInfo&da_src=shareurl"
+               target="_blank" class="site-footer__contact-info-link">GE Fogg Building, Mile End Rd, Bethnal Green, London
+            </a>
+        </div>
+        <p>
+			Copyright &copy; <a href="https://martislab.org">Martislab</a> 2021; Design borrowed from <a href="http://web.mit.edu/" target="_blank">MIT</a>
+        </p>
+    </div>
+</footer>
+<script src="../themes/martislab/assets/js/modernizr_q29575.js"></script>
+<script src="../javascript/js/jquery-3.2.1.min.js"></script>
+<script src="../javascript/js/jsviews.min.js"></script>
+<script src="../javascript/commonTemplate.js"></script>
+<script src="../javascript/data/industryNews.js"></script>
+
+<!--[if gt IE 8]><!-->
+<script src="../themes/martislab/assets/js/main_q29575.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/themes/martislab/assets/js/ie-7-8.js?q29575"></script>
+<![endif]-->
+
+<script type="text/javascript">
+    $(function () {
+        renderTemplate("newsTmpl", newsData, "research-container");
+    });
+</script>
+</body>
+</html>
+<script id="newsTmpl" type="text/x-jsrender">
+    <main class="tle-main page-research" id="main" tabindex="0" aria-live="polite">
+    <div data-drupal-messages-fallback class="hidden"></div>
+    <div class="tle-content-mod">
+        <section class="tle-gutter-container">
+            <div class="tle-container">
+                <header class="tle-padding">
+                    <div class="tle-header__intro">
+                        <ul class="breadcrumbs">
+                            <li class="breadcrumb"><a class="breadcrumb__link" href="../home/index.html">Home</a></li>
+                            <li class="breadcrumb"><span>&nbsp;Newsletter</span></li>
+                        </ul>
+                        <div class="tle-gutter">
+                            <h2 class="tle-gutter__title"><span>Newsletter</span></h2>
+                            <div class="tle-gutter__bg"></div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+       </section>
+       {{for sections}}
+       {{if #index == 0}}
+        <section class="tle-gutter-container">
+        {{else}}
+        <section class="tle-section">
+        {{/if}}
+            <div class="tle-container">
+                <header class="tle-header tle-padding">
+                    <div class="tle-header__intro">
+                        <h2 class="tle-section__title">
+                           {{:title}}
+                        </h2>
+                    </div>
+                    <br><br>
+
+
+                    <div class="tle-section__content">
+                        <div class="tle-section__description">
+                            {{for contents}}
+                                <ul class="ul">
+                                    <p class="p1">{{: #data}}</p>
+                                </ul>
+                                {{/for}} 
+                                {{for items}}
+                                <ul class="ul">
+                                    <li><a href="{{:url}}" ><span>{{:ttl}}</span></a></li>
+                                </ul>
+                                {{/for}}          
+                       </div>
+                    </div>
+
+
+
+                    {{if mediaFile.type == 'vedio'}}
+                    <figure class="tle-header__video">
+                        <div class="tle-header__video-wrapper">
+                            <video class="pause-video js-pause-video" autoplay loop muted tabindex="0">
+                                <source src="{{:mediaFile.linkUrl}}"/>
+                                {{:mediaFile.desc}}
+                            </video>
+
+                            <div class="tle-header__video-controls">
+                                <button class="tle-header__video-button js-video-button" type="button"
+                                        aria-label="Pause"></button>
+                            </div>
+                        </div>
+
+                        <figcaption class="tle-header__video-caption">
+                        </figcaption>
+                    </figure>
+                    {{else mediaFile.type == 'image'}}
+                    <figure class="image-grid tle-section__image-grid image-grid--single image-grid--1">
+                        <div class="image-grid__inner">
+                            <div class="image-grid__grid-item">
+                                <div class="image-grid__image">
+                                    <img class="lazyloaded"
+                                         data-src="{{:mediaFile.linkUrl}}"
+                                         src="{{:mediaFile.linkUrl}}"
+                                         alt="{{:mediaFile.desc}}">
+                                </div>
+                                <figcaption class="image-grid__captions" aria-hidden="true">
+                                    <span class="image-grid__caption">{{:mediaFile.desc}}</span>
+                                </figcaption>
+                            </div>
+                        </div>
+                    </figure>
+                    {{else}}
+                    {{/if}}
+                </header>
+            </div>
+        </section>
+        <br><br>
+        {{/for}}
+    </div>
+</main>
+
+</script>
