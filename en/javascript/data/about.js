@@ -122,7 +122,7 @@ var aboutData = {
                 },
                 {
                     part:"Donate",
-                    con:"Martislab Bitcoin address: 3JsJd4ggM87chQRybCfavn4pyCt27rY9v8 <br><br> Ethereum address: 0x965dDf03115F80F032f507237E44e0e1A2a4925A"
+                    con:"Martislab Bitcoin address: 3JsJd4ggM87chQRybCfavn4pyCt27rY9v8 <br><br> Ethereum address: <br>0x965dDf03115F80F032f507237E44e0e1A2a4925A"
                 }
             ]
         }
