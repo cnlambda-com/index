@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="815fb929-3b57-44d2-a612-ba334e757b71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/en/javascript/data/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/en/javascript/data/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/partner/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/partner/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js" beforeDir="false" afterPath="$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js" afterDir="false" />
-    </list>
+    <list default="true" id="815fb929-3b57-44d2-a612-ba334e757b71" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en/partner/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
-              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            <state relative-caret-position="257">
+              <caret line="87" column="73" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -227,6 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -255,24 +252,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632379392629</updated>
-      <workItem from="1632379395309" duration="3232000" />
+      <workItem from="1632379395309" duration="3888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3232000" />
+    <option name="totallyTimeSpent" value="3888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13675214" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13675214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3293556" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -333,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/en/partner/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="257">
+          <caret line="87" column="73" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
