@@ -87,6 +87,6 @@ var option = {
       },
     ]
   }]
-}
+};
 
 worldMap.setOption(option);
