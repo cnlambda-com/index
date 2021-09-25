@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="815fb929-3b57-44d2-a612-ba334e757b71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/en/partner/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/partner/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/themes/martislab/assets/js/forpartner-q2.js" beforeDir="false" afterPath="$PROJECT_DIR$/en/themes/martislab/assets/js/forpartner-q2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js" beforeDir="false" afterPath="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en/partner/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+            <state relative-caret-position="440">
+              <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -52,8 +51,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret column="222368" selection-start-column="222368" selection-end-column="222368" />
+            <state relative-caret-position="340">
+              <caret column="224336" selection-start-column="224336" selection-end-column="224336" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en/products/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1658">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,15 +83,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
               <caret column="224273" selection-start-column="224273" selection-end-column="224273" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q4imn2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret column="224077" selection-start-column="224072" selection-end-column="224077" />
             </state>
           </provider>
         </entry>
@@ -279,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632379392629</updated>
-      <workItem from="1632379395309" duration="7469000" />
+      <workItem from="1632379395309" duration="7767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7469000" />
+    <option name="totallyTimeSpent" value="7767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -341,13 +343,6 @@
         <state relative-caret-position="-1207" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en/products/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1548">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en/javascript/data/parnter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1176">
@@ -396,15 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en/partner/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en/industryNews/21-8-21.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1606" />
@@ -417,17 +403,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/en/products/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1658">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret column="222368" selection-start-column="222368" selection-end-column="222368" />
+        <state relative-caret-position="340">
+          <caret column="224336" selection-start-column="224336" selection-end-column="224336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/partner/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en/partner/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+        <state relative-caret-position="440">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
