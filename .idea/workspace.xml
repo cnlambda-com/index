@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="815fb929-3b57-44d2-a612-ba334e757b71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575_forpartner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/partner/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/partner/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js" beforeDir="false" afterPath="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js" beforeDir="false" afterPath="$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en/partner/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/css/main_q29575.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-695">
-              <caret column="21222" selection-start-column="21218" selection-end-column="21222" />
+            <state relative-caret-position="217">
+              <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -71,9 +57,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575_forpartner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret column="287469" lean-forward="true" selection-start-column="287469" selection-end-column="287469" />
+            <state relative-caret-position="246">
+              <caret column="224374" selection-start-column="224317" selection-end-column="224374" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret column="224369" selection-start-column="224369" selection-end-column="224369" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zh/partner/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1558" />
           </provider>
         </entry>
       </file>
@@ -99,11 +101,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/js/modernizr_q4imn2.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/js/modernizr_q29575.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -118,10 +115,10 @@
       <find>q4</find>
       <find>q2</find>
       <find>function</find>
+      <find>document</find>
+      <find>q29</find>
       <find>hide</find>
       <find>&quot;main</find>
-      <find>q29</find>
-      <find>document</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,13 +128,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/en/javascript/data/map.js" />
-        <option value="$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js" />
         <option value="$PROJECT_DIR$/en/javascript/data/parnter.js" />
         <option value="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q4imn2.js" />
         <option value="$PROJECT_DIR$/en/themes/martislab/assets/js/forpartner.js" />
         <option value="$PROJECT_DIR$/en/themes/martislab/assets/js/forpartner-q2.js" />
         <option value="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js" />
         <option value="$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575_forpartner.js" />
+        <option value="$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js" />
         <option value="$PROJECT_DIR$/en/partner/index.html" />
       </list>
     </option>
@@ -230,6 +227,12 @@
               <item name="index" type="b2602c69:ProjectViewProjectNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="zh" type="462c0819:PsiDirectoryNode" />
+              <item name="partner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="index" type="b2602c69:ProjectViewProjectNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="zh" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,12 +301,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632379392629</updated>
-      <workItem from="1632379395309" duration="12015000" />
+      <workItem from="1632379395309" duration="12371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12015000" />
+    <option name="totallyTimeSpent" value="12371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -369,13 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret column="280520" selection-start-column="280514" selection-end-column="280520" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q4imn2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -434,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/css/main_q29575.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-695">
-          <caret column="21222" selection-start-column="21218" selection-end-column="21222" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -448,20 +437,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/css/main_q29575.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-695">
+          <caret column="21222" selection-start-column="21218" selection-end-column="21222" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/en/themes/martislab/assets/js/main_q29575_forpartner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret column="287469" lean-forward="true" selection-start-column="287469" selection-end-column="287469" />
+        <state relative-caret-position="246">
+          <caret column="224374" selection-start-column="224317" selection-end-column="224374" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh/themes/martislab/assets/js/main_q29575.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret column="224369" selection-start-column="224369" selection-end-column="224369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zh/partner/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1558" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en/partner/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="217">
+          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
         </state>
       </provider>
     </entry>
