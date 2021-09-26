@@ -85,7 +85,7 @@
 
 
         <div class="site-nav__buttons" style="padding-right: 85px;">
-            <button class="site-nav__mobile-trigger js-mobile-nav-trigger"><span
+            <button class="site-nav__mobile-trigger js-mobile-nav-trigger" onclick="changeVisibility()"><span
                     class="js-mobile-nav-trigger-text">Menu</span> <span
                     class="site-nav__arrow js-mobile-nav-trigger-arrow">↓</span></button>
         </div>
@@ -100,6 +100,11 @@
 
     </div>
 </nav>
+<script>
+    function changeVisibility() {
+        document.getElementById("world").style.visibility = "hidden";
+    }
+</script>
 <div id="parnter-container"></div>
 <div id="world" style="width: 90%; height: 600px"></div>
 <footer class="site-footer">
@@ -117,18 +122,7 @@
         <li class="site-footer__nav__link-item">
             <a class="site-footer__nav__link js-nav-item " href="../team/index.html">Team</a>
         </li>
-        <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../products/index.html">Achievement</a>
-        </li>
-        <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../partner/index.html">Partner</a>
-        </li>
-        <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../newsletter/index.html">Newsletter</a>
-        </li>
-        <li class="site-footer__nav__link-item">
-            <a class="site-footer__nav__link js-nav-item " href="../about/index.html">About</a>
-        </li>
+
     </ul>
 
     <div class="site-footer__cta-mod">
