@@ -3,19 +3,19 @@ var aboutData = {
         {
             secType:"about",
             title:"About us",
-            details:"Martislab will be driven by the needs of enterprises, to assist young scientific research personnel as the goal, aimed at building a strong link of global international cooperation, the establishment of world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.",
+            details:"Martislab will be driven by the needs of enterprises, established with the gosl of assisting young scientific research personnel, and aimed at building a strong link of global international cooperation. We are aiming to establish a world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.",
             paragraphs:[
                 {
                     title:"Mission",
-                    details:"Committed to high-tech innovation research and development and landing, to serve the world economy."
+                    details:"We are committed to high-tech innovation research and development and landing to serve the world economy."
                 },
                 {
                     title:"Vision",
-                    details:"To found a world-class, enterprise application-driven, cryptography and artificial intelligence research institute."
+                    details:"We are aiming to found a world-class, enterprise application-driven, cryptography and artificial intelligence research institute."
                 },
                 {
                     title:"Governance",
-                    details:"Martislab is managed jointly by the Finance Committee and the Executive Committee. The Finance Committee is responsible for obtaining funding or contributions from enterprises, setting macro objectives for the allocation of funds and scientific research outputs, and the Executive Committee is responsible for assessing projects and coordinating the personnel and progress of projects.",
+                    details:"Martislab is managed jointly by the Finance Committee and the Executive Committee. The Finance Committee is responsible for obtaining funding or contributions from enterprises, setting macro objectives for the allocation of funds and scientific research outputs. The Executive Committee is responsible for assessing projects and coordinating the personnel and progress of projects.",
                 }
             ],
             resource_cap:"Charter download",

@@ -2,7 +2,7 @@ var productData = {
     sections:[
 		{
             title: "Products",
-            contents:"<p>Martislab will be driven by the needs of enterprises, to assist young scientific research personnel as the goal, aimed at building a strong link of global international cooperation, the establishment of world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.</p>",
+            contents:"<p>Martislab will be driven by the needs of enterprises, established with the gosl of assisting young scientific research personnel, and aimed at building a strong link of global international cooperation. We are aiming to establish a world-class, enterprise application-driven cryptography and artificial intelligence research institutions, to achieve mutual benefit and win-win situation between enterprises and scientific research personnel.</p>",
             items:[
                 {
                     name:"About us",

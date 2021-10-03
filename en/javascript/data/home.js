@@ -2,8 +2,8 @@ var homeData = {
     sections: [
         {
             title: " <a href=\"https://martislab.org\" target=\"_blank\">Martislab</a> is a nonprofit enterprise-focused cryptography research group."
-            +" <a href=\"https://martislab.org\" target=\"_blank\">Martislab</a> aims to solve the practical security and privacy problems for the enterprise via under the help of Artificial Intelligence. The service includes, intelligent threat detection, intelligent security modeling, protocol design, and the implementations of real applications. "
-            +"<a href=\"https://martislab.org\" target=\"_blank\">Martislab</a> is focusing on how to effectively use artificial intelligence to strengthen the security and privacy of related industries, then produces results that can benefit enterprises and improve the quality of people life.",
+            +" <a href=\"https://martislab.org\" target=\"_blank\">Martislab</a> aims to solve the practical security and privacy problems for the enterprises via the help of Artificial Intelligence. The service includes, intelligent threat detection, intelligent security modeling, protocol design, and the implementations of real applications. "
+            +"<a href=\"https://martislab.org\" target=\"_blank\">Martislab</a> is focusing on how to effectively use artificial intelligence to strengthen the security and privacy of related industries, then produces results that can benefit enterprises and improve the quality of people's life.",
             hotContents: [
                 {
                    title: "[2021-04-15] Welcome Dr. S from the Norwegian University of Science and Technology to join our team.",
@@ -18,7 +18,7 @@ var homeData = {
                     linkUrl: "../about/index.html"
                 },
                 {
-                    title: "[2021-02-10] Martislab officially issue the charter.",
+                    title: "[2021-02-10] Martislab officially issues the charter.",
                     linkUrl: "../about/index.html"
                 },
                 {
