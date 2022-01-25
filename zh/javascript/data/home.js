@@ -11,7 +11,7 @@ var homeData = {
                  },
                  {
                     title: "[2022-01-24] 具有隐私特性的区块链 Layer 2 方案网页已上线",
-                     linkUrl: "../news/shuangwu.html"
+                     linkUrl: "../news/shuangw.html"
                  },
                 {
                    title: "[2021-04-15] 欢迎挪威科技大学的S博士加入团队",
