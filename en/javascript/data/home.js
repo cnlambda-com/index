@@ -6,6 +6,14 @@ var homeData = {
             +"<a href=\"https://martislab.org\" target=\"_blank\">Martislab</a> is focusing on how to effectively use artificial intelligence to strengthen the security and privacy of related industries, then produces results that can benefit enterprises and improve the quality of people's life.",
             hotContents: [
                 {
+                    title: "[2022-01-24] Website of Artificial Intelligence(Deep Learning) Based Transaction Data Analysis of the Blockchain is <b>online</b>.",
+                    linkUrl: "../news/shanzhu.html"
+                 },
+                {
+                    title: "[2022-01-24] Website of Blockchain Layer 2 Scaling Solutions is <b>online</b>.",
+                    linkUrl: "../news/shuangw.html"
+                 },
+                {
                    title: "[2021-04-15] Welcome Dr. S from the Norwegian University of Science and Technology to join our team.",
                     linkUrl: "../news/shuangw.html"
                 },

@@ -6,6 +6,14 @@ var homeData = {
             +"<a href=\"https://martislab.org\" target=\"_blank\">Martislab</a> 致力于研究如何有效的使用人工智能手段加强相关行业的安全和隐私，以产生造福企业，提高人民幸福生活的成果。",
             hotContents: [
                 {
+                    title: "[2022-01-24] 基于人工智能的区块链交易数据分析网页已上线",
+                     linkUrl: "../news/shanzhu.html"
+                 },
+                 {
+                    title: "[2022-01-24] 具有隐私特性的区块链 Layer 2 方案网页已上线",
+                     linkUrl: "../news/shuangwu.html"
+                 },
+                {
                    title: "[2021-04-15] 欢迎挪威科技大学的S博士加入团队",
                     linkUrl: "../news/shuangw.html"
                 },
